@@ -89,6 +89,16 @@ def configure_notebook(cdp: CDP, task: dict) -> dict:
           await wait(350);
         }}
       }};
+      const selectYear = async year => {{
+        const item = await waitFor(() =>
+          [...document.querySelectorAll('li.arvore-item')].find(element =>
+            visible(element) && element.innerText.trim() === String(year)
+          ), 'ano ' + year);
+        if (!item.classList.contains('arvore-item-selecionado')) {{
+          item.querySelector('.arvore-item-conteudo').click();
+          await wait(250);
+        }}
+      }};
       const availableCount = () => {{
         const canvas = [...document.querySelectorAll('.gerador-conteudo-canvas-grid')].find(visible);
         if (canvas) {{
@@ -97,9 +107,9 @@ def configure_notebook(cdp: CDP, task: dict) -> dict:
           if (Number.isFinite(Number(value))) return Number(value);
         }}
         const lines = document.body.innerText.split(String.fromCharCode(10)).map(line => line.trim());
-        const marker = lines.indexOf('Editar quantidade');
-        if (marker > 0) {{
-          const amount = Number(lines[marker - 1].split(' ')[0]);
+        const countLine = lines.find(line => /questões encontradas$/.test(line));
+        if (countLine) {{
+          const amount = Number(countLine.replace(/[^0-9]/g, ''));
           if (Number.isFinite(amount)) return amount;
         }}
         return null;
@@ -113,6 +123,15 @@ def configure_notebook(cdp: CDP, task: dict) -> dict:
       await clickMenu('Matéria e assunto');
       await search(cfg.search);
       await selectTreeItem(cfg.topic, cfg.title_prefix);
+
+      const selectedYears = [];
+      if (cfg.min_year && cfg.max_year) {{
+        await clickMenu('Ano');
+        for (let year = cfg.max_year; year >= cfg.min_year; year--) {{
+          await selectYear(year);
+          selectedYears.push(year);
+        }}
+      }}
 
       await clickMenu('Opções');
       await selectOption('Múltipla escolha');
@@ -134,12 +153,27 @@ def configure_notebook(cdp: CDP, task: dict) -> dict:
         await wait(700);
         available = availableCount();
       }}
+      let expandedBeforeYear = null;
+      if (available < cfg.quantity && cfg.min_year && cfg.fallback_min_year) {{
+        await clickMenu('Ano');
+        for (let year = cfg.min_year - 1; year >= cfg.fallback_min_year; year--) {{
+          await selectYear(year);
+          selectedYears.push(year);
+          await wait(500);
+          available = availableCount();
+          expandedBeforeYear = year;
+          if (available >= cfg.quantity) break;
+        }}
+        await clickMenu('Opções');
+        await wait(350);
+        available = availableCount();
+      }}
       if (available < cfg.quantity) {{
         throw new Error('Saldo insuficiente: ' + available + ' para ' + cfg.quantity);
       }}
 
       const edit = [...document.querySelectorAll('a')]
-        .find(element => visible(element) && element.innerText.trim() === 'Editar quantidade');
+        .find(element => visible(element) && element.innerText.trim().startsWith('Editar quantidade'));
       if (!edit) throw new Error('Configuração de quantidade indisponível');
       edit.click();
       const totalInput = await waitFor(
@@ -191,6 +225,8 @@ def configure_notebook(cdp: CDP, task: dict) -> dict:
         nameModel: notebookScope.vm.nomeCaderno,
         available,
         format,
+        selectedYears,
+        expandedBeforeYear,
         topic: cfg.topic,
         generateReady: !generate.disabled
       }};

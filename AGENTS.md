@@ -76,9 +76,11 @@ Para cada bateria, informe:
 
 Ordem de seleção:
 
-1. Cebraspe, múltipla escolha.
-2. Se o saldo for insuficiente, Cebraspe, certo ou errado.
-3. Se ainda for insuficiente, FGV, FCC ou Cesgranrio, múltipla escolha.
+1. Em conhecimentos gerais e específicos, restringir inicialmente o ano a 2022 em diante.
+2. Cebraspe, múltipla escolha.
+3. Se o saldo recente for insuficiente, Cebraspe, certo ou errado.
+4. Somente se ainda faltar saldo, ampliar gradualmente para anos anteriores a 2022 e registrar a ampliação.
+5. Se ainda for insuficiente, FGV, FCC ou Cesgranrio, múltipla escolha.
 
 Use blocos de 5 questões para conhecimentos gerais, 10 para conteúdo específico novo e 5 para revisão ou reteste. Registre quando a ampliação de banca ou modalidade tiver sido necessária.
 

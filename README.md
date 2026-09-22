@@ -25,6 +25,7 @@ O histórico da conversa com o assistente não é necessário para retomar o tra
 - `planos/*-resultados.md`: cadernos criados, URLs e expansões de modalidade ou banca.
 - `scripts/tec_cdp.py`: cliente local para comunicação com o Chrome.
 - `scripts/tec_create_batch.py`: criação automatizada de cadernos no Tec Concursos.
+- `scripts/tec_extract_results.py`: extração do resumo e das questões erradas de cadernos concluídos.
 
 ## Requisitos da automação do Tec Concursos
 
@@ -82,7 +83,10 @@ Prepare um plano JSON com uma lista de tarefas neste formato:
     "search": "Termo pesquisado no Tec",
     "topic": "Nome exato do assunto no Tec",
     "title_prefix": "Prefixo da disciplina no Tec:",
-    "quantity": 10
+    "quantity": 10,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
   }
 ]
 ```
@@ -107,9 +111,15 @@ python3 scripts/tec_create_batch.py caminho/do/plano.json --start 3
 
 Antes da execução real, confira o nome, o assunto, a quantidade, a modalidade e o saldo apresentados pelo `--dry-run`. Não execute novamente um arquivo marcado como `plano-executado`.
 
-A automação tenta primeiro `CEBRASPE (CESPE)` com questões de múltipla escolha. Se o saldo for insuficiente, troca para Certo ou Errado. Uma eventual ampliação para FGV, FCC ou Cesgranrio ainda deve ser feita ou planejada separadamente, pois o script atual não automatiza essa terceira etapa.
+A automação restringe inicialmente o período a `min_year`–`max_year` quando esses campos são informados. Ela tenta primeiro `CEBRASPE (CESPE)` com questões de múltipla escolha e, se o saldo for insuficiente, troca para Certo ou Errado. Se ainda faltar saldo e houver `fallback_min_year`, inclui anos anteriores um a um e registra `expandedBeforeYear`. Uma eventual ampliação para FGV, FCC ou Cesgranrio ainda deve ser feita ou planejada separadamente, pois o script atual não automatiza essa etapa.
 
 ## Registro do estudo
+
+Para extrair resultados de um ou mais cadernos concluídos:
+
+```bash
+python3 scripts/tec_extract_results.py ID_DO_CADERNO [OUTRO_ID ...]
+```
 
 Depois de resolver cada bateria, informe e registre:
 
@@ -126,4 +136,3 @@ Atualize `ESTADO.md` ao encerrar cada sessão. Não marque um tópico como conso
 O primeiro envio precisa conter os Markdown, JSON, scripts e o PDF do edital. Arquivos de cache e perfis de navegador são excluídos pelo `.gitignore`.
 
 Em uma máquina nova, use `git clone URL_DO_REPOSITORIO`. Em uma pasta que já seja um clone, use `git pull`. Depois do clone, será necessário iniciar o Chrome com depuração remota e entrar novamente no Tec Concursos.
-

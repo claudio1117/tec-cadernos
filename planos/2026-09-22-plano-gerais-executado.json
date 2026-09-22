@@ -1,0 +1,32 @@
+[
+  {
+    "name": "TCE-MA | D01-G01-R1 | Lingua Portuguesa - Interpretacao de Textos | 5Q | 2022+",
+    "search": "Interpretação de Textos",
+    "topic": "Interpretação de Textos (Compreensão)",
+    "title_prefix": "Língua Portuguesa (Português):",
+    "quantity": 5,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  },
+  {
+    "name": "TCE-MA | D01-G02-R1 | Raciocinio Logico - Logica de Proposicoes | 5Q | 2022+",
+    "search": "Proposições",
+    "topic": "Lógica de Proposições",
+    "title_prefix": "Raciocínio Lógico:",
+    "quantity": 5,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  },
+  {
+    "name": "TCE-MA | D01-G03-R1 | Direito Administrativo - Organizacao Administrativa | 5Q | 2022+",
+    "search": "Organização administrativa",
+    "topic": "Organização Administrativa",
+    "title_prefix": "Direito Administrativo (Doutrina e Leis Federais):",
+    "quantity": 5,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  }
+]
