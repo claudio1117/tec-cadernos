@@ -1,0 +1,122 @@
+[
+  {
+    "name": "TCE-MA | D02-G01A-R1 | Direito Administrativo - Administracao Indireta | 5Q | 2022+",
+    "search": "Administração Indireta",
+    "topic": "Administração Indireta",
+    "title_prefix": "Direito Administrativo (Doutrina e Leis Federais):",
+    "quantity": 5,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  },
+  {
+    "name": "TCE-MA | D02-G01B-R1 | Direito Administrativo - Administracao Indireta | 5Q | 2022+",
+    "search": "Administração Indireta",
+    "topic": "Administração Indireta",
+    "title_prefix": "Direito Administrativo (Doutrina e Leis Federais):",
+    "quantity": 5,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  },
+  {
+    "name": "TCE-MA | D02-G02-R1 | Raciocinio Logico - Equivalencias Logicas | 5Q | 2022+",
+    "search": "Equivalências Lógicas",
+    "topic": "Equivalências Lógicas (Inclui Negação de Proposições Compostas)",
+    "title_prefix": "Raciocínio Lógico:",
+    "quantity": 5,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  },
+  {
+    "name": "TCE-MA | D02-E01A-R1 | Analise de Dados - Modelagem Dimensional | 5Q | 2022+",
+    "search": "Modelagem dimensional",
+    "topic": "Modelagem Dimensional",
+    "title_prefix": "TI - Ciência de Dados e Inteligência Artificial:",
+    "quantity": 5,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  },
+  {
+    "name": "TCE-MA | D02-E01B-R1 | Analise de Dados - Modelagem Dimensional | 5Q | 2022+",
+    "search": "Modelagem dimensional",
+    "topic": "Modelagem Dimensional",
+    "title_prefix": "TI - Ciência de Dados e Inteligência Artificial:",
+    "quantity": 5,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  },
+  {
+    "name": "TCE-MA | D02-E01C-R1 | Analise de Dados - Modelagem Dimensional | 5Q | 2022+",
+    "search": "Modelagem dimensional",
+    "topic": "Modelagem Dimensional",
+    "title_prefix": "TI - Ciência de Dados e Inteligência Artificial:",
+    "quantity": 5,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  },
+  {
+    "name": "TCE-MA | D02-E02A-R1 | Gestao e Governanca de TI - COBIT 2019 | 5Q | 2022+",
+    "search": "COBIT 2019",
+    "topic": "COBIT 2019",
+    "title_prefix": "TI - Gestão e Governança de TI:",
+    "quantity": 5,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  },
+  {
+    "name": "TCE-MA | D02-E02B-R1 | Gestao e Governanca de TI - COBIT 2019 | 5Q | 2022+",
+    "search": "COBIT 2019",
+    "topic": "COBIT 2019",
+    "title_prefix": "TI - Gestão e Governança de TI:",
+    "quantity": 5,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  },
+  {
+    "name": "TCE-MA | D02-E03A-R1 | Engenharia de Dados - Projeto e Modelagem de Dados | 5Q | 2022+",
+    "search": "Modelagem de dados",
+    "topic": "Projeto e Modelagem de Dados",
+    "title_prefix": "TI - Banco de Dados:",
+    "quantity": 5,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  },
+  {
+    "name": "TCE-MA | D02-E03B-R1 | Engenharia de Dados - Projeto e Modelagem de Dados | 5Q | 2022+",
+    "search": "Modelagem de dados",
+    "topic": "Projeto e Modelagem de Dados",
+    "title_prefix": "TI - Banco de Dados:",
+    "quantity": 5,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  },
+  {
+    "name": "TCE-MA | D02-E04-R1 | Engenharia de Software - Engenharia de Requisitos | 5Q | 2022+",
+    "search": "Engenharia de requisitos",
+    "topic": "Engenharia de Requisitos",
+    "title_prefix": "TI - Engenharia de Software:",
+    "quantity": 5,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  },
+  {
+    "name": "TCE-MA | D02-E05-R1 | Arquitetura de Software - Microsservicos | 5Q | 2022+",
+    "search": "Microsserviços",
+    "topic": "Arquitetura de Microsserviços",
+    "title_prefix": "TI - Desenvolvimento de Sistemas:",
+    "quantity": 5,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  }
+]

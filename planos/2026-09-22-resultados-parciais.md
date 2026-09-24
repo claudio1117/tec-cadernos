@@ -1,6 +1,16 @@
-# Sessão de 22/09/2026 — correção específica e gerais refeitos
+# Primeira bateria — resultados objetivos e diagnósticos
 
-Estado da bateria: parcial. Os 45 itens específicos foram corrigidos objetivamente; os 15 itens gerais substitutos ainda não foram resolvidos. A análise consolidada e os retestes serão fechados depois dos gerais e do recebimento das confianças.
+Estado da bateria: os 60 itens foram concluídos e corrigidos objetivamente. Em 24/09/2026, o aluno decidiu dispensar temporariamente os níveis de confiança e priorizar os assuntos pela concentração objetiva de erros. A bateria de recuperação resultante está em `planos/2026-09-24-retestes-erros.md`.
+
+## Resultado geral da bateria
+
+| Grupo | Resultado | Percentual | Pontuação ponderada pela prova |
+|---|---:|---:|---:|
+| Conhecimentos gerais | 8/15 | 53,3% | 8/15 |
+| Conhecimentos específicos | 27/45 | 60,0% | 54/90 |
+| **Total bruto** | **35/60** | **58,3%** | **62/105 (59,0%)** |
+
+A pontuação ponderada aplica 1 ponto por questão geral e 2 por específica, como no edital, mas não é projeção direta da nota oficial porque a bateria tem proporção de gerais e específicos diferente da prova.
 
 ## Resultado objetivo dos conhecimentos específicos
 
@@ -13,7 +23,7 @@ Estado da bateria: parcial. Os 45 itens específicos foram corrigidos objetivame
 | E05 — Gestão e Governança de TI / COBIT 2019 | 1/5 | 20% | 12:31 |
 | **Total** | **27/45** | **60%** | **1:41:34** |
 
-Não há tópico consolidado. As confianças 1, 2 ou 3 ainda precisam ser informadas para as 18 questões erradas.
+Não há tópico consolidado. Os 18 erros específicos foram usados diretamente na priorização da bateria de recuperação.
 
 ## Diagnósticos dos erros específicos
 
@@ -50,6 +60,31 @@ Filtros comuns aplicados: finalidade `conteúdo novo`; banca `CEBRASPE (CESPE)`;
 
 Os cadernos gerais antigos G01, G02 e G03 de 21/09/2026 foram substituídos por estes e não devem ser resolvidos nesta bateria.
 
+## Resultado objetivo dos conhecimentos gerais
+
+Resultados extraídos em 24/09/2026.
+
+| Bloco | Resultado | Percentual | Tempo registrado pelo Tec |
+|---|---:|---:|---:|
+| G01-R1 — Interpretação de Textos | 4/5 | 80% | 01:37:10 |
+| G02-R1 — Lógica de Proposições | 3/5 | 60% | 00:44:51 |
+| G03-R1 — Organização Administrativa | 1/5 | 20% | 01:25:10 |
+| **Total** | **8/15** | **53,3%** | **03:47:11** |
+
+O tempo é o contador registrado pela plataforma e pode incluir períodos de inatividade; por isso, não foi usado isoladamente para diagnosticar velocidade. Não há tópico consolidado.
+
+## Diagnósticos dos erros gerais
+
+| Bloco | Questão | Marcada → gabarito | Regra correta | Conceito confundido | Mecanismo do distrator |
+|---|---|---|---|---|---|
+| G01-R1 | #2775988 | D → B | Um resumo deve preservar a progressão do parágrafo: apresentação da autora e do termo no primeiro período; explicação do neologismo e perspectiva das narrativas nos dois seguintes | Resumo global confundido com paráfrase fragmentada por período | A alternativa D parece precisa por acompanhar os três períodos, mas reduz o terceiro a condições identitárias e sociais e não registra sua função na explicação da perspectiva narrativa |
+| G02-R1 | #2756841 | D → C | Toda condicional `A → B` equivale a `¬A ∨ B`; logo, `(P → Q) → (R → S)` equivale a `¬(P → Q) ∨ (R → S)` | Equivalência da condicional externa confundida com alteração da condicional interna | A alternativa D troca `P → Q` por `P → ¬Q`, mudança que não resulta da eliminação da implicação |
+| G02-R1 | #2790958 | D → B | `¬(P ∨ Q)` equivale a `¬P ∧ ¬Q`; a alternativa B simplifica para essa forma porque `¬Q → (P ∧ ¬Q)` equivale a `P ∨ Q` | Negação de disjunção confundida com negação de conjunção | A alternativa D, `¬(P ∧ Q)`, parece negar a frase, mas por De Morgan equivale a `¬P ∨ ¬Q`, permitindo que uma das entradas ainda seja autorizada |
+| G03-R1 | #3996202 | A → E | A administração indireta é formada por autarquias, fundações públicas, empresas públicas e sociedades de economia mista; suas entidades têm personalidade própria, vinculação e controle finalístico, sem subordinação hierárquica ao ministério | Autonomia administrativa confundida com independência perante o ente instituidor | A alternativa A usa “independente” e restringe o controle estatal a casos específicos, exagerando a autonomia das entidades |
+| G03-R1 | #2486336 | B → A | O Estado pode explorar diretamente atividade econômica, nos casos constitucionais, por empresa pública ou sociedade de economia mista; a alienação do controle de subsidiária não exige autorização legislativa específica | Regulação estatal confundida com a formulação precisa sobre atuação empresarial do Estado | A alternativa B soa plausível por mencionar agências reguladoras, mas atribui a elas, de modo genérico, toda normatização da atividade econômica privada |
+| G03-R1 | #2013872 | E → C | Pelo princípio da especialidade, a lei define as finalidades e atividades específicas atribuídas à entidade da administração indireta | Delimitação legal da finalidade confundida com a mera existência de personalidade jurídica | A alternativa E aponta uma característica da entidade, mas personalidade jurídica não explica a vinculação legal do seu campo de atuação |
+| G03-R1 | #2169588 | B → A | A descrição legal de pessoa de direito privado, sem fins lucrativos, autorizada por lei, com autonomia e patrimônio próprios corresponde à fundação pública de direito privado | Fundação pública confundida com autarquia | A autonomia e o patrimônio próprio também aparecem nas autarquias, mas “direito privado”, “sem fins lucrativos” e “autorização legislativa” identificam a fundação descrita |
+
 ## Microresumos antes da resolução
 
 ### G01-R1 — Interpretação de Textos
@@ -76,9 +111,6 @@ Os cadernos gerais antigos G01, G02 e G03 de 21/09/2026 foram substituídos por 
 - Agência executiva e agência reguladora não são novas espécies universais de pessoa jurídica: a primeira é qualificação; a segunda costuma ser autarquia sob regime especial.
 - Personalidade de direito privado não afasta concurso, controle, licitação e demais incidências de direito público previstas no ordenamento.
 
-## Pendências para fechar a primeira bateria
+## Encaminhamento
 
-1. Resolver somente os três cadernos gerais substitutos.
-2. Informar, para cada questão geral errada ou duvidosa, a confiança 1, 2 ou 3.
-3. Informar a confiança dos 18 erros específicos: E01 `7, 9, 10`; E02 `6, 7, 10`; E03 `2, 3, 5, 8, 9, 10`; E04 `1, 5`; E05 `1, 3, 4, 5`.
-4. Após esses dados, consolidar o diagnóstico da bateria e agendar os retestes.
+Os níveis de confiança foram dispensados temporariamente por decisão do aluno. A próxima bateria concentra a carga, nesta ordem, em Modelagem Dimensional, COBIT 2019, Administração Indireta, Projeto e Modelagem de Dados, Equivalências Lógicas, Engenharia de Requisitos e Microsserviços. Nenhum tópico foi classificado como consolidado.
