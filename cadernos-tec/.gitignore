@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Perfil local do navegador e credenciais de ambiente
+.chrome-tec-profile/
+.env
+.env.*
+
+# Arquivos locais diversos
+*.log
+.DS_Store
+

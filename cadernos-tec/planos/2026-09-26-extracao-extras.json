@@ -1,0 +1,426 @@
+[
+  {
+    "id": "104163982",
+    "url": "https://www.tecconcursos.com.br/questoes/cadernos/104163982",
+    "title": "Caderno TCE-MA | D02-G01A-R1 | Direito Administrativo - Administracao Indireta | 5Q | 2022+",
+    "summary": {
+      "total": 5,
+      "answered": 5,
+      "correct": 5,
+      "wrong": 0
+    },
+    "rows": [
+      {
+        "number": 1,
+        "code": "3815428",
+        "status": "Acertou",
+        "marked": "B"
+      },
+      {
+        "number": 2,
+        "code": "3954374",
+        "status": "Acertou",
+        "marked": "A"
+      },
+      {
+        "number": 3,
+        "code": "3996159",
+        "status": "Acertou",
+        "marked": "D"
+      },
+      {
+        "number": 4,
+        "code": "3996205",
+        "status": "Acertou",
+        "marked": "C"
+      },
+      {
+        "number": 5,
+        "code": "2170925",
+        "status": "Acertou",
+        "marked": "D"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "104164000",
+    "url": "https://www.tecconcursos.com.br/questoes/cadernos/104164000",
+    "title": "Caderno TCE-MA | D02-G01B-R1 | Direito Administrativo - Administracao Indireta | 5Q | 2022+",
+    "summary": {
+      "total": 5,
+      "answered": 5,
+      "correct": 4,
+      "wrong": 1
+    },
+    "rows": [
+      {
+        "number": 1,
+        "code": "3954374",
+        "status": "Acertou",
+        "marked": "A"
+      },
+      {
+        "number": 2,
+        "code": "3478556",
+        "status": "Errou",
+        "marked": "C"
+      },
+      {
+        "number": 3,
+        "code": "2452584",
+        "status": "Acertou",
+        "marked": "B"
+      },
+      {
+        "number": 4,
+        "code": "2170925",
+        "status": "Acertou",
+        "marked": "D"
+      },
+      {
+        "number": 5,
+        "code": "2266367",
+        "status": "Acertou",
+        "marked": "D"
+      }
+    ],
+    "errors": [
+      {
+        "number": 2,
+        "code": "3478556",
+        "status": "Errou",
+        "marked": "C",
+        "correct": "A",
+        "subject": "Administração Indireta",
+        "header": "CEBRASPE (CESPE) - 2025 - Agente de Suporte ao Negócio (CAESB)/Assistente Administrativo",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-G01B-R1 | Direito Administrativo - Administracao Indireta | 5Q | 2022+\n\t\t\t\n00:06:43\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 2 de 5 (5 Resolvidas, 4 Acertos e 1 Erros) \nMatéria: Direito Administrativo (Doutrina e Leis Federais)\nAssunto:\nAdministração Indireta\n   \n12\n    \n #3478556 CEBRASPE (CESPE) - 2025 - Agente de Suporte ao Negócio (CAESB)/Assistente Administrativo\n  \n\nAcerca das entidades da administração pública direta e indireta, é correto afirmar que\n\nA\n\tas autarquias são pessoas jurídicas de direito público, o que significa que têm praticamente as mesmas prerrogativas e obrigações da administração direta.\n\nB\n\tempresa subsidiária é pessoa jurídica de direito público cujo controle direto é exercido pela União.\n\nC\n\tfundação instituída pelo poder público caracteriza-se por ser um patrimônio exclusivamente público e ter personalidade jurídica de direito público, atribuída por lei, para a consecução de fins públicos.\n\nD\n\tempresa pública é pessoa jurídica de direito público com capital inteiramente privado.\n\nE\n\tsociedade de economia mista é pessoa jurídica de direito público ou privado criada por dois ou mais entes federativos para a gestão associada de serviços públicos.\n\nVocê selecionou: C, alternativa incorreta, a correta é: A...\n\tVocê errou! Gabarito: A. Ver resolução\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      }
+    ]
+  },
+  {
+    "id": "104164048",
+    "url": "https://www.tecconcursos.com.br/questoes/cadernos/104164048",
+    "title": "Caderno TCE-MA | D02-E01A-R1 | Analise de Dados - Modelagem Dimensional | 5Q | 2022+",
+    "summary": {
+      "total": 5,
+      "answered": 5,
+      "correct": 3,
+      "wrong": 2
+    },
+    "rows": [
+      {
+        "number": 1,
+        "code": "3324088",
+        "status": "Acertou",
+        "marked": "C"
+      },
+      {
+        "number": 2,
+        "code": "3102193",
+        "status": "Errou",
+        "marked": "E"
+      },
+      {
+        "number": 3,
+        "code": "3206811",
+        "status": "Acertou",
+        "marked": "E"
+      },
+      {
+        "number": 4,
+        "code": "2603864",
+        "status": "Errou",
+        "marked": "E"
+      },
+      {
+        "number": 5,
+        "code": "2716686",
+        "status": "Acertou",
+        "marked": "C"
+      }
+    ],
+    "errors": [
+      {
+        "number": 2,
+        "code": "3102193",
+        "status": "Errou",
+        "marked": "E",
+        "correct": "Certo",
+        "subject": "Modelagem Dimensional",
+        "header": "CEBRASPE (CESPE) - 2024 - Especialista em Regulação de Serviços Públicos de Telecomunicações (ANATEL)/Ciência de Dados",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-E01A-R1 | Analise de Dados - Modelagem Dimensional | 5Q | 2022+\n\t\t\t\n00:11:13\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 2 de 5 (5 Resolvidas, 3 Acertos e 2 Erros) \nMatéria: TI - Ciência de Dados e Inteligência Artificial\nAssunto:\nModelagem Dimensional\n   \n9\n    \n #3102193 CEBRASPE (CESPE) - 2024 - Especialista em Regulação de Serviços Públicos de Telecomunicações (ANATEL)/Ciência de Dados\n  \n\nJulgue o item que se segue, relativo a conceitos de data warehouse, técnicas de modelagem dimensional e otimização de bases de dados para BI.\n\n \n\nEm regra, as chaves substitutas são incorporadas nas tabelas de dimensões de um data warehouse relacional para atribuir um identificador único para cada registro nas tabelas de dimensões.\n\nC\n\tCerto\nE\n\tErrado\nVocê selecionou: Errado, alternativa incorreta, a correta é: Certo...\n\tVocê errou! Gabarito: Certo. Ver resolução\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      },
+      {
+        "number": 4,
+        "code": "2603864",
+        "status": "Errou",
+        "marked": "E",
+        "correct": "Certo",
+        "subject": "Modelagem Dimensional",
+        "header": "CEBRASPE (CESPE) - 2023 - Analista de Tecnologia da Informação (FUB)",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-E01A-R1 | Analise de Dados - Modelagem Dimensional | 5Q | 2022+\n\t\t\t\n00:11:13\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 4 de 5 (5 Resolvidas, 3 Acertos e 2 Erros) \nMatéria: TI - Ciência de Dados e Inteligência Artificial\nAssunto:\nModelagem Dimensional\n   \n23\n    \n #2603864 CEBRASPE (CESPE) - 2023 - Analista de Tecnologia da Informação (FUB)\n  \n\nJulgue o próximo item, a respeito de arquitetura de OLAP, data warehousing e dados multidimensionais.\n\n \n\nAs tabelas que contêm dados multidimensionais são denominadas tabelas de fatos.\n\nC\n\tCerto\nE\n\tErrado\nVocê selecionou: Errado, alternativa incorreta, a correta é: Certo...\n\tVocê errou! Gabarito: Certo. Ver resolução\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      }
+    ]
+  },
+  {
+    "id": "104164070",
+    "url": "https://www.tecconcursos.com.br/questoes/cadernos/104164070",
+    "title": "Caderno TCE-MA | D02-E01B-R1 | Analise de Dados - Modelagem Dimensional | 5Q | 2022+",
+    "summary": {
+      "total": 5,
+      "answered": 5,
+      "correct": 3,
+      "wrong": 2
+    },
+    "rows": [
+      {
+        "number": 1,
+        "code": "3102191",
+        "status": "Errou",
+        "marked": "C"
+      },
+      {
+        "number": 2,
+        "code": "3102193",
+        "status": "Acertou",
+        "marked": "C"
+      },
+      {
+        "number": 3,
+        "code": "3206811",
+        "status": "Acertou",
+        "marked": "E"
+      },
+      {
+        "number": 4,
+        "code": "1906516",
+        "status": "Acertou",
+        "marked": "C"
+      },
+      {
+        "number": 5,
+        "code": "1906521",
+        "status": "Errou",
+        "marked": "E"
+      }
+    ],
+    "errors": [
+      {
+        "number": 1,
+        "code": "3102191",
+        "status": "Errou",
+        "marked": "C",
+        "correct": "Errado",
+        "subject": "Modelagem Dimensional",
+        "header": "CEBRASPE (CESPE) - 2024 - Especialista em Regulação de Serviços Públicos de Telecomunicações (ANATEL)/Ciência de Dados",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-E01B-R1 | Analise de Dados - Modelagem Dimensional | 5Q | 2022+\n\t\t\t\n00:05:36\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 1 de 5 (5 Resolvidas, 3 Acertos e 2 Erros) \nMatéria: TI - Ciência de Dados e Inteligência Artificial\nAssunto:\nModelagem Dimensional\n   \n7\n    \n #3102191 CEBRASPE (CESPE) - 2024 - Especialista em Regulação de Serviços Públicos de Telecomunicações (ANATEL)/Ciência de Dados\n  \n\nJulgue o item que se segue, relativo a conceitos de data warehouse, técnicas de modelagem dimensional e otimização de bases de dados para BI.\n\n \n\nUma tabela de fatos descreve as entidades de um negócio e apresenta uma ou mais colunas-chave que funcionam como um identificador único exclusivo, bem como colunas descritivas adicionais.\n\nC\n\tCerto\nE\n\tErrado\nVocê selecionou: Certo, alternativa incorreta, a correta é: Errado...\n\tVocê errou! Gabarito: Errado.\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      },
+      {
+        "number": 5,
+        "code": "1906521",
+        "status": "Errou",
+        "marked": "E",
+        "correct": "Certo",
+        "subject": "Modelagem Dimensional",
+        "header": "CEBRASPE (CESPE) - 2022 - Analista de Previdência Complementar (FUNPRESP-EXE)/Comercial",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-E01B-R1 | Analise de Dados - Modelagem Dimensional | 5Q | 2022+\n\t\t\t\n00:05:36\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 5 de 5 (5 Resolvidas, 3 Acertos e 2 Erros) \nMatéria: TI - Ciência de Dados e Inteligência Artificial\nAssunto:\nModelagem Dimensional\n   \n9\n    \n #1906521 CEBRASPE (CESPE) - 2022 - Analista de Previdência Complementar (FUNPRESP-EXE)/Comercial\n  \n\nTabela Produto\n\n\nChave do produto (PK)\nDescrição do produto\nDescrição da Marca\nDescrição do tipo de embalagem\nTamanho do pacote\nDescrição do tipo de dieta\nTipo de armazenamento\nAltura da prateleira\nQuantidade fabricada no dia\nQuantidade em estoque\nQuantidade de revendedores\n\n\nConsiderando a estrutura de tabela acima, relativa a uma empresa que fabrica e comercializa produtos alimentícios, e que foi utilizada a modelagem dimensional para criar a tabela dimensão de produto, julgue o próximo item.\n\n \n\nAs dimensões devem ser designadas por uma chave primária (primary key).\n\nC\n\tCerto\nE\n\tErrado\nVocê selecionou: Errado, alternativa incorreta, a correta é: Certo...\n\tVocê errou! Gabarito: Certo. Ver resolução\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      }
+    ]
+  },
+  {
+    "id": "104164099",
+    "url": "https://www.tecconcursos.com.br/questoes/cadernos/104164099",
+    "title": "Caderno TCE-MA | D02-E01C-R1 | Analise de Dados - Modelagem Dimensional | 5Q | 2022+",
+    "summary": {
+      "total": 5,
+      "answered": 5,
+      "correct": 4,
+      "wrong": 1
+    },
+    "rows": [
+      {
+        "number": 1,
+        "code": "3324088",
+        "status": "Acertou",
+        "marked": "C"
+      },
+      {
+        "number": 2,
+        "code": "2775891",
+        "status": "Acertou",
+        "marked": "E"
+      },
+      {
+        "number": 3,
+        "code": "2603864",
+        "status": "Errou",
+        "marked": "E"
+      },
+      {
+        "number": 4,
+        "code": "1906516",
+        "status": "Acertou",
+        "marked": "C"
+      },
+      {
+        "number": 5,
+        "code": "1970645",
+        "status": "Acertou",
+        "marked": "C"
+      }
+    ],
+    "errors": [
+      {
+        "number": 3,
+        "code": "2603864",
+        "status": "Errou",
+        "marked": "E",
+        "correct": "Certo",
+        "subject": "Modelagem Dimensional",
+        "header": "CEBRASPE (CESPE) - 2023 - Analista de Tecnologia da Informação (FUB)",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-E01C-R1 | Analise de Dados - Modelagem Dimensional | 5Q | 2022+\n\t\t\t\n00:01:49\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 3 de 5 (5 Resolvidas, 4 Acertos e 1 Erros) \nMatéria: TI - Ciência de Dados e Inteligência Artificial\nAssunto:\nModelagem Dimensional\n   \n23\n    \n #2603864 CEBRASPE (CESPE) - 2023 - Analista de Tecnologia da Informação (FUB)\n  \n\nJulgue o próximo item, a respeito de arquitetura de OLAP, data warehousing e dados multidimensionais.\n\n \n\nAs tabelas que contêm dados multidimensionais são denominadas tabelas de fatos.\n\nC\n\tCerto\nE\n\tErrado\nVocê selecionou: Errado, alternativa incorreta, a correta é: Certo...\n\tVocê errou! Gabarito: Certo. Ver resolução\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      }
+    ]
+  },
+  {
+    "id": "104164108",
+    "url": "https://www.tecconcursos.com.br/questoes/cadernos/104164108",
+    "title": "Caderno TCE-MA | D02-E02A-R1 | Gestao e Governanca de TI - COBIT 2019 | 5Q | 2022+",
+    "summary": {
+      "total": 5,
+      "answered": 5,
+      "correct": 2,
+      "wrong": 3
+    },
+    "rows": [
+      {
+        "number": 1,
+        "code": "3400131",
+        "status": "Errou",
+        "marked": "E"
+      },
+      {
+        "number": 2,
+        "code": "3685059",
+        "status": "Acertou",
+        "marked": "A"
+      },
+      {
+        "number": 3,
+        "code": "2789898",
+        "status": "Errou",
+        "marked": "B"
+      },
+      {
+        "number": 4,
+        "code": "3166232",
+        "status": "Errou",
+        "marked": "D"
+      },
+      {
+        "number": 5,
+        "code": "3166240",
+        "status": "Acertou",
+        "marked": "B"
+      }
+    ],
+    "errors": [
+      {
+        "number": 1,
+        "code": "3400131",
+        "status": "Errou",
+        "marked": "E",
+        "correct": "C",
+        "subject": "COBIT 2019",
+        "header": "CEBRASPE (CESPE) - 2025 - Auditor Fiscal da Receita Estadual (SEFAZ RJ)",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-E02A-R1 | Gestao e Governanca de TI - COBIT 2019 | 5Q | 2022+\n\t\t\t\n01:01:51\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 1 de 5 (5 Resolvidas, 2 Acertos e 3 Erros) \nMatéria: TI - Gestão e Governança de TI\nAssunto:\nCOBIT 2019\n   \n17\n    \n #3400131 CEBRASPE (CESPE) - 2025 - Auditor Fiscal da Receita Estadual (SEFAZ RJ)\n  \n\nÀ luz do COBIT 2019, assinale a opção em que é apresentado o conceito relacionado à descrição de determinado tópico ou domínio que pode ser abordado por uma coleção de objetivos de governança.\n\nA\n\tdomínios (domains)\n\nB\n\t serviços (services)\n\nC\n\t área de foco (focus area)\n\nD\n\t processo (process)\n\nE\n\tpolíticas e procedimentos (policies and procedures)\n\nVocê selecionou: E, alternativa incorreta, a correta é: C...\n\tVocê errou! Gabarito: C.\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      },
+      {
+        "number": 3,
+        "code": "2789898",
+        "status": "Errou",
+        "marked": "B",
+        "correct": "C",
+        "subject": "COBIT 2019",
+        "header": "CEBRASPE (CESPE) - 2024 - Profissional de Nível Universitário Júnior (ITAIPU)/Analista de Suporte",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-E02A-R1 | Gestao e Governanca de TI - COBIT 2019 | 5Q | 2022+\n\t\t\t\n01:01:51\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 3 de 5 (5 Resolvidas, 2 Acertos e 3 Erros) \nMatéria: TI - Gestão e Governança de TI\nAssunto:\nCOBIT 2019\n   \n18\n    \n #2789898 CEBRASPE (CESPE) - 2024 - Profissional de Nível Universitário Júnior (ITAIPU)/Analista de Suporte\n  \n\nA respeito do framework COBIT 2019, julgue os itens a seguir.\n\n \n\nI A governança da informação e da tecnologia é exercida pelas gerências de negócio e de TI, as quais são responsáveis pela definição e implementação de processos, estruturas e mecanismos relacionados.\n\n \n\nII O modelo de referência de governança apresenta 35 objetivos de governança e cinco objetivos de gestão, agrupados em cinco domínios.\n\n \n\nIII A estratégia corporativa é realizada por meio dos objetivos corporativos, que estão agrupados em cinco dimensões.\n\n \n\nIV A cascata de objetivos direciona as necessidades das partes interessadas para os objetivos empresariais, que, por meio dos objetivos de alinhamento, permitem a definição dos objetivos de governança e gestão.\n\n \n\nEstão certos apenas os itens\n\nA\n\tI e III.\n\nB\n\tI e IV.\n\nC\n\tII e IV.\n\nD\n\tI, II e III.\n\nE\n\tII, III e IV.\n\nVocê selecionou: B, alternativa incorreta, a correta é: C...\n\tVocê errou! Gabarito: C. Ver resolução\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      },
+      {
+        "number": 4,
+        "code": "3166232",
+        "status": "Errou",
+        "marked": "D",
+        "correct": "A",
+        "subject": "COBIT 2019",
+        "header": "CEBRASPE (CESPE) - 2024 - Analista Técnico II (SEBRAE)/Governança TI",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-E02A-R1 | Gestao e Governanca de TI - COBIT 2019 | 5Q | 2022+\n\t\t\t\n01:01:51\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 4 de 5 (5 Resolvidas, 2 Acertos e 3 Erros) \nMatéria: TI - Gestão e Governança de TI\nAssunto:\nCOBIT 2019\n   \n5\n    \n #3166232 CEBRASPE (CESPE) - 2024 - Analista Técnico II (SEBRAE)/Governança TI\n  \n\nAssinale a opção em que é apresentada a forma como é conhecido o domínio do COBIT que abrange identificação, desenvolvimento, manutenção em sistemas existentes e integração junto aos processos de negócios.\n\nA\n\tConstruir, Adquirir e Implementar\n\nB\n\tMonitorar, Avaliar e Medir\n\nC\n\tAlinhar, Planejar e Organizar\n\nD\n\tEntregar, Reparar e Suportar\n\nVocê selecionou: D, alternativa incorreta, a correta é: A...\n\tVocê errou! Gabarito: A.\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      }
+    ]
+  },
+  {
+    "id": "104164130",
+    "url": "https://www.tecconcursos.com.br/questoes/cadernos/104164130",
+    "title": "Caderno TCE-MA | D02-E02B-R1 | Gestao e Governanca de TI - COBIT 2019 | 5Q | 2022+",
+    "summary": {
+      "total": 5,
+      "answered": 5,
+      "correct": 3,
+      "wrong": 2
+    },
+    "rows": [
+      {
+        "number": 1,
+        "code": "3877806",
+        "status": "Acertou",
+        "marked": "B"
+      },
+      {
+        "number": 2,
+        "code": "3048566",
+        "status": "Errou",
+        "marked": "E"
+      },
+      {
+        "number": 3,
+        "code": "3082807",
+        "status": "Errou",
+        "marked": "A"
+      },
+      {
+        "number": 4,
+        "code": "3166240",
+        "status": "Acertou",
+        "marked": "B"
+      },
+      {
+        "number": 5,
+        "code": "2591927",
+        "status": "Acertou",
+        "marked": "B"
+      }
+    ],
+    "errors": [
+      {
+        "number": 2,
+        "code": "3048566",
+        "status": "Errou",
+        "marked": "E",
+        "correct": "B",
+        "subject": "COBIT 2019",
+        "header": "CEBRASPE (CESPE) - 2024 - Auditor de Controle Externo (TCE PR)/Informática",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-E02B-R1 | Gestao e Governanca de TI - COBIT 2019 | 5Q | 2022+\n\t\t\t\n00:42:26\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 2 de 5 (5 Resolvidas, 3 Acertos e 2 Erros) \nMatéria: TI - Gestão e Governança de TI\nAssunto:\nCOBIT 2019\n   \n11\n    \n #3048566 CEBRASPE (CESPE) - 2024 - Auditor de Controle Externo (TCE PR)/Informática\n  \n\nAssinale a opção que corresponde à fase de abordagem de implementação prevista no COBIT 2019 que alinha os objetivos relacionados à tecnologia da informação com as estratégias e os riscos da organização e prioriza as metas organizacionais, as metas de alinhamento e os processos mais importantes, de maneira que, a partir da seleção de objetivos, feita na fase anterior, avalia-se a capacidade atual do componente processo desses objetivos.\n\nA\n\tFase 1 - Quais são os direcionadores?\n\nB\n\tFase 2 - Onde estamos agora?\n\nC\n\tFase 3 - Onde queremos estar?\n\nD\n\tFase 4 - O que precisa ser feito?\n\nE\n\tFase 5 - Como chegaremos lá?\n\nVocê selecionou: E, alternativa incorreta, a correta é: B...\n\tVocê errou! Gabarito: B. Ver resolução\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      },
+      {
+        "number": 3,
+        "code": "3082807",
+        "status": "Errou",
+        "marked": "A",
+        "correct": "E",
+        "subject": "COBIT 2019",
+        "header": "CEBRASPE (CESPE) - 2024 - Analista de Sistemas (CAGEPA)/Suporte de TI",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-E02B-R1 | Gestao e Governanca de TI - COBIT 2019 | 5Q | 2022+\n\t\t\t\n00:42:26\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 3 de 5 (5 Resolvidas, 3 Acertos e 2 Erros) \nMatéria: TI - Gestão e Governança de TI\nAssunto:\nCOBIT 2019\n   \n6\n    \n #3082807 CEBRASPE (CESPE) - 2024 - Analista de Sistemas (CAGEPA)/Suporte de TI\n  \n\nNo COBIT 2019, os fatores de desenho podem influenciar o projeto do sistema de governança de uma organização e conduzi-lo com sucesso no uso estratégico de TI. Um dos elementos desses fatores, que permite a identificação dos pontos de dor da organização, inclusive definindo níveis de severidade para cada um dos pontos de dor, é denominado\n\nA\n\tperfil de risco da organização.\n\nB\n\tmodelo de provimento de TI.\n\nC\n\tcenário de ameaças.\n\nD\n\trequisitos de conformidade.\n\nE\n\tproblemas relacionados à TI.\n\nVocê selecionou: A, alternativa incorreta, a correta é: E...\n\tVocê errou! Gabarito: E. Ver resolução\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      }
+    ]
+  }
+]

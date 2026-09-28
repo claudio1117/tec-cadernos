@@ -1,0 +1,32 @@
+[
+  {
+    "name": "TCE-MA | D02-G01-R1 | Direito Administrativo - Administracao Indireta | 10Q | 2022+",
+    "search": "Administração Indireta",
+    "topic": "Administração Indireta",
+    "title_prefix": "Direito Administrativo (Doutrina e Leis Federais):",
+    "quantity": 10,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  },
+  {
+    "name": "TCE-MA | D02-E01-R1 | Analise de Dados - Modelagem Dimensional | 15Q | 2022+",
+    "search": "Modelagem dimensional",
+    "topic": "Modelagem Dimensional",
+    "title_prefix": "TI - Ciência de Dados e Inteligência Artificial:",
+    "quantity": 15,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  },
+  {
+    "name": "TCE-MA | D02-E02-R1 | Gestao e Governanca de TI - COBIT 2019 | 10Q | 2022+",
+    "search": "COBIT 2019",
+    "topic": "COBIT 2019",
+    "title_prefix": "TI - Gestão e Governança de TI:",
+    "quantity": 10,
+    "min_year": 2022,
+    "max_year": 2026,
+    "fallback_min_year": 2010
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "id": "104164025",
+    "url": "https://www.tecconcursos.com.br/questoes/cadernos/104164025",
+    "title": "Caderno TCE-MA | D02-G02-R1 | Raciocinio Logico - Equivalencias Logicas | 5Q | 2022+",
+    "summary": {
+      "total": 5,
+      "answered": 5,
+      "correct": 3,
+      "wrong": 2
+    },
+    "rows": [
+      {
+        "number": 1,
+        "code": "2789308",
+        "status": "Errou",
+        "marked": "C"
+      },
+      {
+        "number": 2,
+        "code": "2924772",
+        "status": "Errou",
+        "marked": "C"
+      },
+      {
+        "number": 3,
+        "code": "2575961",
+        "status": "Acertou",
+        "marked": "D"
+      },
+      {
+        "number": 4,
+        "code": "2593501",
+        "status": "Acertou",
+        "marked": "A"
+      },
+      {
+        "number": 5,
+        "code": "2013541",
+        "status": "Acertou",
+        "marked": "A"
+      }
+    ],
+    "errors": [
+      {
+        "number": 1,
+        "code": "2789308",
+        "status": "Errou",
+        "marked": "C",
+        "correct": "A",
+        "subject": "Equivalências Lógicas (Inclui Negação de Proposições Compostas)",
+        "header": "CEBRASPE (CESPE) - 2024 - Profissional de Nível Universitário Júnior (ITAIPU)/Advogado (e mais 3 concursos)",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-G02-R1 | Raciocinio Logico - Equivalencias Logicas | 5Q | 2022+\n\t\t\t\n01:49:57\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 1 de 5 (5 Resolvidas, 3 Acertos e 2 Erros) \nMatéria: Raciocínio Lógico\nAssunto:\nEquivalências Lógicas (Inclui Negação de Proposições Compostas)\n   \n21\n    \n #2789308 CEBRASPE (CESPE) - 2024 - Profissional de Nível Universitário Júnior (ITAIPU)/Advogado (e mais 3 concursos)\n  \n\n  Texto associado\n\n \n\nAssinale a opção que corresponde a uma negação da proposição P3 do texto CB2A3-I.\n\nA\n\tAs projeções conservadoras de produção se confirmaram, mas não houve menor geração de caixa.\n\nB\n\tSe as projeções conservadoras de produção não se confirmarem, não haverá menor geração de caixa.\n\nC\n\tSe não houve menor geração de caixa, as projeções conservadoras de produção não se confirmaram.\n\nD\n\tAs projeções conservadoras de produção não se confirmarão ou haverá menor geração de caixa.\n\nE\n\tAs projeções conservadoras de produção se confirmaram ou houve maior geração de caixa.\n\n \nVocê selecionou: C, alternativa incorreta, a correta é: A...\n\tVocê errou! Gabarito: A. Ver resolução\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      },
+      {
+        "number": 2,
+        "code": "2924772",
+        "status": "Errou",
+        "marked": "C",
+        "correct": "E",
+        "subject": "Equivalências Lógicas (Inclui Negação de Proposições Compostas)",
+        "header": "CEBRASPE (CESPE) - 2024 - Contador (SEFAZ AC) (e mais 1 concurso)",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-G02-R1 | Raciocinio Logico - Equivalencias Logicas | 5Q | 2022+\n\t\t\t\n01:49:57\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 2 de 5 (5 Resolvidas, 3 Acertos e 2 Erros) \nMatéria: Raciocínio Lógico\nAssunto:\nEquivalências Lógicas (Inclui Negação de Proposições Compostas)\n   \n14\n    \n #2924772 CEBRASPE (CESPE) - 2024 - Contador (SEFAZ AC) (e mais 1 concurso)\n  \n\nTexto CG2A3-I\n\n \n\nP1: “Se há uma crise no principal mercado consumidor do produto vendido pela companhia, a demanda por esse produto sofre retração.”\n\n \n\nP2: “Se a demanda pelo produto vendido pela companhia sofre retração, no novo equilíbrio de mercado, diminuem seu preço e sua quantidade demandada.”\n\n \n\nP3: “Se diminui o preço ou a quantidade demandada pelo produto vendido pela companhia, seu faturamento cai.”\n\n \n\nP4: “Se o faturamento da companhia cai, seu lucro é afetado, o investidor fica receoso e a ação da empresa fica volátil.”\n\n \n\nAssinale a opção em que é apresentada uma proposição que, sob o ponto de vista lógico, expressa o exato significado da proposição P2 do texto CG2A3-I.\n\nA\n\t“Se, no novo equilíbrio de mercado, diminuem o preço e a quantidade demandada do produto vendido pela companhia, sua demanda sofre retração.”\n\nB\n\t“Se, no novo equilíbrio de mercado, diminui o preço ou a quantidade demandada do produto vendido pela companhia, sua demanda sofre retração.”\n\nC\n\t“Se a demanda pelo produto vendido pela companhia não sofre retração, no novo equilíbrio de mercado, não diminuem seu preço nem sua quantidade demandada.”\n\nD\n\t“A demanda pelo produto vendido pela companhia sofre retração e, no novo equilíbrio de mercado, diminuem seu preço e sua quantidade demandada.”\n\nE\n\t“A demanda pelo produto vendido pela companhia não sofre retração ou, no novo equilíbrio de mercado, diminuem seu preço e sua quantidade demandada.”\n\nVocê selecionou: C, alternativa incorreta, a correta é: E...\n\tVocê errou! Gabarito: E. Ver resolução\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      }
+    ]
+  },
+  {
+    "id": "104164582",
+    "url": "https://www.tecconcursos.com.br/questoes/cadernos/104164582",
+    "title": "Caderno TCE-MA | D02-E02-R1 | Gestao e Governanca de TI - COBIT 2019 | 10Q | 2022+",
+    "summary": {
+      "total": 10,
+      "answered": 10,
+      "correct": 7,
+      "wrong": 3
+    },
+    "rows": [
+      {
+        "number": 1,
+        "code": "3877806",
+        "status": "Acertou",
+        "marked": "B"
+      },
+      {
+        "number": 2,
+        "code": "3400128",
+        "status": "Acertou",
+        "marked": "B"
+      },
+      {
+        "number": 3,
+        "code": "3473439",
+        "status": "Errou",
+        "marked": "A"
+      },
+      {
+        "number": 4,
+        "code": "3641621",
+        "status": "Acertou",
+        "marked": "C"
+      },
+      {
+        "number": 5,
+        "code": "3082807",
+        "status": "Acertou",
+        "marked": "E"
+      },
+      {
+        "number": 6,
+        "code": "3166239",
+        "status": "Acertou",
+        "marked": "C"
+      },
+      {
+        "number": 7,
+        "code": "3166240",
+        "status": "Acertou",
+        "marked": "B"
+      },
+      {
+        "number": 8,
+        "code": "3166373",
+        "status": "Errou",
+        "marked": "B"
+      },
+      {
+        "number": 9,
+        "code": "2591927",
+        "status": "Acertou",
+        "marked": "B"
+      },
+      {
+        "number": 10,
+        "code": "1942658",
+        "status": "Errou",
+        "marked": "C"
+      }
+    ],
+    "errors": [
+      {
+        "number": 3,
+        "code": "3473439",
+        "status": "Errou",
+        "marked": "A",
+        "correct": "D",
+        "subject": "COBIT 2019",
+        "header": "CEBRASPE (CESPE) - 2025 - Analista de Suporte ao Negócio (CAESB)/Analista de Sistemas",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-E02-R1 | Gestao e Governanca de TI - COBIT 2019 | 10Q | 2022+\n\t\t\t\n01:12:29\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 3 de 10 (10 Resolvidas, 7 Acertos e 3 Erros) \nMatéria: TI - Gestão e Governança de TI\nAssunto:\nCOBIT 2019\n   \n9\n    \n #3473439 CEBRASPE (CESPE) - 2025 - Analista de Suporte ao Negócio (CAESB)/Analista de Sistemas\n  \n\nNo contexto do COBIT 2019, a continuidade e a disponibilidade de serviços de negócios são consideradas como\n\nA\n\tuma métrica do processo de continuidade gerenciada que mensura a quantidade de tempo necessária para reparação e recuperação do ativo após um incidente.\n\nB\n\tum objetivo de alinhamento associado aos objetivos empresariais, correlacionado, especificamente, aos processos continuidade gerenciada e disponibilidade gerenciada.\n\nC\n\tum processo do COBIT específico do domínio DSS de entrega, serviço e suporte.\n\nD\n\tum objetivo empresarial associado aos objetivos de alinhamento, correlacionado, especificamente, ao processo de continuidade gerenciada.\n\nE\n\tuma métrica do processo de disponibilidade e capacidade gerenciadas que possui KPI igual a 0, uma vez que mensura o período médio de indisponibilidade do ativo/sistema de TI.\n\nVocê selecionou: A, alternativa incorreta, a correta é: D...\n\tVocê errou! Gabarito: D.\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      },
+      {
+        "number": 8,
+        "code": "3166373",
+        "status": "Errou",
+        "marked": "B",
+        "correct": "A",
+        "subject": "COBIT 2019",
+        "header": "CEBRASPE (CESPE) - 2024 - Analista Técnico II (SEBRAE)/Desenvolvimento Software",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-E02-R1 | Gestao e Governanca de TI - COBIT 2019 | 10Q | 2022+\n\t\t\t\n01:12:29\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 8 de 10 (10 Resolvidas, 7 Acertos e 3 Erros) \nMatéria: TI - Gestão e Governança de TI\nAssunto:\nCOBIT 2019\n   \n6\n    \n #3166373 CEBRASPE (CESPE) - 2024 - Analista Técnico II (SEBRAE)/Desenvolvimento Software\n  \n\nUma organização governamental está em processo de seleção de fornecedores para um contrato de manutenção de infraestrutura de TI. Durante o processo, a equipe responsável pela avaliação das propostas observou que um fornecedor apresentou um preço significativamente mais baixo que os apresentados pelos demais fornecedores. Nessa situação, a principal preocupação da equipe de avaliação em relação à proposta de preço significativamente mais baixo deve ser, conforme as melhores práticas do COBIT, a\n\nA\n\tsustentabilidade financeira do fornecedor.\n\nB\n\tcapacidade técnica do fornecedor.\n\nC\n\texperiência prévia do fornecedor em projetos similares.\n\nD\n\tconformidade com os requisitos legais.\n\nVocê selecionou: B, alternativa incorreta, a correta é: A...\n\tVocê errou! Gabarito: A.\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      },
+      {
+        "number": 10,
+        "code": "1942658",
+        "status": "Errou",
+        "marked": "C",
+        "correct": "A",
+        "subject": "COBIT 2019",
+        "header": "CEBRASPE (CESPE) - 2022 - Auditor Fiscal Tributário (SEFAZ SE)/Geral",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-E02-R1 | Gestao e Governanca de TI - COBIT 2019 | 10Q | 2022+\n\t\t\t\n01:12:29\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 10 de 10 (10 Resolvidas, 7 Acertos e 3 Erros) \nMatéria: TI - Gestão e Governança de TI\nAssunto:\nCOBIT 2019\n   \n12\n    \n #1942658 CEBRASPE (CESPE) - 2022 - Auditor Fiscal Tributário (SEFAZ SE)/Geral\n  \n\nSegundo o COBIT 2019, a seleção de implementações desalinhadas com a estratégia corporativa é um exemplo de risco de\n\nA\n\ttomada de decisão de investimento em TI.\n\nB\n\tgerenciamento de ciclo de vida de programas e projetos.\n\nC\n\tarquitetura de TI da corporação.\n\nD\n\tproblema de adoção e(ou) uso de software.\n\nE\n\tcusto e supervisão de TI.\n\nVocê selecionou: C, alternativa incorreta, a correta é: A...\n\tVocê errou! Gabarito: A. Ver resolução\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      }
+    ]
+  },
+  {
+    "id": "104164144",
+    "url": "https://www.tecconcursos.com.br/questoes/cadernos/104164144",
+    "title": "Caderno TCE-MA | D02-E03A-R1 | Engenharia de Dados - Projeto e Modelagem de Dados | 5Q | 2022+",
+    "summary": {
+      "total": 5,
+      "answered": 5,
+      "correct": 5,
+      "wrong": 0
+    },
+    "rows": [
+      {
+        "number": 1,
+        "code": "1916035",
+        "status": "Acertou",
+        "marked": "E"
+      },
+      {
+        "number": 2,
+        "code": "2797316",
+        "status": "Acertou",
+        "marked": "A"
+      },
+      {
+        "number": 3,
+        "code": "3639431",
+        "status": "Acertou",
+        "marked": "D"
+      },
+      {
+        "number": 4,
+        "code": "2797610",
+        "status": "Acertou",
+        "marked": "E"
+      },
+      {
+        "number": 5,
+        "code": "3455762",
+        "status": "Acertou",
+        "marked": "A"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "104164177",
+    "url": "https://www.tecconcursos.com.br/questoes/cadernos/104164177",
+    "title": "Caderno TCE-MA | D02-E03B-R1 | Engenharia de Dados - Projeto e Modelagem de Dados | 5Q | 2022+",
+    "summary": {
+      "total": 5,
+      "answered": 5,
+      "correct": 5,
+      "wrong": 0
+    },
+    "rows": [
+      {
+        "number": 1,
+        "code": "2117165",
+        "status": "Acertou",
+        "marked": "D"
+      },
+      {
+        "number": 2,
+        "code": "3793547",
+        "status": "Acertou",
+        "marked": "B"
+      },
+      {
+        "number": 3,
+        "code": "3400194",
+        "status": "Acertou",
+        "marked": "D"
+      },
+      {
+        "number": 4,
+        "code": "1911800",
+        "status": "Acertou",
+        "marked": "C"
+      },
+      {
+        "number": 5,
+        "code": "3455955",
+        "status": "Acertou",
+        "marked": "D"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "104164200",
+    "url": "https://www.tecconcursos.com.br/questoes/cadernos/104164200",
+    "title": "Caderno TCE-MA | D02-E04-R1 | Engenharia de Software - Engenharia de Requisitos | 5Q | 2022+",
+    "summary": {
+      "total": 5,
+      "answered": 5,
+      "correct": 3,
+      "wrong": 2
+    },
+    "rows": [
+      {
+        "number": 1,
+        "code": "3367037",
+        "status": "Acertou",
+        "marked": "D"
+      },
+      {
+        "number": 2,
+        "code": "3048446",
+        "status": "Errou",
+        "marked": "D"
+      },
+      {
+        "number": 3,
+        "code": "3166321",
+        "status": "Acertou",
+        "marked": "C"
+      },
+      {
+        "number": 4,
+        "code": "1914950",
+        "status": "Errou",
+        "marked": "E"
+      },
+      {
+        "number": 5,
+        "code": "2165853",
+        "status": "Acertou",
+        "marked": "B"
+      }
+    ],
+    "errors": [
+      {
+        "number": 2,
+        "code": "3048446",
+        "status": "Errou",
+        "marked": "D",
+        "correct": "E",
+        "subject": "Engenharia de Requisitos",
+        "header": "CEBRASPE (CESPE) - 2024 - Auditor de Controle Externo (TCE PR)/Informática",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-E04-R1 | Engenharia de Software - Engenharia de Requisitos | 5Q | 2022+\n\t\t\t\n00:23:44\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 2 de 5 (5 Resolvidas, 3 Acertos e 2 Erros) \nMatéria: TI - Engenharia de Software\nAssunto:\nEngenharia de Requisitos\n   \n5\n    \n #3048446 CEBRASPE (CESPE) - 2024 - Auditor de Controle Externo (TCE PR)/Informática\n  \n\nAssinale a opção em que é apresentada a técnica de elicitação de requisitos que pode ser usada para compreender os processos operacionais e na qual o analista de requisitos faz uma imersão no ambiente de trabalho em que o sistema será usado.\n\nA\n\tprototipação\n\nB\n\tcasos de uso\n\nC\n\tentrevistas informais internas\n\nD\n\tcenários\n\nE\n\tetnografia\n\nVocê selecionou: D, alternativa incorreta, a correta é: E...\n\tVocê errou! Gabarito: E. Ver resolução\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      },
+      {
+        "number": 4,
+        "code": "1914950",
+        "status": "Errou",
+        "marked": "E",
+        "correct": "D",
+        "subject": "Engenharia de Requisitos",
+        "header": "CEBRASPE (CESPE) - 2022 - Analista da Defensoria Pública (DPE RO)/Programação",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-E04-R1 | Engenharia de Software - Engenharia de Requisitos | 5Q | 2022+\n\t\t\t\n00:23:44\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 4 de 5 (5 Resolvidas, 3 Acertos e 2 Erros) \nMatéria: TI - Engenharia de Software\nAssunto:\nEngenharia de Requisitos\n   \n2\n    \n #1914950 CEBRASPE (CESPE) - 2022 - Analista da Defensoria Pública (DPE RO)/Programação\n  \n\nSuponha que, para se constatar a existência de eventuais erros ou omissões nos artefatos e nas especificações da engenharia de requisitos, decidiu-se utilizar a técnica de leitura baseada em perspectiva.\n\n \n\nAssinale a opção que apresenta procedimento que faz parte, total ou parcialmente, da proposta da técnica selecionada e que contribui para os seus objetivos.\n\nA\n\tOs inspetores devem examinar todos os aspectos da especificação, sem receber um roteiro sistematizado, procurando, no documento inspecionado, o seu ponto de vista diante de cenários do sistema.\n\nB\n\tOs revisores são especialistas em áreas da aplicação e devem gerar, a partir da especificação dos requisitos, questões de inspeção do documento.\n\nC\n\tRevisores com experiência em cada tipo de erro possível examinam aspectos específicos, sem receber um roteiro sistematizado, procurando, no documento inspecionado, o seu ponto de vista diante de cenários do sistema.\n\nD\n\tA partir de questões desenvolvidas especificamente para cada passo do procedimento, o documento é inspecionado do ponto de vista de stakeholders diante de cenários do sistema.\n\nE\n\tA partir de questões desenvolvidas especificamente para cada passo do procedimento, o documento é inspecionado do ponto de vista de revisores com experiência em cada tipo de erro possível.\n\nVocê selecionou: E, alternativa incorreta, a correta é: D...\n\tVocê errou! Gabarito: D. Ver resolução\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      }
+    ]
+  },
+  {
+    "id": "104164225",
+    "url": "https://www.tecconcursos.com.br/questoes/cadernos/104164225",
+    "title": "Caderno TCE-MA | D02-E05-R1 | Arquitetura de Software - Microsservicos | 5Q | 2022+",
+    "summary": {
+      "total": 5,
+      "answered": 5,
+      "correct": 4,
+      "wrong": 1
+    },
+    "rows": [
+      {
+        "number": 1,
+        "code": "3340849",
+        "status": "Acertou",
+        "marked": "E"
+      },
+      {
+        "number": 2,
+        "code": "2876883",
+        "status": "Acertou",
+        "marked": "C"
+      },
+      {
+        "number": 3,
+        "code": "2993139",
+        "status": "Acertou",
+        "marked": "C"
+      },
+      {
+        "number": 4,
+        "code": "2760010",
+        "status": "Acertou",
+        "marked": "E"
+      },
+      {
+        "number": 5,
+        "code": "2216548",
+        "status": "Errou",
+        "marked": "C"
+      }
+    ],
+    "errors": [
+      {
+        "number": 5,
+        "code": "2216548",
+        "status": "Errou",
+        "marked": "C",
+        "correct": "Errado",
+        "subject": "Arquitetura de Microsserviços",
+        "header": "CEBRASPE (CESPE) - 2022 - Técnico de Tecnologia da Informação (BANRISUL)/Desenvolvimento de Sistemas",
+        "body": "P\n \n100%\n\t\t\t\t\n \n1.0\t1.5\t2.0\t2.5\t\nEstudo\nMinhas pastas\nFiltrar questões\nBuscar questões\nQuestões favoritas\nDiscussão de questões\n(Exibir caminho)\nTCE-MA | D02-E05-R1 | Arquitetura de Software - Microsservicos | 5Q | 2022+\n\t\t\t\n00:02:31\n Questões\nÍndice\n Estatísticas\n Gabarito\n Configurações\n Imprimir\nCompartilhar\nQuestão 5 de 5 (5 Resolvidas, 4 Acertos e 1 Erros) \nMatéria: TI - Desenvolvimento de Sistemas\nAssunto:\nArquitetura de Microsserviços\n   \n8\n    \n #2216548 CEBRASPE (CESPE) - 2022 - Técnico de Tecnologia da Informação (BANRISUL)/Desenvolvimento de Sistemas\n  \n\nA respeito de tecnologias de integração, julgue o próximo item.\n\n\nMicrosserviços representam a fragmentação de uma API em operações menores, o que facilita a comunicação e otimiza o desenvolvimento de interfaces.\n\nC\n\tCerto\nE\n\tErrado\nVocê selecionou: Certo, alternativa incorreta, a correta é: Errado...\n\tVocê errou! Gabarito: Errado. Ver resolução\n        \n Encontrou algum erro nesta questão? Fale conosco\nLista das teclas de atalho\nFale conosco\n \n \n \nQuem Somos\nPreços\nTermos de Uso\nPrivacidade\nJurídico\nAjuda\nSeja um professor\nBlog"
+      }
+    ]
+  }
+]

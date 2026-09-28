@@ -1,0 +1,111 @@
+{
+  "versao": "2026-09-21",
+  "cargo": "TCE-MA - Cargo 10 - Analista Estadual de Apoio ao Controle Externo - Tecnologia da Informação",
+  "fonte_primaria": "documentos de apoio/tce-edital.pdf",
+  "regra_de_aplicacao": [
+    "erros_recorrentes_e_confianca_3",
+    "revisoes_e_retestes_vencidos",
+    "conteudo_novo_por_peso_de_incidencia",
+    "manutencao_de_topicos_consolidados"
+  ],
+  "objetiva_especifica": {
+    "corpus": {
+      "provas": 3,
+      "questoes_especificas_lidas": 200,
+      "questoes_aderentes": 155,
+      "questoes_excluidas_por_falta_de_aderencia": 45
+    },
+    "ciclo_de_45_questoes": [
+      {
+        "bloco": "Gestão e Governança de TI",
+        "peso_percentual": 22,
+        "questoes_referencia": 10,
+        "prioridade": "muito_alta"
+      },
+      {
+        "bloco": "Contratações de TI",
+        "peso_percentual": 16,
+        "questoes_referencia": 7,
+        "prioridade": "muito_alta"
+      },
+      {
+        "bloco": "Engenharia de Dados",
+        "peso_percentual": 16,
+        "questoes_referencia": 7,
+        "prioridade": "alta"
+      },
+      {
+        "bloco": "Engenharia de Software",
+        "peso_percentual": 14,
+        "questoes_referencia": 6,
+        "prioridade": "alta"
+      },
+      {
+        "bloco": "Análise de Dados",
+        "peso_percentual": 12,
+        "questoes_referencia": 5,
+        "prioridade": "alta"
+      },
+      {
+        "bloco": "Inteligência Artificial",
+        "peso_percentual": 11,
+        "questoes_referencia": 5,
+        "prioridade": "alta_por_recencia"
+      },
+      {
+        "bloco": "Arquitetura de Software",
+        "peso_percentual": 9,
+        "questoes_referencia": 5,
+        "prioridade": "media_alta"
+      }
+    ]
+  },
+  "objetiva_geral": {
+    "ciclo_semanal_de_105_questoes": [
+      {
+        "grupo": "Língua Portuguesa",
+        "questoes": 25
+      },
+      {
+        "grupo": "Controle Externo e Legislação Específica do TCE-MA",
+        "questoes": 20
+      },
+      {
+        "grupo": "Direito Administrativo e Direito Constitucional",
+        "questoes": 20
+      },
+      {
+        "grupo": "Competências Digitais e Informática Aplicada ao Setor Público",
+        "questoes": 15
+      },
+      {
+        "grupo": "Raciocínio Lógico",
+        "questoes": 10
+      },
+      {
+        "grupo": "História e Geografia do Maranhão",
+        "questoes": 10
+      },
+      {
+        "grupo": "Noções de Direitos Humanos",
+        "questoes": 5
+      }
+    ]
+  },
+  "discursiva": {
+    "amostra_de_itens_tecnicos": 10,
+    "prioridades": [
+      "Contratações e auditoria de contratações de TI",
+      "Governança, segurança, identidade e gestão de serviços",
+      "IA, dados, nuvem, APIs e microsserviços aplicados ao setor público",
+      "Engenharia e análise de dados",
+      "Engenharia e arquitetura de software"
+    ],
+    "treino_semanal": {
+      "questoes_de_30_linhas": 2,
+      "pecas_de_60_linhas": 1,
+      "percentual_inicial_de_pecas_sobre_contratacoes": 50,
+      "simulado_completo_a_cada_dias": 14
+    }
+  }
+}
