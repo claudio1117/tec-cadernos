@@ -1,0 +1,110 @@
+id_item_tce_ma,area,numero_item,texto_original,nivel_hierarquico,item_pai,item_folha,numero_questoes_correspondencia_direta,numero_questoes_correspondencia_parcial,numero_questoes_apenas_relacionada,numero_total_correspondencias,concursos_distintos,anos_distintos,ocorrencia_em_questao,ocorrencia_em_peca_tecnica,vinculos_registrados_direta,vinculos_registrados_parcial,vinculos_registrados_apenas_relacionada,vinculos_registrados_total,ids_concursos,lista_anos,pagina_edital
+TCE-MA-001,ENGENHARIA DE DADOS,1,"1 Dado, informação, conhecimento e inteligência.",1,,não,0,0,0,0,0,0,0,0,0,0,1,1,[],[],55
+TCE-MA-002,ENGENHARIA DE DADOS,1.1,1.1 Dados estruturados e não estruturados.,2,TCE-MA-001,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-003,ENGENHARIA DE DADOS,1.2,1.2 Dados abertos.,2,TCE-MA-001,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-004,ENGENHARIA DE DADOS,1.3,"1.3 Coleta, tratamento, armazenamento, integração e recuperação de dados.",2,TCE-MA-001,sim,1,0,1,2,2,2,2,0,1,0,1,2,"[""tce_mg_2026_ace_cc"", ""tce_pr_2024_auditor_informatica""]","[2024, 2026]",55
+TCE-MA-005,ENGENHARIA DE DADOS,1,1 Banco de dados.,1,,não,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-006,ENGENHARIA DE DADOS,1.1,1.1 Conceitos básicos.,2,TCE-MA-005,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-007,ENGENHARIA DE DADOS,1.2,1.2 Arquitetura.,2,TCE-MA-005,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-008,ENGENHARIA DE DADOS,1.3,1.3 Estrutura de dados.,2,TCE-MA-005,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-009,ENGENHARIA DE DADOS,1.4,1.4 Modelagem e normalização de dados.,2,TCE-MA-005,sim,1,0,0,1,1,1,1,0,1,0,0,1,"[""tce_rn_2026_ti""]",[2026],55
+TCE-MA-010,ENGENHARIA DE DADOS,1.5,1.5 Ingestão e armazenamento de grande quantidade de dados (big data).,2,TCE-MA-005,sim,0,1,0,1,1,1,1,0,0,1,0,1,"[""sefaz_ce_2021_auditor_ti""]",[2021],55
+TCE-MA-011,ENGENHARIA DE DADOS,1.6,1.6 Banco de dados NoSQL.,2,TCE-MA-005,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-012,ENGENHARIA DE DADOS,2,"2 Modelagem de dados (conceitual, lógica e física).",1,,sim,1,0,0,1,1,1,1,0,1,0,0,1,"[""tce_rn_2026_ti""]",[2026],55
+TCE-MA-013,ENGENHARIA DE DADOS,3,3 Abordagem relacional.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-014,ENGENHARIA DE DADOS,4,4 Normalização das estruturas de dados.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-015,ENGENHARIA DE DADOS,5,5 Integridade referencial.,1,,sim,1,0,0,1,1,1,1,0,1,0,0,1,"[""tce_rn_2026_ti""]",[2026],55
+TCE-MA-016,ENGENHARIA DE DADOS,6,6 Modelagem dimensional.,1,,sim,0,1,0,1,1,1,1,0,0,1,0,1,"[""sefaz_se_2025_auditor_ti""]",[2025],55
+TCE-MA-017,ENGENHARIA DE DADOS,7,7 Linguagem de consulta estruturada (SQL).,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-018,ENGENHARIA DE DADOS,8,8 Linguagem de definição de dados (DDL).,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-019,ENGENHARIA DE DADOS,9,9 Linguagem de manipulação de dados (DML).,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-020,ENGENHARIA DE DADOS,10,10 Administração de banco de dados.,1,,não,0,0,0,0,0,0,0,0,1,0,0,1,[],[],55
+TCE-MA-021,ENGENHARIA DE DADOS,10.1,10.1 Noções de administração de dados e de banco de dados.,2,TCE-MA-020,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-022,ENGENHARIA DE DADOS,10.2,10.2 Arquitetura e políticas de armazenamento de dados.,2,TCE-MA-020,sim,1,0,0,1,1,1,1,0,1,0,0,1,"[""tce_rn_2026_ti""]",[2026],55
+TCE-MA-023,ENGENHARIA DE DADOS,10.3,10.3 Noções de otimização de performance em larga escala.,2,TCE-MA-020,sim,1,0,0,1,1,1,1,0,1,0,0,1,"[""tce_rn_2026_ti""]",[2026],55
+TCE-MA-024,ENGENHARIA DE DADOS,11,"11 Técnicas de integração e ingestão de dados (ETL/ELT, transferência de arquivos, integração via base de dados).",1,,sim,1,1,0,2,2,2,2,0,1,1,0,2,"[""sefaz_se_2025_auditor_ti"", ""tce_mg_2026_ace_cc""]","[2025, 2026]",55
+TCE-MA-025,ENGENHARIA DE SOFTWARE,1,1 Conceitos e técnicas do projeto de software.,1,,sim,0,3,0,3,2,2,3,0,0,3,0,3,"[""tce_pr_2016_analista_informatica"", ""tce_ro_2019_ace_ti""]","[2016, 2019]",55
+TCE-MA-026,ENGENHARIA DE SOFTWARE,2,2 Processo interativo e incremental.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-027,ENGENHARIA DE SOFTWARE,3,3 Práticas ágeis de desenvolvimento de software.,1,,sim,1,4,0,5,5,5,4,1,1,4,0,5,"[""sefaz_ce_2021_auditor_ti"", ""tcdf_2023_ace_sistemas"", ""tce_mg_2018_ace_cc"", ""tce_pr_2016_analista_informatica"", ""tcu_2026_aufc_auditoria_ti""]","[2016, 2018, 2021, 2023, 2026]",55
+TCE-MA-028,ENGENHARIA DE SOFTWARE,4,4 Elicitação e gerenciamento de requisitos.,1,,não,1,1,0,2,2,2,1,1,1,1,0,2,"[""tce_ms_2025_ace_ti"", ""tce_pr_2016_analista_informatica""]","[2016, 2025]",55
+TCE-MA-029,ENGENHARIA DE SOFTWARE,4.1,4.1 Requisitos e experiência do usuário.,2,TCE-MA-028,sim,0,0,1,1,1,1,1,0,0,0,1,1,"[""sefa_pr_2026_agente_ti""]",[2026],55
+TCE-MA-030,ENGENHARIA DE SOFTWARE,4.2,4.2 Histórias do usuário.,2,TCE-MA-028,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-031,ENGENHARIA DE SOFTWARE,4.3,4.3 Critérios de aceitação.,2,TCE-MA-028,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-032,ENGENHARIA DE SOFTWARE,4.4,4.4 Prototipação.,2,TCE-MA-028,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-033,ENGENHARIA DE SOFTWARE,4.5,4.5 Projeto centrado no usuário de software.,2,TCE-MA-028,sim,0,0,1,1,1,1,1,0,0,0,1,1,"[""sefa_pr_2026_agente_ti""]",[2026],55
+TCE-MA-034,ENGENHARIA DE SOFTWARE,4.6,4.6 Storytelling.,2,TCE-MA-028,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-035,ENGENHARIA DE SOFTWARE,5,5 Práticas ágeis.,1,,não,0,0,0,0,0,0,0,0,1,2,0,3,[],[],55
+TCE-MA-036,ENGENHARIA DE SOFTWARE,5.1,5.1 Minimum viable product (MVP).,2,TCE-MA-035,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-037,ENGENHARIA DE SOFTWARE,5.2,5.2 Gerenciamento de produtos com métodos ágeis: Scrum e Kanban.,2,TCE-MA-035,sim,1,4,0,5,5,5,4,1,1,4,0,5,"[""sefaz_ce_2021_auditor_ti"", ""tcdf_2023_ace_sistemas"", ""tce_mg_2018_ace_cc"", ""tce_pr_2016_analista_informatica"", ""tcu_2026_aufc_auditoria_ti""]","[2016, 2018, 2021, 2023, 2026]",55
+TCE-MA-038,ENGENHARIA DE SOFTWARE,6,6 Testes de software.,1,,não,0,0,0,0,0,0,0,0,0,2,0,2,[],[],55
+TCE-MA-039,ENGENHARIA DE SOFTWARE,6.1,"6.1 Unitário, integração, funcional, aceitação, desempenho, carga, vulnerabilidade.",2,TCE-MA-038,sim,0,2,0,2,2,2,2,0,0,2,0,2,"[""tcu_2026_aufc_auditoria_ti"", ""trt10_2025_analista_ti""]","[2025, 2026]",55
+TCE-MA-040,ENGENHARIA DE SOFTWARE,6.2,6.2 Ferramentas para automatização de testes.,2,TCE-MA-038,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-041,ENGENHARIA DE SOFTWARE,6.3,6.3 Análise estática de código e cobertura (SonarQube).,2,TCE-MA-038,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-042,ENGENHARIA DE SOFTWARE,7,7 Métricas de software.,1,,sim,0,1,0,1,1,1,0,1,0,1,0,1,"[""tce_pr_2016_analista_informatica""]",[2016],55
+TCE-MA-043,ENGENHARIA DE SOFTWARE,8,8. DevOps e integração contínua.,1,,não,0,0,0,0,0,0,0,0,0,1,0,1,[],[],55
+TCE-MA-044,ENGENHARIA DE SOFTWARE,8.1,8.1 Pipelines de CI/CD.,2,TCE-MA-043,sim,0,1,0,1,1,1,1,0,0,1,0,1,"[""trt10_2025_analista_ti""]",[2025],55
+TCE-MA-045,ENGENHARIA DE SOFTWARE,8.2,"8.2 Build, testes e Deploy automatizados.",2,TCE-MA-043,sim,0,1,0,1,1,1,1,0,0,1,0,1,"[""trt10_2025_analista_ti""]",[2025],55
+TCE-MA-046,ENGENHARIA DE SOFTWARE,8.3,8.3 Docker e orquestração com Kubernetes.,2,TCE-MA-043,sim,1,0,0,1,1,1,1,0,1,0,0,1,"[""tcu_2026_aufc_auditoria_ti""]",[2026],55
+TCE-MA-047,ENGENHARIA DE SOFTWARE,8.4,8.4 Monitoramento e observabilidade.,2,TCE-MA-043,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-048,ANÁLISE DE DADOS,1,1 Uso de banco de dados relacionais na análise de dados.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-049,ANÁLISE DE DADOS,2,2 Modelagem dimensional aplicada à análise de dados.,1,,sim,0,1,0,1,1,1,1,0,0,1,0,1,"[""sefaz_se_2025_auditor_ti""]",[2025],55
+TCE-MA-050,ANÁLISE DE DADOS,3,3 Mineração de dados.,1,,não,0,0,0,0,0,0,0,0,1,0,0,1,[],[],55
+TCE-MA-051,ANÁLISE DE DADOS,3.1,3.1 Modelo de referência CRISP‐DM.,2,TCE-MA-050,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-052,ANÁLISE DE DADOS,3.2,3.2 Técnicas para pré‐processamento de dados.,2,TCE-MA-050,sim,1,0,0,1,1,1,1,0,1,0,0,1,"[""sefaz_se_2025_auditor_ti""]",[2025],55
+TCE-MA-053,ANÁLISE DE DADOS,3.3,3.3 Técnicas e tarefas de mineração de dados.,2,TCE-MA-050,sim,2,0,0,2,2,2,2,0,2,0,0,2,"[""sefaz_se_2025_auditor_ti"", ""tce_rj_2021_ace_ti""]","[2021, 2025]",55
+TCE-MA-054,ANÁLISE DE DADOS,3.4,3.4 Classificação.,2,TCE-MA-050,sim,1,0,0,1,1,1,1,0,1,0,0,1,"[""sefaz_se_2025_auditor_ti""]",[2025],55
+TCE-MA-055,ANÁLISE DE DADOS,3.5,3.5 Regras de associação.,2,TCE-MA-050,sim,1,0,0,1,1,1,1,0,1,0,0,1,"[""tce_rj_2021_ace_ti""]",[2021],55
+TCE-MA-056,ANÁLISE DE DADOS,3.6,3.6 Análise de agrupamentos (clusterização).,2,TCE-MA-050,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-057,ANÁLISE DE DADOS,3.7,3.7 Detecção de anomalias.,2,TCE-MA-050,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-058,ANÁLISE DE DADOS,3.8,3.8 Modelagem preditiva.,2,TCE-MA-050,sim,1,0,0,1,1,1,1,0,1,0,0,1,"[""sefaz_se_2025_auditor_ti""]",[2025],55
+TCE-MA-059,ANÁLISE DE DADOS,3.9,3.9 Mineração de texto.,2,TCE-MA-050,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-060,ANÁLISE DE DADOS,4,4 Visualização e análise exploratória de dados.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-061,ANÁLISE DE DADOS,5,5 Ferramentas de apoio à análise de dados.,1,,não,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-062,ANÁLISE DE DADOS,5.1,5.1 Planilhas eletrônicas.,2,TCE-MA-061,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-063,ANÁLISE DE DADOS,5.2,"5.2 Linguagem aplicada à análise de dados: Python, R.",2,TCE-MA-061,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-064,ANÁLISE DE DADOS,5.3,5.3 Ferramenta SAS.,2,TCE-MA-061,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-065,INTELIGÊNCIA ARTIFICIAL,1,1 Inteligência artificial: fundamentos e aplicações.,1,,sim,2,0,0,2,2,2,2,0,2,0,0,2,"[""tce_ac_2024_analista_ti"", ""tce_ms_2025_ace_ti""]","[2024, 2025]",55
+TCE-MA-066,INTELIGÊNCIA ARTIFICIAL,2,2 Aprendizado de máquina.,1,,sim,3,0,0,3,3,2,3,0,3,0,0,3,"[""sefaz_ce_2021_auditor_ti"", ""sefaz_se_2025_auditor_ti"", ""tce_ms_2025_ace_ti""]","[2021, 2025]",55
+TCE-MA-067,INTELIGÊNCIA ARTIFICIAL,3,3 IA generativa.,1,,sim,1,0,0,1,1,1,1,0,1,0,0,1,"[""tcu_2026_aufc_auditoria_ti""]",[2026],55
+TCE-MA-068,INTELIGÊNCIA ARTIFICIAL,4,"4 Redes Neurais e Deep Learning. Arquiteturas de redes neurais, Frameworks, técnicas de treinamento e aplicações.",1,,sim,2,0,0,2,2,2,2,0,2,0,0,2,"[""sefaz_ce_2021_auditor_ti"", ""tce_ms_2025_ace_ti""]","[2021, 2025]",55
+TCE-MA-069,INTELIGÊNCIA ARTIFICIAL,5,"5 Processamento de linguagem natural. Modelos, pré‐processamento, agentes inteligentes e sistemas multiagentes.",1,,sim,2,0,0,2,2,2,2,0,2,0,0,2,"[""sefaz_ce_2021_auditor_ti"", ""tce_ms_2025_ace_ti""]","[2021, 2025]",55
+TCE-MA-070,INTELIGÊNCIA ARTIFICIAL,6,6 Arquitetura e engenharia de sistemas de IA. MLOps. Deploy de modelos. Integração com computação em nuvem.,1,,sim,2,0,0,2,2,2,2,0,2,0,0,2,"[""tce_ms_2025_ace_ti"", ""tcu_2026_aufc_auditoria_ti""]","[2025, 2026]",55
+TCE-MA-071,INTELIGÊNCIA ARTIFICIAL,7,"7 Ética, Transparência e Responsabilidade em IA.",1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-072,INTELIGÊNCIA ARTIFICIAL,8,8 Explicabilidade e interpretabilidade de modelos.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-073,INTELIGÊNCIA ARTIFICIAL,9,9 Viés algorítmico e discriminação.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-074,ARQUITETURA DE SOFTWARE,1,1 Arquitetura de aplicações.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-075,ARQUITETURA DE SOFTWARE,2,2 Padrão arquitetural model‐view‐controller (MVC).,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-076,ARQUITETURA DE SOFTWARE,3,3 Sistemas de N camadas; microsserviço.,1,,sim,1,0,0,1,1,1,1,0,1,0,0,1,"[""tce_ms_2025_ace_ti""]",[2025],55
+TCE-MA-077,ARQUITETURA DE SOFTWARE,4,4 Arquitetura orientada a eventos; refatoração e modernização de aplicações.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-078,ARQUITETURA DE SOFTWARE,5,"5 APIs, arquitetura cloud native.",1,,sim,1,0,0,1,1,1,1,0,1,0,0,1,"[""tce_ms_2025_ace_ti""]",[2025],55
+TCE-MA-079,ARQUITETURA DE SOFTWARE,6,6 Padrões de design de software.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-080,ARQUITETURA DE SOFTWARE,7,7 Técnicas de componentização de software.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-081,ARQUITETURA DE SOFTWARE,8,8 Barramento de serviços corporativos (ESB); interoperabilidade entre aplicações.,1,,sim,1,0,0,1,1,1,1,0,1,0,0,1,"[""tce_ms_2025_ace_ti""]",[2025],55
+TCE-MA-082,ARQUITETURA DE SOFTWARE,9,9 API Gateway.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-083,ARQUITETURA DE SOFTWARE,10,10 Noções de servidores de aplicações.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-084,ARQUITETURA DE SOFTWARE,11,11 Conteinerização de aplicação.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-085,ARQUITETURA DE SOFTWARE,12,12 Serviços de mensageria.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-086,ARQUITETURA DE SOFTWARE,13,"13 Padrões: SOAP, REST, gRPC, XML, XSLT, UDDI, WSDL, JSON, RMI, XML HTTPRequest.",1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-087,ARQUITETURA DE SOFTWARE,14,14 Gerência de configuração de software (GIT).,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-088,ARQUITETURA DE SOFTWARE,15,15 Arquitetura de sistemas web e web standards (W3C).,1,,sim,0,1,0,1,1,1,1,0,0,1,0,1,"[""tce_rn_2026_ti""]",[2026],55
+TCE-MA-089,ARQUITETURA DE SOFTWARE,16,16 Arquitetura de soluções mobile.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-090,ARQUITETURA DE SOFTWARE,17,17 Padrões de projeto.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-091,ARQUITETURA DE SOFTWARE,18,18 Autenticação única (single sign‐on).,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],55
+TCE-MA-092,GESTÃO E GOVERNANÇA DE TI,1,"1 Governança corporativa de TI (COBIT 2019, ISO/IEC 38500).",1,,sim,2,3,0,5,5,5,4,1,2,3,0,5,"[""sefaz_ce_2021_auditor_ti"", ""stj_2024_analista_ti"", ""tcdf_2023_ace_sistemas"", ""tce_ms_2025_ace_ti"", ""tce_pr_2016_analista_informatica""]","[2016, 2021, 2023, 2024, 2025]",55
+TCE-MA-093,GESTÃO E GOVERNANÇA DE TI,2,"2 Gestão de riscos de TI (ISO 31000, COSO).",1,,sim,0,2,0,2,2,2,1,1,0,2,0,2,"[""tce_rj_2021_ace_ti"", ""tcu_2015_aufc_ti""]","[2015, 2021]",55
+TCE-MA-094,GESTÃO E GOVERNANÇA DE TI,3,3 Gestão de serviços de TI (ITIL v4).,1,,sim,3,1,0,4,3,3,3,1,3,1,0,4,"[""tcdf_2023_ace_sistemas"", ""tcdf_2024_ace_ti_infra"", ""tce_ms_2025_ace_ti""]","[2023, 2024, 2025]",55
+TCE-MA-095,GESTÃO E GOVERNANÇA DE TI,4,"4 Gestão de projetos e metodologias ágeis (PMBOK 8 ª edição, SCRUM, Kanban).",1,,sim,1,4,0,5,5,5,4,1,1,4,0,5,"[""sefaz_ce_2021_auditor_ti"", ""tcdf_2023_ace_sistemas"", ""tce_mg_2018_ace_cc"", ""tce_pr_2016_analista_informatica"", ""tcu_2026_aufc_auditoria_ti""]","[2016, 2018, 2021, 2023, 2026]",55
+TCE-MA-096,GESTÃO E GOVERNANÇA DE TI,5,"5 Planejamento estratégico de TI (PETI, PDTI).",1,,sim,0,1,1,2,2,2,1,1,0,1,1,2,"[""sefa_pr_2026_agente_ti"", ""tcu_2015_aufc_ti""]","[2015, 2026]",55
+TCE-MA-097,GESTÃO E GOVERNANÇA DE TI,6,6 Contratações de TI no setor público.,1,,sim,5,2,0,7,6,5,2,5,5,2,0,7,"[""tcdf_2024_ace_ti_infra"", ""tce_ms_2025_ace_ti"", ""tce_pr_2024_auditor_informatica"", ""tce_rj_2021_ace_ti"", ""tcu_2015_aufc_ti"", ""tcu_2026_aufc_auditoria_ti""]","[2015, 2021, 2024, 2025, 2026]",55
+TCE-MA-098,GESTÃO E GOVERNANÇA DE TI,7,"7 Gestão de processos (BPMN, melhoria contínua).",1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],56
+TCE-MA-099,GESTÃO E GOVERNANÇA DE TI,8,8 Compliance e conformidade normativa.,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],56
+TCE-MA-100,GESTÃO E GOVERNANÇA DE TI,9,"9 Planejamento e gestão estratégicos de TI: PETI, PDTI e Indicadores de desempenho (KPIs, BSC).",1,,sim,0,0,1,1,1,1,1,0,0,0,1,1,"[""sefa_pr_2026_agente_ti""]",[2026],56
+TCE-MA-101,GESTÃO E GOVERNANÇA DE TI,10,"10 Cibersegurança e continuidade de negócios (ISO 27001/22301, 27002, NIST).",1,,sim,3,8,1,12,11,9,11,1,3,8,1,12,"[""cgm_joao_pessoa_2018_auditor_sistemas"", ""stj_2024_analista_ti"", ""tcdf_2023_ace_sistemas"", ""tce_rj_2021_ace_ti"", ""tce_rn_2026_ti"", ""tce_ro_2019_ace_ti"", ""tce_rs_2025_auditor_ti"", ""tce_sc_2022_auditor_cc"", ""tcu_2015_aufc_ti"", ""tcu_2026_aufc_auditoria_ti"", ""trt10_2025_analista_ti""]","[2015, 2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026]",56
+TCE-MA-102,GESTÃO E GOVERNANÇA DE TI,11,11 Lei nº 12.527/2011 (Lei de Acesso à Informação).,1,,sim,0,0,1,1,1,1,1,0,0,0,1,1,"[""tcu_2015_aufc_ti""]",[2015],56
+TCE-MA-103,GESTÃO E GOVERNANÇA DE TI,12,12 Lei Geral de Proteção de Dados Pessoais (LGPD – Lei nº 13.709/2018).,1,,sim,2,0,0,2,2,2,0,2,2,0,0,2,"[""tcdf_2023_ace_sistemas"", ""tcu_2026_aufc_auditoria_ti""]","[2023, 2026]",56
+TCE-MA-104,GESTÃO E GOVERNANÇA DE TI,13,13 Governança de dados por meio da metodologia do DAMA‐DMBoK (data management body of knowledge).,1,,sim,0,0,0,0,0,0,0,0,0,0,0,0,[],[],56
+TCE-MA-105,CONTRATAÇÕES DE TI,1,1 Gestão de contratação de soluções de TI.,1,,sim,5,2,0,7,6,5,2,5,5,2,0,7,"[""tcdf_2024_ace_ti_infra"", ""tce_ms_2025_ace_ti"", ""tce_pr_2024_auditor_informatica"", ""tce_rj_2021_ace_ti"", ""tcu_2015_aufc_ti"", ""tcu_2026_aufc_auditoria_ti""]","[2015, 2021, 2024, 2025, 2026]",56
+TCE-MA-106,CONTRATAÇÕES DE TI,2,2 Legislação aplicável à contratação de bens e serviços de TI e suas alterações.,1,,não,0,2,0,2,2,2,0,2,3,2,0,5,"[""tce_rj_2021_ace_ti"", ""tcu_2015_aufc_ti""]","[2015, 2021]",56
+TCE-MA-107,CONTRATAÇÕES DE TI,2.1,2.1 Lei nº 14.133/2021.,2,TCE-MA-106,sim,4,0,0,4,3,3,1,3,4,0,0,4,"[""tce_ms_2025_ace_ti"", ""tce_pr_2024_auditor_informatica"", ""tcu_2026_aufc_auditoria_ti""]","[2024, 2025, 2026]",56
+TCE-MA-108,CONTRATAÇÕES DE TI,2.2,2.2 Instrução Normativa SGD/ME nº 94/2022.,2,TCE-MA-106,sim,5,0,0,5,4,3,2,3,5,0,0,5,"[""tcdf_2024_ace_ti_infra"", ""tce_ms_2025_ace_ti"", ""tce_pr_2024_auditor_informatica"", ""tcu_2026_aufc_auditoria_ti""]","[2024, 2025, 2026]",56
+TCE-MA-109,CONTRATAÇÕES DE TI,2.3,2.3 Instrução Normativa SEGES/ME nº 65/2021.,2,TCE-MA-106,sim,2,0,0,2,2,2,0,2,2,0,0,2,"[""tce_pr_2024_auditor_informatica"", ""tcu_2026_aufc_auditoria_ti""]","[2024, 2026]",56

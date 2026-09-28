@@ -1,0 +1,1646 @@
+[
+  {
+    "identificador_api": "TCE_RN_25",
+    "ano_api": 2025,
+    "categoria": "A",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "CARGO 1: ANALISTA ADMINISTRATIVO – ESPECIALIDADE: ARQUIVOLOGIA"
+      },
+      {
+        "idArea": "02",
+        "area": "CARGO 2: ANALISTA ADMINISTRATIVO – ESPECIALIDADE: CIÊNCIAS CONTÁBEIS"
+      },
+      {
+        "idArea": "03",
+        "area": "CARGO 3: ANALISTA ADMINISTRATIVO – ESPECIALIDADE: ENGENHARIA CIVIL"
+      },
+      {
+        "idArea": "04",
+        "area": "CARGO 4: ANALISTA ADMINISTRATIVO – ESPECIALIDADE: TECNOLOGIA DA INFORMAÇÃO (DESENVOLVIMENTO DE SISTEMAS E INTELIGÊNCIA DA INFORMAÇÃO)"
+      },
+      {
+        "idArea": "05",
+        "area": "CARGO 5: ANALISTA ADMINISTRATIVO – ESPECIALIDADE: TECNOLOGIA DA INFORMAÇÃO (INFRAESTRUTURA, SEGURANÇA E SUPORTE)"
+      },
+      {
+        "idArea": "06",
+        "area": "CARGO 6: AUDITOR DE CONTROLE EXTERNO – ESPECIALIDADE: ADMINISTRAÇÃO / GESTÃO DE POLÍTICAS PÚBLICAS / GESTÃO PÚBLICA"
+      },
+      {
+        "idArea": "07",
+        "area": "CARGO 7: AUDITOR DE CONTROLE EXTERNO – ESPECIALIDADE: CIÊNCIAS ATUARIAIS"
+      },
+      {
+        "idArea": "08",
+        "area": "CARGO 8: AUDITOR DE CONTROLE EXTERNO – ESPECIALIDADE: CONTABILIDADE"
+      },
+      {
+        "idArea": "09",
+        "area": "CARGO 9: AUDITOR DE CONTROLE EXTERNO – ESPECIALIDADE: DIREITO"
+      },
+      {
+        "idArea": "10",
+        "area": "CARGO 10: AUDITOR DE CONTROLE EXTERNO – ESPECIALIDADE: ENGENHARIA"
+      },
+      {
+        "idArea": "11",
+        "area": "CARGO 11: AUDITOR DE CONTROLE EXTERNO – ESPECIALIDADE: ESTATÍSTICA"
+      },
+      {
+        "idArea": "12",
+        "area": "CARGO 12: AUDITOR DE CONTROLE EXTERNO – ESPECIALIDADE: TECNOLOGIA DA INFORMAÇÃO"
+      },
+      {
+        "idArea": "13",
+        "area": "CARGO 13: MÉDICO"
+      },
+      {
+        "idArea": "14",
+        "area": " CARGO 14: TÉCNICO ADMINISTRATIVO"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital nº 1 – Abertura, conforme retificações",
+        "nome_api": "57E129C2E6851CF23E0EC1333E6F5A80DB7550368502E00A308C4E839EAE78BB.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_rn_25/arquivos/57E129C2E6851CF23E0EC1333E6F5A80DB7550368502E00A308C4E839EAE78BB.pdf",
+        "arquivo_local": "fontes/editais/tce_rn_2026_edital.pdf",
+        "paginas": 71
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA - CARGO 4",
+        "nome_api": "F9AB2EBB7F247C3E24C68D6486CD675EE2C25859F7C88992156F9E560634D4DE.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_rn_25/arquivos/F9AB2EBB7F247C3E24C68D6486CD675EE2C25859F7C88992156F9E560634D4DE.pdf",
+        "arquivo_local": "fontes/provas/tce_rn_2026_cargo4_discursiva.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA - CARGO 5",
+        "nome_api": "E4812F1B53F384FED7E798C663DF4E89AF23E06A9F74410E650CD34D497C083C.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_rn_25/arquivos/E4812F1B53F384FED7E798C663DF4E89AF23E06A9F74410E650CD34D497C083C.pdf",
+        "arquivo_local": "fontes/provas/tce_rn_2026_cargo5_discursiva.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA - CARGO 12",
+        "nome_api": "B51E59EEEFF8976480BFD7DD1119016CF48AF3D729EEDE6BC2165149DF0DF0DB.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_rn_25/arquivos/B51E59EEEFF8976480BFD7DD1119016CF48AF3D729EEDE6BC2165149DF0DF0DB.pdf",
+        "arquivo_local": "fontes/provas/tce_rn_2026_cargo12_discursiva.pdf",
+        "paginas": 3
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA – CARGO 4",
+        "nome_api": "41F4E6F2F5C71FAD25C216A73511072D11BCCE8923A1BEED88F1E1EC4339B6CD.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_rn_25/arquivos/41F4E6F2F5C71FAD25C216A73511072D11BCCE8923A1BEED88F1E1EC4339B6CD.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tce_rn_2026_cargo4_padrao_definitivo.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA – CARGO 5",
+        "nome_api": "1BEFA4A254459CBD9B0F2E662F34DA543A810D2054B78FB55ABC21A7416D44C9.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_rn_25/arquivos/1BEFA4A254459CBD9B0F2E662F34DA543A810D2054B78FB55ABC21A7416D44C9.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tce_rn_2026_cargo5_padrao_definitivo.pdf",
+        "paginas": 1
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA – CARGO 12",
+        "nome_api": "A4A95EA22A5DD7C0CC1A241F29E10BE9D56549296FAE18D5913AA25A2D1B6F18.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_rn_25/arquivos/A4A95EA22A5DD7C0CC1A241F29E10BE9D56549296FAE18D5913AA25A2D1B6F18.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tce_rn_2026_cargo12_padrao_definitivo.pdf",
+        "paginas": 2
+      }
+    ]
+  },
+  {
+    "identificador_api": "TCE_MG_25",
+    "ano_api": 2025,
+    "categoria": "A",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "CARGO 1: ANALISTA DE CONTROLE EXTERNO – ESPECIALIDADE: CIÊNCIA DA COMPUTAÇÃO"
+      },
+      {
+        "idArea": "02",
+        "area": "CARGO 2: ANALISTA DE CONTROLE EXTERNO – ESPECIALIDADE: CIÊNCIAS ATUARIAIS"
+      },
+      {
+        "idArea": "03",
+        "area": "CARGO 3: ANALISTA DE CONTROLE EXTERNO – ESPECIALIDADE: CIÊNCIAS CONTÁBEIS"
+      },
+      {
+        "idArea": "04",
+        "area": "CARGO 4: ANALISTA DE CONTROLE EXTERNO – ESPECIALIDADE: DIREITO"
+      },
+      {
+        "idArea": "05",
+        "area": "CARGO 5: ANALISTA DE CONTROLE EXTERNO – ESPECIALIDADE: ENGENHARIA"
+      },
+      {
+        "idArea": "06",
+        "area": "CARGO 6: ARQUIVISTA"
+      },
+      {
+        "idArea": "07",
+        "area": "CARGO 7: BIBLIOTECÁRIO"
+      },
+      {
+        "idArea": "08",
+        "area": "CARGO 8: COMUNICADOR SOCIAL"
+      },
+      {
+        "idArea": "09",
+        "area": "CARGO 9: PSICÓLOGO"
+      },
+      {
+        "idArea": "10",
+        "area": "CARGO 10: MÉDICO"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital nº 1 – Abertura – Atualizado conforme retificações ",
+        "nome_api": "AD0E95A57A75083E0B366CA96F60AB5FDFD382F50E65034B01BCAFE9A1AC2E30.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/AD0E95A57A75083E0B366CA96F60AB5FDFD382F50E65034B01BCAFE9A1AC2E30.pdf",
+        "arquivo_local": "fontes/editais/tce_mg_2025_edital.pdf",
+        "paginas": 59
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA - CARGO 1",
+        "nome_api": "BD2CA7B4C0692568A4CBE06C5D1343C0B822874EF710889E0663F31DAC0B88A7.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/BD2CA7B4C0692568A4CBE06C5D1343C0B822874EF710889E0663F31DAC0B88A7.pdf",
+        "arquivo_local": "fontes/provas/tce_mg_2025_cargo1_discursiva.pdf",
+        "paginas": 6
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTAS – PROVA DISCURSIVA – CARGO 1",
+        "nome_api": "57A21750DC72DDA4D36B60BAE7302E3CD96D8FBF7F9976BCB559CBF530D90989.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/57A21750DC72DDA4D36B60BAE7302E3CD96D8FBF7F9976BCB559CBF530D90989.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tce_mg_2025_cargo1_padrao_definitivo.pdf",
+        "paginas": 4
+      }
+    ]
+  },
+  {
+    "identificador_api": "TCE_RS_25",
+    "ano_api": 2025,
+    "categoria": "A",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "CARGO 1: AUDITOR DE CONTROLE EXTERNO (ACE) – ESPECIALIDADE: ARQUITETURA"
+      },
+      {
+        "idArea": "02",
+        "area": "CARGO 2: AUDITOR DE CONTROLE EXTERNO (ACE) – ESPECIALIDADE: CIÊNCIAS CONTÁBEIS"
+      },
+      {
+        "idArea": "03",
+        "area": "CARGO 3: AUDITOR DE CONTROLE EXTERNO (ACE) – ESPECIALIDADE: ENGENHARIA CIVIL"
+      },
+      {
+        "idArea": "04",
+        "area": "CARGO 4: AUDITOR DE CONTROLE EXTERNO (ACE) – ESPECIALIDADE: TECNOLOGIA DA INFORMAÇÃO"
+      },
+      {
+        "idArea": "05",
+        "area": "CARGO 5: OFICIAL DE CONTROLE EXTERNO (OCE) – ESPECIALIDADE: OFICIAL INSTRUTIVO"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital nº 1 - Abertura - Atualizado conforme retificações",
+        "nome_api": "5BD602429F6DE6CF3F6208F84AD755EBAC97163D43C968C259DC3B818332AFF8.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_rs_25/arquivos/5BD602429F6DE6CF3F6208F84AD755EBAC97163D43C968C259DC3B818332AFF8.pdf",
+        "arquivo_local": "fontes/editais/tce_rs_2025_edital.pdf",
+        "paginas": 59
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": " PROVA DISCURSIVA P3 – CONHECIMENTOS GERAIS – CARGOS DE 1 A 4",
+        "nome_api": "20A94A6217EB1821BC8B483AB5B58476AC7C0B164D1B9ED0AA352E2EF2EC8017.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_rs_25/arquivos/20A94A6217EB1821BC8B483AB5B58476AC7C0B164D1B9ED0AA352E2EF2EC8017.pdf",
+        "arquivo_local": "fontes/provas/tce_rs_2025_p3_geral_discursiva.pdf",
+        "paginas": 1
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": " PROVA DISCURSIVA P4 – CARGO 4",
+        "nome_api": "50010D3AA45DE313D7F398190F24FD83D0BD6A9133312104CE2499CF770EC387.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_rs_25/arquivos/50010D3AA45DE313D7F398190F24FD83D0BD6A9133312104CE2499CF770EC387.pdf",
+        "arquivo_local": "fontes/provas/tce_rs_2025_cargo4_p4_discursiva.pdf",
+        "paginas": 1
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA P3 – CONHECIMENTOS GERAIS – CARGOS DE 1 A 4",
+        "nome_api": "240C0EFE7C3BBBF36D674F04D1F7FF8540F69090BC2127AEA9B783B7D4961174.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_rs_25/arquivos/240C0EFE7C3BBBF36D674F04D1F7FF8540F69090BC2127AEA9B783B7D4961174.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tce_rs_2025_p3_geral_padrao_definitivo.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA P4 – CARGO 4",
+        "nome_api": "248965FA539108F622B4408875D19534A21A101C9B39AB6527B384C57B77E602.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_rs_25/arquivos/248965FA539108F622B4408875D19534A21A101C9B39AB6527B384C57B77E602.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tce_rs_2025_cargo4_p4_padrao_definitivo.pdf",
+        "paginas": 2
+      }
+    ]
+  },
+  {
+    "identificador_api": "TCE_PR_24_AUDITOR",
+    "ano_api": 2024,
+    "categoria": "A",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "Cargo 1: Auditor de Controle Externo – Área: Administrativa"
+      },
+      {
+        "idArea": "02",
+        "area": "Cargo 2: Auditor de Controle Externo – Área: Contábil"
+      },
+      {
+        "idArea": "03",
+        "area": "Cargo 3: Auditor de Controle Externo – Área: Econômica"
+      },
+      {
+        "idArea": "04",
+        "area": "Cargo 4: Auditor de Controle Externo – Área: Engenharia"
+      },
+      {
+        "idArea": "05",
+        "area": "Cargo 5: Auditor de Controle Externo – Área: Informática"
+      },
+      {
+        "idArea": "06",
+        "area": "Cargo 6: Auditor de Controle Externo – Área: Jurídica"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital nº 1 – Abertura – Atualizado conforme retificações",
+        "nome_api": "ED_1_2024_TCE_PR_ABERTURA_VERSAO_ATUALIZADA_RET_3.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_pr_24_auditor/arquivos/ED_1_2024_TCE_PR_ABERTURA_VERSAO_ATUALIZADA_RET_3.PDF",
+        "arquivo_local": "fontes/editais/tce_pr_2024_edital.pdf",
+        "paginas": 48
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA - CARGO 5",
+        "nome_api": "TCEPR_CARGO_5_DISC.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_pr_24_auditor/arquivos/TCEPR_CARGO_5_DISC.PDF",
+        "arquivo_local": "fontes/provas/tce_pr_2024_cargo5_discursiva.pdf",
+        "paginas": 7
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTAS – PROVA DISCURSIVA – CARGO 5",
+        "nome_api": "TCEPR_PADRO_DEFINITIVO_DE_RESPOSTAS_CARGO_5.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_pr_24_auditor/arquivos/TCEPR_PADRO_DEFINITIVO_DE_RESPOSTAS_CARGO_5.PDF",
+        "arquivo_local": "fontes/padroes_resposta/tce_pr_2024_cargo5_padrao_definitivo.pdf",
+        "paginas": 9
+      }
+    ]
+  },
+  {
+    "identificador_api": "TCE_AC_24",
+    "ano_api": 2024,
+    "categoria": "A",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "CARGO 1: ANALISTA ADMINISTRATIVO – ÁREA: ADMINISTRAÇÃO"
+      },
+      {
+        "idArea": "02",
+        "area": "CARGO 2: ANALISTA ADMINISTRATIVO – ÁREA: CONTABILIDADE"
+      },
+      {
+        "idArea": "03",
+        "area": "CARGO 3: ANALISTA ADMINISTRATIVO – ÁREA: DIREITO "
+      },
+      {
+        "idArea": "04",
+        "area": "CARGO 4: ANALISTA ADMINISTRATIVO – ÁREA: ENGENHARIA CIVIL"
+      },
+      {
+        "idArea": "05",
+        "area": "CARGO 5: ANALISTA ADMINISTRATIVO – ÁREA: PEDAGOGIA"
+      },
+      {
+        "idArea": "06",
+        "area": "CARGO 6: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO – ÁREA: GESTÃO DE DADOS"
+      },
+      {
+        "idArea": "07",
+        "area": "CARGO 7: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO – ÁREA: INFRAESTRUTURA DE TI"
+      },
+      {
+        "idArea": "08",
+        "area": "CARGO 8: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO – ÁREA: PLANEJAMENTO DE TI"
+      },
+      {
+        "idArea": "09",
+        "area": "CARGO 9: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO – ÁREA: PROJETOS DE TI"
+      },
+      {
+        "idArea": "10",
+        "area": "CARGO 10: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO – ÁREA: SEGURANÇA DA INFORMAÇÃO"
+      },
+      {
+        "idArea": "11",
+        "area": "CARGO 11: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO – ÁREA: SISTEMAS DE INFORMAÇÃO"
+      },
+      {
+        "idArea": "12",
+        "area": "CARGO 12: ANALISTA MINISTERIAL – ÁREA: ADMINISTRAÇÃO"
+      },
+      {
+        "idArea": "13",
+        "area": "CARGO 13: ANALISTA MINISTERIAL – ÁREA: DIREITO"
+      },
+      {
+        "idArea": "14",
+        "area": "CARGO 14: AUDITOR DE CONTROLE EXTERNO – ÁREA: ADMINISTRAÇÃO"
+      },
+      {
+        "idArea": "15",
+        "area": "CARGO 15: AUDITOR DE CONTROLE EXTERNO – ÁREA: ARQUITETURA"
+      },
+      {
+        "idArea": "16",
+        "area": "CARGO 16: AUDITOR DE CONTROLE EXTERNO – ÁREA: CONTABILIDADE"
+      },
+      {
+        "idArea": "17",
+        "area": "CARGO 17: AUDITOR DE CONTROLE EXTERNO – ÁREA: DIREITO"
+      },
+      {
+        "idArea": "18",
+        "area": "CARGO 18: AUDITOR DE CONTROLE EXTERNO – ÁREA: ENGENHARIA CIVIL"
+      },
+      {
+        "idArea": "19",
+        "area": "CARGO 19: TÉCNICO DE CONTROLE EXTERNO – ÁREA: TÉCNICO ADMINISTRATIVO – ESPECIALIDADE: \r\nINSTRUTIVO"
+      },
+      {
+        "idArea": "20",
+        "area": "CARGO 20: TÉCNICO DE CONTROLE EXTERNO – ÁREA: TÉCNICO EM INFORMÁTICA"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital nº 1 – Abertura – Atualizado conforme retificações",
+        "nome_api": "ED_1_TCE_AC_24_ABERTURA_ATUALIZADO_RET_2.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/ED_1_TCE_AC_24_ABERTURA_ATUALIZADO_RET_2.PDF",
+        "arquivo_local": "fontes/editais/tce_ac_2024_edital.pdf",
+        "paginas": 62
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA  -  CARGOS 1 A 13",
+        "nome_api": "993_TCE_AC_001_DISC.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/993_TCE_AC_001_DISC.PDF",
+        "arquivo_local": "fontes/provas/tce_ac_2024_cargos1a13_discursiva.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTAS - CARGOS 1 A 13",
+        "nome_api": "PADRO_DEFINITIVO_DE_RESPOSTA___CARGOS_1_A_13.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_ac_24/arquivos/PADRO_DEFINITIVO_DE_RESPOSTA___CARGOS_1_A_13.PDF",
+        "arquivo_local": "fontes/padroes_resposta/tce_ac_2024_cargos1a13_padrao_definitivo.pdf",
+        "paginas": 1
+      }
+    ]
+  },
+  {
+    "identificador_api": "TC_DF_23",
+    "ano_api": 2023,
+    "categoria": "A",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "CARGO 1: ANALISTA ADMINISTRATIVO DE CONTROLE EXTERNO – ÁREA DE GESTÃO – ESPECIALIDADE \r\nSERVIÇOS TÉCNICOS E ADMINISTRATIVOS"
+      },
+      {
+        "idArea": "02",
+        "area": "CARGO 2: AUDITOR DE CONTROLE EXTERNO – ÁREA AUDITORIA"
+      },
+      {
+        "idArea": "03",
+        "area": "CARGO 3: AUDITOR DE CONTROLE EXTERNO – ÁREA ESPECIALIZADA – ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO – ORIENTAÇÃO SISTEMAS DE TI "
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital nº 1 – Abertura – Atualizado conforme retificações",
+        "nome_api": "ED_1_2023_TCDF_ABERTURA_VERSAO_COMPILADA_AT_RET_ED_5.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/ED_1_2023_TCDF_ABERTURA_VERSAO_COMPILADA_AT_RET_ED_5.PDF",
+        "arquivo_local": "fontes/editais/tcdf_2023_edital.pdf",
+        "paginas": 58
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA (P4) – CARGO 3",
+        "nome_api": "897_TCDF_DISC_003.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/897_TCDF_DISC_003.PDF",
+        "arquivo_local": "fontes/provas/tcdf_2023_cargo3_discursiva.pdf",
+        "paginas": 5
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTAS – PROVA DISCURSIVA (P4) – CARGO 3",
+        "nome_api": "TC_DF_23_PADRO_DE_RESPOSTA_DEFINITIVO_CARGO_03.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/TC_DF_23_PADRO_DE_RESPOSTA_DEFINITIVO_CARGO_03.PDF",
+        "arquivo_local": "fontes/padroes_resposta/tcdf_2023_cargo3_padrao_definitivo.pdf",
+        "paginas": 6
+      }
+    ]
+  },
+  {
+    "identificador_api": "TCE_SC_21_AUDITOR",
+    "ano_api": 2021,
+    "categoria": "A",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "Cargo 1: Auditor Fiscal de Controle Externo – Área: Administração"
+      },
+      {
+        "idArea": "02",
+        "area": "Cargo 2: Auditor Fiscal de Controle Externo – Área: Ciências Contábeis"
+      },
+      {
+        "idArea": "03",
+        "area": "Cargo 3: Auditor Fiscal de Controle Externo – Área: Ciências da Computação"
+      },
+      {
+        "idArea": "04",
+        "area": "Cargo 4: Auditor Fiscal de Controle Externo – Área: Ciências Econômicas"
+      },
+      {
+        "idArea": "05",
+        "area": "Cargo 5: Auditor Fiscal de Controle Externo – Área: Direito"
+      },
+      {
+        "idArea": "06",
+        "area": "Cargo 6: Auditor Fiscal de Controle Externo – Área: Engenharia Civil"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital nº 1 - Abertura",
+        "nome_api": "ED_1_2020_TCE_SC_ABERTURA.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_sc_21_auditor/arquivos/ED_1_2020_TCE_SC_ABERTURA.PDF",
+        "arquivo_local": "fontes/editais/tce_sc_2021_edital.pdf",
+        "paginas": 37
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA - ÁREA: CIÊNCIAS DA COMPUTAÇÃO",
+        "nome_api": "660_TCESC_003_DISC.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_sc_21_auditor/arquivos/660_TCESC_003_DISC.PDF",
+        "arquivo_local": "fontes/provas/tce_sc_2021_cargo3_discursiva.pdf",
+        "paginas": 5
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DE RESPOSTA DEFINITIVO - CARGO 3",
+        "nome_api": "TCE_SC_21_AUDITOR_PADRO_DE_RESPOSTA_DEFINITIVO_CARGO_03.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_sc_21_auditor/arquivos/TCE_SC_21_AUDITOR_PADRO_DE_RESPOSTA_DEFINITIVO_CARGO_03.PDF",
+        "arquivo_local": "fontes/padroes_resposta/tce_sc_2021_cargo3_padrao_definitivo.pdf",
+        "paginas": 4
+      }
+    ]
+  },
+  {
+    "identificador_api": "TCE_RO_19",
+    "ano_api": 2019,
+    "categoria": "A",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "Cargo 1: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO – ESPECIALIDADE: DESENVOLVIMENTO DE SISTEMAS"
+      },
+      {
+        "idArea": "02",
+        "area": "Cargo 2: AUDITOR DE CONTROLE EXTERNO – ESPECIALIDADE: ADMINISTRAÇÃO"
+      },
+      {
+        "idArea": "03",
+        "area": "Cargo 3: AUDITOR DE CONTROLE EXTERNO – ESPECIALIDADE: CIÊNCIAS CONTÁBEIS"
+      },
+      {
+        "idArea": "04",
+        "area": "Cargo 4: AUDITOR DE CONTROLE EXTERNO – ESPECIALIDADE: DIREITO"
+      },
+      {
+        "idArea": "05",
+        "area": "Cargo 5: AUDITOR DE CONTROLE EXTERNO – ESPECIALIDADE: ECONOMIA"
+      },
+      {
+        "idArea": "06",
+        "area": "Cargo 6: AUDITOR DE CONTROLE EXTERNO – ESPECIALIDADE: ENGENHARIA CIVIL"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital nº 1 - Abertura",
+        "nome_api": "ED_1__2019_TCE_RO_ABERTURA.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_ro_19/arquivos/ED_1__2019_TCE_RO_ABERTURA.PDF",
+        "arquivo_local": "fontes/editais/tce_ro_2019_edital.pdf",
+        "paginas": 42
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA - CARGO 1",
+        "nome_api": "487_TCERO_DISC_001_01.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_ro_19/arquivos/487_TCERO_DISC_001_01.PDF",
+        "arquivo_local": "fontes/provas/tce_ro_2019_cargo1_discursiva.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA - PROVA DISCURSIVA - CARGO 1",
+        "nome_api": "TCE_RO_19_PADRAO_DE_RESPOSTAS_DEFINITIVO_CARGO_1.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_ro_19/arquivos/TCE_RO_19_PADRAO_DE_RESPOSTAS_DEFINITIVO_CARGO_1.PDF",
+        "arquivo_local": "fontes/padroes_resposta/tce_ro_2019_cargo1_padrao_definitivo.pdf",
+        "paginas": 2
+      }
+    ]
+  },
+  {
+    "identificador_api": "TCE_MG_18",
+    "ano_api": 2018,
+    "categoria": "A",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "Cargo 1: Analista de Controle Externo – Área de Graduação/Especialidade: Administração (***)"
+      },
+      {
+        "idArea": "02",
+        "area": "Cargo 2: Analista de Controle Externo – Área de Graduação/Especialidade: Ciências Atuariais (***)"
+      },
+      {
+        "idArea": "03",
+        "area": "Cargo 3: Analista de Controle Externo – Área de Graduação/Especialidade: Ciências Contábeis (****)"
+      },
+      {
+        "idArea": "04",
+        "area": "Cargo 4: Analista de Controle Externo – Área de Graduação/Especialidade: Ciência da Computação (***)"
+      },
+      {
+        "idArea": "05",
+        "area": "Cargo 5: Analista de Controle Externo – Área de Graduação/Especialidade: Ciências Econômicas (***)"
+      },
+      {
+        "idArea": "06",
+        "area": "Cargo 6: Analista de Controle Externo – Área de Graduação/Especialidade: Direito"
+      },
+      {
+        "idArea": "07",
+        "area": "Cargo 7: Analista de Controle Externo – Área de Graduação/Especialidade: Engenharia"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital n. 4 - Reabertura do prazo de interposição de recursos contra o padrão preliminar de resposta da prova discursiva",
+        "nome_api": "ED_4_2018_TCE_MG_REABERTURA_DO_PRAZO_DE_RECURSO_CONTRA_O_PADRAO_PRELIMINAR_DE_RESPOSTA.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_mg_18/arquivos/ED_4_2018_TCE_MG_REABERTURA_DO_PRAZO_DE_RECURSO_CONTRA_O_PADRAO_PRELIMINAR_DE_RESPOSTA.PDF",
+        "arquivo_local": "fontes/editais/tce_mg_2018_edital.pdf",
+        "paginas": 1
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA - CARGO 4",
+        "nome_api": "418_TCEMG_DISC04.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_mg_18/arquivos/418_TCEMG_DISC04.PDF",
+        "arquivo_local": "fontes/provas/tce_mg_2018_cargo4_discursiva.pdf",
+        "paginas": 6
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA - PROVA DISCURSIVA - CARGOS 1 A 7 - QUESTÃO 1",
+        "nome_api": "TCE_MG_2018_QUESTO_1_TODOS_OS_CARGOS_PADRO_DEFINITIVO.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_mg_18/arquivos/TCE_MG_2018_QUESTO_1_TODOS_OS_CARGOS_PADRO_DEFINITIVO.PDF",
+        "arquivo_local": "fontes/padroes_resposta/tce_mg_2018_questao1_padrao_definitivo.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA - PROVA DISCURSIVA - CARGO 4 - QUESTÃO 2",
+        "nome_api": "TCE_MG_2018_QUESTO_2_CARGO_4_CIENCIAS_DA_COMPUTACAO_PADRO_DEFINITIVO.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_mg_18/arquivos/TCE_MG_2018_QUESTO_2_CARGO_4_CIENCIAS_DA_COMPUTACAO_PADRO_DEFINITIVO.PDF",
+        "arquivo_local": "fontes/padroes_resposta/tce_mg_2018_cargo4_questao2_padrao_definitivo.pdf",
+        "paginas": 3
+      }
+    ]
+  },
+  {
+    "identificador_api": "PREF_JP_17_CGM",
+    "ano_api": 2017,
+    "categoria": "A",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "Cargo 1: Auditor Municipal de Controle Interno – Área: Auditoria, Fiscalização, Ouvidoria e Transparência – Campo de Atuação: Geral"
+      },
+      {
+        "idArea": "02",
+        "area": "Cargo 2: Auditor Municipal de Controle Interno – Área: Auditoria, Fiscalização, Ouvidoria e Transparência – Campo de Atuação: Infraestrutura"
+      },
+      {
+        "idArea": "03",
+        "area": "Cargo 3: Auditor Municipal de Controle Interno – Área: Tecnologia da Informação – Campo de Atuação: Desenvolvimento de Sistemas"
+      },
+      {
+        "idArea": "04",
+        "area": "Cargo 4: Técnico Municipal de Controle Interno – Área: Auditoria, Fiscalização, Ouvidoria e Transparência – Campo de Atuação: Geral"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital 4 - Reabertura do per�odo de inscri��es e de solicita��o de isen��o de taxa de inscri��o ",
+        "nome_api": "ED_4_2017_PREF_JP_17_CGM_RET_DATA.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/pref_jp_17_cgm/arquivos/ED_4_2017_PREF_JP_17_CGM_RET_DATA.PDF",
+        "arquivo_local": "fontes/editais/cgm_joao_pessoa_2018_edital.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA - CARGO 3",
+        "nome_api": "356_PMJPCGM_DISC_003_01.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/pref_jp_17_cgm/arquivos/356_PMJPCGM_DISC_003_01.PDF",
+        "arquivo_local": "fontes/provas/cgm_joao_pessoa_2018_cargo3_discursiva.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA DA PROVA DISCURSIVA - CARGO 3",
+        "nome_api": "PREF_JP_17_para_o_cargo3_PadraoResposta_definitivo.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/pref_jp_17_cgm/arquivos/PREF_JP_17_para_o_cargo3_PadraoResposta_definitivo.PDF",
+        "arquivo_local": "fontes/padroes_resposta/cgm_joao_pessoa_2018_cargo3_padrao_definitivo.pdf",
+        "paginas": 1
+      }
+    ]
+  },
+  {
+    "identificador_api": "TCE_PR_16_ANALISTA",
+    "ano_api": 2016,
+    "categoria": "A",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "Cargo 1: Analista de Controle – Área: Administração "
+      },
+      {
+        "idArea": "02",
+        "area": "Cargo 2: Analista de Controle – Área: Arquitetura "
+      },
+      {
+        "idArea": "03",
+        "area": "Cargo 3: Analista de Controle – Área: Atuarial "
+      },
+      {
+        "idArea": "04",
+        "area": "Cargo 4: Analista de Controle – Área: Comunicação Social"
+      },
+      {
+        "idArea": "05",
+        "area": "Cargo 5: Analista de Controle – Área: Contábil "
+      },
+      {
+        "idArea": "06",
+        "area": "Cargo 6: Analista de Controle – Área: Engenharia Civil "
+      },
+      {
+        "idArea": "07",
+        "area": "Cargo 7: Analista de Controle – Área: Engenharia Elétrica "
+      },
+      {
+        "idArea": "08",
+        "area": "Cargo 8: Analista de Controle – Área: Tecnologia da Informação"
+      },
+      {
+        "idArea": "09",
+        "area": "Cargo 9: Analista de Controle – Área: Jurídica"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital n° 1 - Abertura ",
+        "nome_api": "ED_1_2016_TCE_PR_ANALISTA_16_EDITAL_DE_ABERTURA.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_pr_16_analista/arquivos/ED_1_2016_TCE_PR_ANALISTA_16_EDITAL_DE_ABERTURA.PDF",
+        "arquivo_local": "fontes/editais/tce_pr_2016_edital.pdf",
+        "paginas": 47
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "Caderno da prova discursiva - Cargo 8: analista de controle - área: tecnologia da informação",
+        "nome_api": "270TCEPR_DISC_008_01.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_pr_16_analista/arquivos/270TCEPR_DISC_008_01.pdf",
+        "arquivo_local": "fontes/provas/tce_pr_2016_cargo8_discursiva.pdf",
+        "paginas": 7
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "Padrão de respostas provisório da prova discursiva - PROVA DISCURSIVA P3 - Questão 1 - cargo 8: analista de controle - área: tecnologia da informação",
+        "nome_api": "CARGO8_P3-Questao1.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_pr_16_analista/arquivos/CARGO8_P3-Questao1.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tce_pr_2016_cargo8_q1_padrao_preliminar.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "Padrão de respostas provisório da prova discursiva - PROVA DISCURSIVA P3 - Questão 2 - cargo 8: analista de controle - área: tecnologia da informação",
+        "nome_api": "CARGO8_P3-Questao2.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_pr_16_analista/arquivos/CARGO8_P3-Questao2.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tce_pr_2016_cargo8_q2_padrao_preliminar.pdf",
+        "paginas": 1
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "Padrão de respostas provisório da prova discursiva - PROVA DISCURSIVA P3 - Questão 3 - cargo 8: analista de controle - área: tecnologia da informação",
+        "nome_api": "CARGO8_P3-Questao3.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_pr_16_analista/arquivos/CARGO8_P3-Questao3.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tce_pr_2016_cargo8_q3_padrao_preliminar.pdf",
+        "paginas": 1
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "Padrão de respostas provisório da prova discursiva - PROVA DISCURSIVA P3 - Questão 4 - cargo 8: analista de controle - área: tecnologia da informação",
+        "nome_api": "CARGO8_P3-Questao4.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_pr_16_analista/arquivos/CARGO8_P3-Questao4.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tce_pr_2016_cargo8_q4_padrao_preliminar.pdf",
+        "paginas": 1
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "Padrão de respostas provisório da prova discursiva - PROVA DISCURSIVA P4 - Parecer - cargo 8: analista de controle - área: tecnologia da informação",
+        "nome_api": "CARGO8_P4-Parecer.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_pr_16_analista/arquivos/CARGO8_P4-Parecer.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tce_pr_2016_cargo8_parecer_padrao_preliminar.pdf",
+        "paginas": 1
+      }
+    ]
+  },
+  {
+    "identificador_api": "TCE_PA_16",
+    "ano_api": 2016,
+    "categoria": "A",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "Cargo 1: Auditor de Controle Externo - Área: Educacional"
+      },
+      {
+        "idArea": "02",
+        "area": "Cargo 2: Auditor de Controle Externo - Área: Procuradoria"
+      },
+      {
+        "idArea": "03",
+        "area": "Cargo 3: Auditor de Controle Externo - Área: Administrativa - Especialidade: Administração"
+      },
+      {
+        "idArea": "04",
+        "area": "Cargo 4: Auditor de Controle Externo - Área: Administrativa - Especialidade: Arquitetura"
+      },
+      {
+        "idArea": "05",
+        "area": "Cargo 5: Auditor de Controle Externo - Área: Administrativa - Especialidade: Clínica Médica"
+      },
+      {
+        "idArea": "06",
+        "area": "Cargo 6: Auditor de Controle Externo - Área: Administrativa - Especialidade: Contabilidade"
+      },
+      {
+        "idArea": "07",
+        "area": "Cargo 7: Auditor de Controle Externo - Área: Administrativa - Especialidade: Direito"
+      },
+      {
+        "idArea": "08",
+        "area": "Cargo 8: Auditor de Controle Externo - Área: Administrativa - Especialidade: Economia"
+      },
+      {
+        "idArea": "09",
+        "area": "Cargo 9: Auditor de Controle Externo - Área: Administrativa - Especialidade: Enfermagem"
+      },
+      {
+        "idArea": "10",
+        "area": "Cargo 10: Auditor de Controle Externo - Área: Administrativa - Especialidade: Engenharia Civil"
+      },
+      {
+        "idArea": "11",
+        "area": "Cargo 11: Auditor de Controle Externo - Área: Administrativa - Especialidade: Engenharia Elétrica"
+      },
+      {
+        "idArea": "12",
+        "area": "Cargo 12: Auditor de Controle Externo - Área: Administrativa - Especialidade: Estatística"
+      },
+      {
+        "idArea": "13",
+        "area": "Cargo 13: Auditor de Controle Externo - Área: Administrativa - Especialidade: Fisioterapia"
+      },
+      {
+        "idArea": "14",
+        "area": "Cargo 14: Auditor de Controle Externo - Área: Administrativa - Especialidade: Gestão de Pessoas"
+      },
+      {
+        "idArea": "15",
+        "area": "Cargo 15: Auditor de Controle Externo - Área: Administrativa - Especialidade: Odontologia"
+      },
+      {
+        "idArea": "16",
+        "area": "Cargo 16: Auditor de Controle Externo - Área: Administrativa - Especialidade: Psicologia"
+      },
+      {
+        "idArea": "17",
+        "area": "Cargo 17: Auditor de Controle Externo - Área: Administrativa - Especialidade: Serviço Social"
+      },
+      {
+        "idArea": "18",
+        "area": "Cargo 18: Auditor de Controle Externo - Área: comunicação - Especialidade: Jornalismo"
+      },
+      {
+        "idArea": "19",
+        "area": "Cargo 19: Auditor de Controle Externo - Área: comunicação - Especialidade: Publicidade"
+      },
+      {
+        "idArea": "20",
+        "area": "Cargo 20: Auditor de Controle Externo - Área: Fiscalização - Especialidade: Administração"
+      },
+      {
+        "idArea": "21",
+        "area": "Cargo 21: Auditor de Controle Externo - Área: Fiscalização - Especialidade: Arquitetura"
+      },
+      {
+        "idArea": "22",
+        "area": "Cargo 22: Auditor de Controle Externo - Área: Fiscalização - Especialidade: Ciências Atuariais"
+      },
+      {
+        "idArea": "23",
+        "area": "Cargo 23: Auditor de Controle Externo - Área: Fiscalização - Especialidade: Contabilidade"
+      },
+      {
+        "idArea": "24",
+        "area": "Cargo 24: Auditor de Controle Externo - Área: Fiscalização - Especialidade: Direito"
+      },
+      {
+        "idArea": "25",
+        "area": "Cargo 25: Auditor de Controle Externo - Área: Fiscalização - Especialidade: Direito"
+      },
+      {
+        "idArea": "26",
+        "area": "Cargo 26: Auditor de Controle Externo - Área: Fiscalização - Especialidade: Direito"
+      },
+      {
+        "idArea": "27",
+        "area": "Cargo 27: Auditor de Controle Externo - Área: Fiscalização - Especialidade: Economia"
+      },
+      {
+        "idArea": "28",
+        "area": "Cargo 28: Auditor de Controle Externo - Área: Fiscalização - Especialidade: Engenharia Ambiental e Sanitária"
+      },
+      {
+        "idArea": "29",
+        "area": "Cargo 29: Auditor de Controle Externo - Área: Fiscalização - Especialidade: Engenharia Civil"
+      },
+      {
+        "idArea": "30",
+        "area": "Cargo 30: Auditor de Controle Externo - Área: Fiscalização - Especialidade: Engenharia Elétrica"
+      },
+      {
+        "idArea": "31",
+        "area": "Cargo 31: Auditor de Controle Externo - Área: Fiscalização - Especialidade: Estatística"
+      },
+      {
+        "idArea": "32",
+        "area": "Cargo 32: Auditor de Controle Externo - Área: Informática - Especialidade: Administrador de Banco de Dados"
+      },
+      {
+        "idArea": "33",
+        "area": "Cargo 33: Auditor de Controle Externo - Área: Informática - Especialidade: Analista de Segurança"
+      },
+      {
+        "idArea": "34",
+        "area": "Cargo 34: Auditor de Controle Externo - Área: Informática - Especialidade: Analista de Sistema"
+      },
+      {
+        "idArea": "35",
+        "area": "Cargo 35: Auditor de Controle Externo - Área: Informática - Especialidade: Analista de Suporte"
+      },
+      {
+        "idArea": "36",
+        "area": "Cargo 36: Auditor de Controle Externo - Área: Informática - Especialidade: Web Design"
+      },
+      {
+        "idArea": "37",
+        "area": "Cargo 37: Auditor de Controle Externo - Área: planejamento - Especialidade: administração"
+      },
+      {
+        "idArea": "38",
+        "area": "Cargo 38: Auditor de Controle Externo - Área: planejamento - Especialidade: Economia"
+      },
+      {
+        "idArea": "39",
+        "area": "Cargo 39: Auxiliar Técnico - Área: Administrativa"
+      },
+      {
+        "idArea": "40",
+        "area": "Cargo 40: Auxiliar Técnico de Controle Externo - Área: Informática"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital n° 4 - Retificação do subitem 6.4 do Edital n. 1, reabertura das inscrições e retificação das datas ",
+        "nome_api": "ED_4_2016_TCE_PA_RETIFICA____O_E_REABERTURA_DE_INSCRI____ES.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_pa_16/arquivos/ED_4_2016_TCE_PA_RETIFICA____O_E_REABERTURA_DE_INSCRI____ES.PDF",
+        "arquivo_local": "fontes/editais/tce_pa_2016_edital.pdf",
+        "paginas": 5
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "Caderno de prova discursiva - CARGOS 1 e 18 a 38: AUDITOR DE CONTROLE EXTERNO",
+        "nome_api": "251TCEPA_DISC_001_01.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_pa_16/arquivos/251TCEPA_DISC_001_01.pdf",
+        "arquivo_local": "fontes/provas/tce_pa_2016_cargos1e18a38_discursiva.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "Padrão de respostas definitivo da prova discursiva - CARGOS 1 e 18 a 38: AUDITOR DE CONTROLE EXTERNO",
+        "nome_api": "TCE_PA_PADRAO_DE_RESPOSTA_DEFINITIVO_CARGOS_ 1e18a38.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tce_pa_16/arquivos/TCE_PA_PADRAO_DE_RESPOSTA_DEFINITIVO_CARGOS_%201e18a38.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tce_pa_2016_cargos1e18a38_padrao_definitivo.pdf",
+        "paginas": 1
+      }
+    ]
+  },
+  {
+    "identificador_api": "TCU_15_AUFC",
+    "ano_api": 2015,
+    "categoria": "A",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "Cargo 1: Auditor Federal de Controle Externo - Área: Controle Externo - Especialidade: Controle Externo - Orientação: Auditoria Governamental"
+      },
+      {
+        "idArea": "02",
+        "area": "Cargo 2: Auditor Fereral de Controle Externo - Área: Controle Externo - Especialidade: Controle Externo - Orientação: Tecnologia da Informação"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital n° 6 - Abertura",
+        "nome_api": "TCU_AUDITOR_ABT_ED._6.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/tcu_15_aufc/arquivos/TCU_AUDITOR_ABT_ED._6.PDF",
+        "arquivo_local": "fontes/editais/tcu_2015_edital.pdf",
+        "paginas": 31
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "Prova Discursiva - P3",
+        "nome_api": "TCUAUFC_DISC_P3.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tcu_15_aufc/arquivos/TCUAUFC_DISC_P3.pdf",
+        "arquivo_local": "fontes/provas/tcu_2015_p3_comum_discursiva.pdf",
+        "paginas": 7
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "Prova Discursiva - P4 - Cargo 2",
+        "nome_api": "TCUAUFC_DISC_P4_CARGO_2.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tcu_15_aufc/arquivos/TCUAUFC_DISC_P4_CARGO_2.pdf",
+        "arquivo_local": "fontes/provas/tcu_2015_cargo2_p4_discursiva.pdf",
+        "paginas": 5
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "Prova Discursiva - Padrão de resposta DEFINITIVO - P3 - Questão 1 - para todos os cargos",
+        "nome_api": "TCU_15_AUFC_PADRAO_DE_RESPOSTAS_DEFINITIVO_P3_QUESTAO_1.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tcu_15_aufc/arquivos/TCU_15_AUFC_PADRAO_DE_RESPOSTAS_DEFINITIVO_P3_QUESTAO_1.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tcu_2015_p3_q1_padrao_definitivo.pdf",
+        "paginas": 1
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "Prova Discursiva - Padrão de resposta DEFINITIVO - P3 - Questão 2 - para todos os cargos",
+        "nome_api": "TCU_15_AUFC_PADRAO_DE_RESPOSTAS_DEFINITIVO_P3_QUESTAO_2.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tcu_15_aufc/arquivos/TCU_15_AUFC_PADRAO_DE_RESPOSTAS_DEFINITIVO_P3_QUESTAO_2.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tcu_2015_p3_q2_padrao_definitivo.pdf",
+        "paginas": 1
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "Prova Discursiva - Padrão de resposta DEFINITIVO - P4 - Questão - Cargo 2",
+        "nome_api": "TCU_15_AUFC_PADRAO_DE_RESPOSTAS_DEFINITIVO_CARGO_2_P4_QUESTAO.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tcu_15_aufc/arquivos/TCU_15_AUFC_PADRAO_DE_RESPOSTAS_DEFINITIVO_CARGO_2_P4_QUESTAO.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tcu_2015_cargo2_p4_questao_padrao_definitivo.pdf",
+        "paginas": 1
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "Prova Discursiva - Padrão de resposta DEFINITIVO - P4 - Peça - Cargo 2",
+        "nome_api": "TCU_15_AUFC_PADRAO_DE_RESPOSTAS_DEFINITIVO_CARGO_2_P4_PECA.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tcu_15_aufc/arquivos/TCU_15_AUFC_PADRAO_DE_RESPOSTAS_DEFINITIVO_CARGO_2_P4_PECA.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tcu_2015_cargo2_p4_peca_padrao_definitivo.pdf",
+        "paginas": 2
+      }
+    ]
+  },
+  {
+    "identificador_api": "TCU_25_AUFC",
+    "ano_api": 2025,
+    "categoria": "A",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "AUDITOR FEDERAL DE CONTROLE EXTERNO – ÁREA DE CONTROLE EXTERNO / ORIENTAÇÃO: AUDITORIA DE TECNOLOGIA DA INFORMAÇÃO"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital nº 1 – Abertura – Atualizado conforme retificações",
+        "nome_api": "E759D201D30A445B934F33FFDEB14868F911821C8674F7C54D91DCC372FF278A.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tcu_25_aufc/arquivos/E759D201D30A445B934F33FFDEB14868F911821C8674F7C54D91DCC372FF278A.pdf",
+        "arquivo_local": "fontes/editais/tcu_2025_edital.pdf",
+        "paginas": 53
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA",
+        "nome_api": "C755AC0EC03CD62E8802C6DFF89130043E61CE191AD3673D2A017293C5CFBB6E.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tcu_25_aufc/arquivos/C755AC0EC03CD62E8802C6DFF89130043E61CE191AD3673D2A017293C5CFBB6E.pdf",
+        "arquivo_local": "fontes/provas/tcu_2025_discursiva.pdf",
+        "paginas": 6
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA - PROVA DISCURSIVA",
+        "nome_api": "9DE5A2A09DFA527B96AEDBB3838F7B448A59C7E4A2564F4A5778CA44B8613573.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/tcu_25_aufc/arquivos/9DE5A2A09DFA527B96AEDBB3838F7B448A59C7E4A2564F4A5778CA44B8613573.pdf",
+        "arquivo_local": "fontes/padroes_resposta/tcu_2025_padrao_definitivo.pdf",
+        "paginas": 7
+      }
+    ]
+  },
+  {
+    "identificador_api": "SEFAZ_SE_25_AUDITOR",
+    "ano_api": 2025,
+    "categoria": "B",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "ESPECIALIDADE 1: AUDITOR FISCAL TRIBUTÁRIO – GERAL"
+      },
+      {
+        "idArea": "02",
+        "area": "ESPECIALIDADE 2: AUDITOR FISCAL TRIBUTÁRIO – TECNOLOGIA DA INFORMAÇÃO"
+      },
+      {
+        "idArea": "03",
+        "area": "ESPECIALIDADE 3: AUDITOR FISCAL TRIBUTÁRIO – TRIBUTAÇÃO"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital nº 5 – Abertura",
+        "nome_api": "Ed_1_SEFAZ_SE_25_abertura.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/sefaz_se_25_auditor/arquivos/Ed_1_SEFAZ_SE_25_abertura.pdf",
+        "arquivo_local": "fontes/editais/sefaz_se_2025_edital.pdf",
+        "paginas": 48
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA  P4 – ESPECIALIDADE 2 – QUESTÃO 1 ",
+        "nome_api": "BE30FFF6DADB1B68FC18E2F1EFDD7B68536C4904C66C0B7115CCF31428DFE346.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/sefaz_se_25_auditor/arquivos/BE30FFF6DADB1B68FC18E2F1EFDD7B68536C4904C66C0B7115CCF31428DFE346.pdf",
+        "arquivo_local": "fontes/provas/sefaz_se_2025_especialidade2_q1_discursiva.pdf",
+        "paginas": 1
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA  P4 – ESPECIALIDADE 2 – QUESTÃO 2 ",
+        "nome_api": "743034B9704C1FAC38BD9AFEECFBBF39B97371CCEAA4D281022A5BB5715DC2E2.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/sefaz_se_25_auditor/arquivos/743034B9704C1FAC38BD9AFEECFBBF39B97371CCEAA4D281022A5BB5715DC2E2.pdf",
+        "arquivo_local": "fontes/provas/sefaz_se_2025_especialidade2_q2_discursiva.pdf",
+        "paginas": 1
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA P4 – ESPECIALIDADE 2 – QUESTÃO 1",
+        "nome_api": "FE4406D28028C7E7DAFB48DA595662D2CDE3F66214AB35EAF359248DB5E688F9.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/sefaz_se_25_auditor/arquivos/FE4406D28028C7E7DAFB48DA595662D2CDE3F66214AB35EAF359248DB5E688F9.pdf",
+        "arquivo_local": "fontes/padroes_resposta/sefaz_se_2025_especialidade2_q1_padrao_definitivo.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA P4 – ESPECIALIDADE 2 – QUESTÃO 2",
+        "nome_api": "F912C3E904255E26D7AF109A8D45AE21AC8BDD15C90AC8277791BAAB60F4281E.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/sefaz_se_25_auditor/arquivos/F912C3E904255E26D7AF109A8D45AE21AC8BDD15C90AC8277791BAAB60F4281E.pdf",
+        "arquivo_local": "fontes/padroes_resposta/sefaz_se_2025_especialidade2_q2_padrao_definitivo.pdf",
+        "paginas": 2
+      }
+    ]
+  },
+  {
+    "identificador_api": "SEFA_PR_25",
+    "ano_api": 2025,
+    "categoria": "B",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "Cargo 1: Agente Fazendário Estadual – Função: Administrador"
+      },
+      {
+        "idArea": "02",
+        "area": "Cargo 2: Agente Fazendário Estadual – Função: Analista Fazendário"
+      },
+      {
+        "idArea": "03",
+        "area": "Cargo 3: Agente Fazendário Estadual – Função: Contador"
+      },
+      {
+        "idArea": "04",
+        "area": "Cargo 4: Agente Fazendário Estadual – Função: Economista "
+      },
+      {
+        "idArea": "05",
+        "area": "Cargo 5: Agente Fazendário Estadual – Função: Estatístico"
+      },
+      {
+        "idArea": "06",
+        "area": "Cargo 6: Agente Fazendário Estadual – Função: Profissional de Tecnologia da Informação"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital nº 1 - Abertura - atualizado conforme retificações ",
+        "nome_api": "819D0DDE5E9D488E1A1CC518CBE4559C4AA14A9C0ADA0C1664F36B9E76433019.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/sefa_pr_25/arquivos/819D0DDE5E9D488E1A1CC518CBE4559C4AA14A9C0ADA0C1664F36B9E76433019.pdf",
+        "arquivo_local": "fontes/editais/sefa_pr_2025_edital.pdf",
+        "paginas": 53
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA",
+        "nome_api": "C755AC0EC03CD62E8802C6DFF89130043E61CE191AD3673D2A017293C5CFBB6E.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/sefa_pr_25/arquivos/C755AC0EC03CD62E8802C6DFF89130043E61CE191AD3673D2A017293C5CFBB6E.pdf",
+        "arquivo_local": "fontes/provas/sefa_pr_2025_discursiva.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA",
+        "nome_api": "9DE5A2A09DFA527B96AEDBB3838F7B448A59C7E4A2564F4A5778CA44B8613573.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/sefa_pr_25/arquivos/9DE5A2A09DFA527B96AEDBB3838F7B448A59C7E4A2564F4A5778CA44B8613573.pdf",
+        "arquivo_local": "fontes/padroes_resposta/sefa_pr_2025_padrao_definitivo.pdf",
+        "paginas": 2
+      }
+    ]
+  },
+  {
+    "identificador_api": "SEFAZ_CE_21",
+    "ano_api": 2021,
+    "categoria": "B",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "Cargo 1: Auditor Fiscal da Receita Estadual "
+      },
+      {
+        "idArea": "02",
+        "area": "Cargo 2: Auditor Fiscal Contábil-Financeiro da Receita Estadual"
+      },
+      {
+        "idArea": "03",
+        "area": "Cargo 3: Auditor Fiscal Jurídico da Receita Estadual"
+      },
+      {
+        "idArea": "04",
+        "area": "Cargo 4: Auditor Fiscal de Tecnologia da Informação da Receita Estadual"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital nº 1 - Abertura",
+        "nome_api": "ED_1_SEFAZ_CE_2021_ABERTURA.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/sefaz_ce_21/arquivos/ED_1_SEFAZ_CE_2021_ABERTURA.PDF",
+        "arquivo_local": "fontes/editais/sefaz_ce_2021_edital.pdf",
+        "paginas": 48
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA - CARGO 4",
+        "nome_api": "598_SEFAZ_004_DISC.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/sefaz_ce_21/arquivos/598_SEFAZ_004_DISC.PDF",
+        "arquivo_local": "fontes/provas/sefaz_ce_2021_cargo4_discursiva.pdf",
+        "paginas": 5
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DE RESPOSTAS DEFINITIVO - CARGO 4",
+        "nome_api": "SEFAZ_CE_21_PADRO_DE_RESPOSTA_DEFINITIVO_CARGO_4_COMPLETO.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/sefaz_ce_21/arquivos/SEFAZ_CE_21_PADRO_DE_RESPOSTA_DEFINITIVO_CARGO_4_COMPLETO.PDF",
+        "arquivo_local": "fontes/padroes_resposta/sefaz_ce_2021_cargo4_padrao_definitivo.pdf",
+        "paginas": 5
+      }
+    ]
+  },
+  {
+    "identificador_api": "STJ_24",
+    "ano_api": 2024,
+    "categoria": "C",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "Cargo 1: Analista Judiciário – Área: Administrativa"
+      },
+      {
+        "idArea": "02",
+        "area": "Cargo 2: Analista Judiciário – Área: Administrativa  –  Especialidade: Inspetor da Polícia Judicial"
+      },
+      {
+        "idArea": "03",
+        "area": "Cargo 3: Analista Judiciário – Área: Apoio Especializado – Especialidade: Análise de Sistemas de Informação"
+      },
+      {
+        "idArea": "04",
+        "area": "Cargo 4: Analista Judiciário – Área: Apoio Especializado – Especialidade: Arquitetura"
+      },
+      {
+        "idArea": "05",
+        "area": "Cargo 5: Analista Judiciário – Área: Apoio Especializado – Especialidade: Biblioteconomia"
+      },
+      {
+        "idArea": "06",
+        "area": "Cargo 6: Analista Judiciário – Área: Apoio Especializado – Especialidade: Comunicação Social"
+      },
+      {
+        "idArea": "07",
+        "area": "Cargo 7: Analista Judiciário – Área: Apoio Especializado – Especialidade: Contadoria"
+      },
+      {
+        "idArea": "08",
+        "area": "Cargo 8: Analista Judiciário – Área: Apoio Especializado – Especialidade: Enfermagem"
+      },
+      {
+        "idArea": "09",
+        "area": "Cargo 9: Analista Judiciário – Área: Apoio Especializado – Especialidade: Engenharia Civil"
+      },
+      {
+        "idArea": "10",
+        "area": "Cargo 10: Analista Judiciário – Área: Apoio Especializado – Especialidade: Engenharia Elétrica"
+      },
+      {
+        "idArea": "11",
+        "area": "Cargo 11: Analista Judiciário – Área: Apoio Especializado – Especialidade: Engenharia Mecânica"
+      },
+      {
+        "idArea": "12",
+        "area": "Cargo 12: Analista Judiciário – Área: Apoio Especializado – Especialidade: Medicina (Ramo: Cardiologia)"
+      },
+      {
+        "idArea": "13",
+        "area": "Cargo 13: Analista Judiciário – Área: Apoio Especializado – Especialidade: Medicina (Ramo: Clínica Médica)"
+      },
+      {
+        "idArea": "14",
+        "area": "Cargo 14: Analista Judiciário – Área: Apoio Especializado – Especialidade: Medicina (Ramo: Ortopedia)"
+      },
+      {
+        "idArea": "15",
+        "area": "Cargo 15: Analista Judiciário – Área: Apoio Especializado – Especialidade: Odontologia – (Ramo: Dentística)"
+      },
+      {
+        "idArea": "16",
+        "area": "Cargo 16: Analista Judiciário – Área: Apoio Especializado – Especialidade: Pedagogia"
+      },
+      {
+        "idArea": "17",
+        "area": "Cargo 17: Analista Judiciário – Área: Apoio Especializado – Especialidade: Psicologia"
+      },
+      {
+        "idArea": "18",
+        "area": "Cargo 18: Analista Judiciário – Área: Apoio Especializado – Especialidade: Suporte em Tecnologia da Informação"
+      },
+      {
+        "idArea": "19",
+        "area": "Cargo 19: Analista Judiciário – Área: Judiciária"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital nº 1 – Abertura – Atualizado conforme retificações",
+        "nome_api": "ED_1_2024_STJ_ABERTURA_ATUALIZADO_RET_ED_3.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/ED_1_2024_STJ_ABERTURA_ATUALIZADO_RET_ED_3.PDF",
+        "arquivo_local": "fontes/editais/stj_2024_edital.pdf",
+        "paginas": 80
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA – CARGO 3",
+        "nome_api": "018_STJ_003_DISC.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/018_STJ_003_DISC.PDF",
+        "arquivo_local": "fontes/provas/stj_2024_cargo3_discursiva.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA – CARGO 18",
+        "nome_api": "018_STJ_018_DISC.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/018_STJ_018_DISC.PDF",
+        "arquivo_local": "fontes/provas/stj_2024_cargo18_discursiva.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA - CARGO 3",
+        "nome_api": "PADRO_DEFINITIVO_DE_RESPOSTA___CARGO_3.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/PADRO_DEFINITIVO_DE_RESPOSTA___CARGO_3.PDF",
+        "arquivo_local": "fontes/padroes_resposta/stj_2024_cargo3_padrao_definitivo.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA - CARGO 18",
+        "nome_api": "PADRO_DEFINITIVO_DE_RESPOSTA___CARGO_18.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/PADRO_DEFINITIVO_DE_RESPOSTA___CARGO_18.PDF",
+        "arquivo_local": "fontes/padroes_resposta/stj_2024_cargo18_padrao_definitivo.pdf",
+        "paginas": 1
+      }
+    ]
+  },
+  {
+    "identificador_api": "TRT10_24",
+    "ano_api": 2024,
+    "categoria": "C",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "CARGO 1: ANALISTA JUDICIÁRIO – ÁREA: ADMINISTRATIVA – ESPECIALIDADE: CONTABILIDADE"
+      },
+      {
+        "idArea": "02",
+        "area": "CARGO 2: ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: ARQUITETURA"
+      },
+      {
+        "idArea": "03",
+        "area": "CARGO 3: ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: ARQUIVOLOGIA"
+      },
+      {
+        "idArea": "04",
+        "area": "CARGO 4: ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: COMUNICAÇÃO SOCIAL"
+      },
+      {
+        "idArea": "05",
+        "area": "CARGO 5: ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: ENFERMAGEM DO TRABALHO"
+      },
+      {
+        "idArea": "06",
+        "area": "CARGO 6: ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: ENGENHARIA (CIVIL)"
+      },
+      {
+        "idArea": "07",
+        "area": "CARGO 7: ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: ESTATÍSTICA"
+      },
+      {
+        "idArea": "08",
+        "area": "CARGO 8: ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: HISTÓRIA"
+      },
+      {
+        "idArea": "09",
+        "area": "CARGO 9: ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: MEDICINA (CARDIOLOGIA)"
+      },
+      {
+        "idArea": "10",
+        "area": "CARGO 10: ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: SERVIÇO SOCIAL"
+      },
+      {
+        "idArea": "11",
+        "area": "CARGO 11: ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: TECNOLOGIA DA INFORMAÇÃO"
+      },
+      {
+        "idArea": "12",
+        "area": "CARGO 12: ANALISTA JUDICIÁRIO – ÁREA: JUDICIÁRIA"
+      },
+      {
+        "idArea": "13",
+        "area": "CARGO 13: ANALISTA JUDICIÁRIO – ÁREA: JUDICIÁRIA – ESPECIALIDADE: OFICIAL DE JUSTIÇA AVALIADOR"
+      },
+      {
+        "idArea": "14",
+        "area": "CARGO 14: TÉCNICO JUDICIÁRIO – ÁREA: ADMINISTRATIVA"
+      },
+      {
+        "idArea": "15",
+        "area": "CARGO 15: TÉCNICO JUDICIÁRIO – ÁREA: ADMINISTRATIVA – ESPECIALIDADE: AGENTE DA POLÍCIA JUDICIAL"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital nº 1 – Abertura – Atualizado conforme retificações",
+        "nome_api": "Ed_1_2024_TRT_10_Abertura_atualizado_até_ret_6.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/trt10_24/arquivos/Ed_1_2024_TRT_10_Abertura_atualizado_at%C3%A9_ret_6.pdf",
+        "arquivo_local": "fontes/editais/trt10_2024_edital.pdf",
+        "paginas": 86
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA – CARGO 11",
+        "nome_api": "050_TRT10_DISC_011.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/trt10_24/arquivos/050_TRT10_DISC_011.pdf",
+        "arquivo_local": "fontes/provas/trt10_2024_cargo11_discursiva.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA – CARGO 11",
+        "nome_api": "PADRÃO DEFINITIVO DE RESPOSTA_PROVA DISCURSIVA_CARGO 11.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/trt10_24/arquivos/PADR%C3%83O%20DEFINITIVO%20DE%20RESPOSTA_PROVA%20DISCURSIVA_CARGO%2011.pdf",
+        "arquivo_local": "fontes/padroes_resposta/trt10_2024_cargo11_padrao_definitivo.pdf",
+        "paginas": 2
+      }
+    ]
+  },
+  {
+    "identificador_api": "TRF6_24",
+    "ano_api": 2024,
+    "categoria": "C",
+    "cargos": [
+      {
+        "idArea": "01",
+        "area": "Cargo 1: Analista Judiciário – Área: Administrativa – Sem especialidade"
+      },
+      {
+        "idArea": "02",
+        "area": "Cargo 2: Analista Judiciário – Área: Apoio Especializado – Especialidade: Análise de Dados"
+      },
+      {
+        "idArea": "03",
+        "area": "Cargo 3: Analista Judiciário – Área: Apoio Especializado – Especialidade: Análise de Sistemas de Informação"
+      },
+      {
+        "idArea": "04",
+        "area": "Cargo 4: Analista   Judiciário – Área: Apoio   Especializado – Especialidade: Arquitetura"
+      },
+      {
+        "idArea": "05",
+        "area": "Cargo 5: Analista Judiciário – Área: Apoio Especializado – Especialidade: Arquivologia"
+      },
+      {
+        "idArea": "06",
+        "area": "Cargo 6: Analista Judiciário – Área: Apoio Especializado – Especialidade: Contabilidade"
+      },
+      {
+        "idArea": "07",
+        "area": "Cargo 7: Analista Judiciário – Área: Apoio Especializado – Especialidade: Enfermagem"
+      },
+      {
+        "idArea": "08",
+        "area": "Cargo 8: Analista Judiciário – Área: Apoio Especializado – Especialidade: Engenharia Civil"
+      },
+      {
+        "idArea": "09",
+        "area": "Cargo 9: Analista Judiciário – Área: Apoio Especializado – Especialidade: Engenharia Elétrica"
+      },
+      {
+        "idArea": "10",
+        "area": "Cargo 10: Analista Judiciário – Área: Apoio Especializado – Especialidade: Engenharia Eletrônica"
+      },
+      {
+        "idArea": "11",
+        "area": "Cargo 11: Analista Judiciário – Área: Apoio Especializado – Especialidade: Engenharia Mecânica"
+      },
+      {
+        "idArea": "12",
+        "area": "Cargo 12: Analista Judiciário – Área: Apoio Especializado – Especialidade: Estatística"
+      },
+      {
+        "idArea": "13",
+        "area": "Cargo 13: Analista Judiciário – Área: Apoio Especializado – Especialidade:    Governança    e    Gestão    de     Tecnologia    da Informação"
+      },
+      {
+        "idArea": "14",
+        "area": "Cargo 14: Analista Judiciário – Área: Apoio Especializado – Especialidade: Medicina (Ramo: Cardiologia)"
+      },
+      {
+        "idArea": "15",
+        "area": "Cargo 15: Analista Judiciário – Área: Apoio Especializado – Especialidade: Medicina (Ramo: Clínica Geral)"
+      },
+      {
+        "idArea": "16",
+        "area": "Cargo 16: Analista Judiciário – Área: Apoio Especializado – Especialidade: Medicina (Ramo: Medicina do Trabalho)"
+      },
+      {
+        "idArea": "17",
+        "area": "Cargo 17: Analista Judiciário – Área: Apoio Especializado – Especialidade: Medicina (Ramo: Ortopedia)"
+      },
+      {
+        "idArea": "18",
+        "area": "Cargo 18: Analista Judiciário – Área: Apoio Especializado – Especialidade: Medicina (Ramo: Psiquiatria)"
+      },
+      {
+        "idArea": "19",
+        "area": "Cargo 19: Analista Judiciário – Área: Apoio Especializado – Especialidade: Odontologia"
+      },
+      {
+        "idArea": "20",
+        "area": "Cargo 20: Analista Judiciário – Área: Apoio Especializado – Especialidade: Psicologia"
+      },
+      {
+        "idArea": "21",
+        "area": "Cargo 21: Analista Judiciário – Área: Apoio Especializado – Especialidade: Serviço Social"
+      },
+      {
+        "idArea": "22",
+        "area": "Cargo 22: Analista Judiciário – Área: Apoio Especializado – Especialidade: Tecnologia da Informação"
+      },
+      {
+        "idArea": "23",
+        "area": "Cargo 23: Analista Judiciário – Área: Judiciária – Sem especialidade"
+      },
+      {
+        "idArea": "24",
+        "area": "Cargo 24: Técnico Judiciário – Área: Administrativa – Sem especialidade"
+      },
+      {
+        "idArea": "25",
+        "area": "Cargo 25: Técnico Judiciário – Área: Administrativa – Especialidade: Agente de Polícia Judicial"
+      },
+      {
+        "idArea": "26",
+        "area": "Cargo 26: Técnico Judiciário – Área: Apoio Especializado – Especialidade: Contabilidade"
+      },
+      {
+        "idArea": "27",
+        "area": "Cargo 27: Técnico Judiciário – Área: Apoio Especializado – Especialidade: Desenvolvimento de Sistemas de Informação"
+      },
+      {
+        "idArea": "28",
+        "area": "Cargo 28: Técnico Judiciário – Área: Apoio Especializado – Especialidade: Suporte Técnico"
+      }
+    ],
+    "documentos": [
+      {
+        "tipo": "editais",
+        "descricao_api": "Edital nº 1 – Abertura – Atualizado conforme retificações",
+        "nome_api": "Ed_1_TRF6_24_Abertura_atualizado_ret_9.pdf",
+        "url": "https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/Ed_1_TRF6_24_Abertura_atualizado_ret_9.pdf",
+        "arquivo_local": "fontes/editais/trf6_2024_edital.pdf",
+        "paginas": 107
+      },
+      {
+        "tipo": "provas",
+        "descricao_api": "PROVA DISCURSIVA - COMUM PARA OS CARGOS 1 A 7, 12, 13, 19 A 21 E 22",
+        "nome_api": "1_PROVA_DISCURSIVA___COMUM_PARA_OS_CARGOS_1_A_7__12__13__19_A_21_E_22.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/1_PROVA_DISCURSIVA___COMUM_PARA_OS_CARGOS_1_A_7__12__13__19_A_21_E_22.PDF",
+        "arquivo_local": "fontes/provas/trf6_2024_cargos_superiores_comum_discursiva.pdf",
+        "paginas": 2
+      },
+      {
+        "tipo": "padroes_resposta",
+        "descricao_api": "PADRÃO DEFINITIVO DE RESPOSTA - COMUM PARA OS CARGOS 1 A 7, 12, 13, 19 A 21 E 22",
+        "nome_api": "PADRO_DE_RESPOSTA_DEFINITIVO___COMUM_PARA_OS_CARGOS_1_A_7__12__13__19_A_21_E_22.PDF",
+        "url": "https://cdn.cebraspe.org.br/concursos/trf6_24/arquivos/PADRO_DE_RESPOSTA_DEFINITIVO___COMUM_PARA_OS_CARGOS_1_A_7__12__13__19_A_21_E_22.PDF",
+        "arquivo_local": "fontes/padroes_resposta/trf6_2024_cargos_superiores_comum_padrao_definitivo.pdf",
+        "paginas": 2
+      }
+    ]
+  }
+]

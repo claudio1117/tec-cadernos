@@ -1,0 +1,638 @@
+{
+  "status": "aprovado",
+  "erros": [],
+  "totais": {
+    "concursos": 23,
+    "concursos_novos": 20,
+    "questoes": 56,
+    "questoes_novas": 45,
+    "pecas_tecnicas": 9,
+    "pecas_tecnicas_novas": 6,
+    "pdfs_manifestados_fase2": 79
+  },
+  "distribuicao_categoria_novos": {
+    "A": 14,
+    "B": 3,
+    "C": 3
+  },
+  "distribuicao_ano_total": {
+    "2015": 4,
+    "2016": 6,
+    "2018": 3,
+    "2019": 1,
+    "2021": 7,
+    "2022": 1,
+    "2023": 3,
+    "2024": 11,
+    "2025": 10,
+    "2026": 10
+  },
+  "distribuicao_ano_novos": {
+    "2015": 4,
+    "2016": 6,
+    "2018": 3,
+    "2019": 1,
+    "2021": 3,
+    "2022": 1,
+    "2023": 3,
+    "2024": 8,
+    "2025": 6,
+    "2026": 10
+  },
+  "correspondencias_total": {
+    "inexistente": 13,
+    "direta": 20,
+    "parcial": 19,
+    "apenas relacionada": 4
+  },
+  "correspondencias_novas": {
+    "direta": 13,
+    "parcial": 17,
+    "inexistente": 11,
+    "apenas relacionada": 4
+  },
+  "pdfs": [
+    {
+      "arquivo": "fontes/editais/tce_rn_2026_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 71,
+      "sha256": "a36a581c90f1a59dfb74376608d7ef786fcf5e1e82fbc678ec072af464bdbe37"
+    },
+    {
+      "arquivo": "fontes/provas/tce_rn_2026_cargo4_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "5886b66aabd74a77a6c96b36955cf444ac6bc5f3df2e4c9414664c41a5512050"
+    },
+    {
+      "arquivo": "fontes/provas/tce_rn_2026_cargo5_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "40177045dee6cf3e381a551c14dece91b2de2edfd2d1ef955b01aca239170954"
+    },
+    {
+      "arquivo": "fontes/provas/tce_rn_2026_cargo12_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 3,
+      "sha256": "a39fe49ae2ded004ae978076bdde5661156e18644f4a861b0b515685986c6dca"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_rn_2026_cargo4_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "ba28405ec625719946e02fcbef8e20493aa453df7b5b5a8a841b71d34d6f79b9"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_rn_2026_cargo5_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "4908648458671f23087549d2a213d9999b4f7a33534696229e19e84d0be49221"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_rn_2026_cargo12_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "cd7eeae38177761b2e0e6ed1b713fd9360b3b0c109bbcffa0519e86982cb4c36"
+    },
+    {
+      "arquivo": "fontes/editais/tce_mg_2025_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 59,
+      "sha256": "21f5787c7ca8c8b1916e9e6eb5adf122398e7769a1f7bc3bf1246050a14c4424"
+    },
+    {
+      "arquivo": "fontes/provas/tce_mg_2025_cargo1_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 6,
+      "sha256": "1f7da581af91f191375a6fef5c2b5c3f599bf68bb02d65ef1a2b8fceb5111fab"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_mg_2025_cargo1_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 4,
+      "sha256": "d48c2434fb0f8ced9d3beaeba86ef7fa8288defcd561a576a385c0a2e0febf39"
+    },
+    {
+      "arquivo": "fontes/editais/tce_rs_2025_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 59,
+      "sha256": "7f95914a4a69036d61bfdd32af599a0543999b25a4f00ea9c12d9b1fcf5c0605"
+    },
+    {
+      "arquivo": "fontes/provas/tce_rs_2025_p3_geral_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "9cd50da2e128edbbe615d105111c9d32ef96e1f900856ee05de96eeb21594eb8"
+    },
+    {
+      "arquivo": "fontes/provas/tce_rs_2025_cargo4_p4_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "7962af6b0a3cc051ac9a294ff779cafa95cd9232528bd6891b07cc759902f2f1"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_rs_2025_p3_geral_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "8eb16bdaf652e7fb5c37b01d35547e7f1593ef2a2b0cdf21f3efbcc82df63e67"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_rs_2025_cargo4_p4_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "ee30208c5755595c57160d18772032a5aace2c3d7239ebe0aada9de50db72fca"
+    },
+    {
+      "arquivo": "fontes/editais/tce_pr_2024_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 48,
+      "sha256": "0b02c987fdee292418eb9cead7314a56dacbd395acd6d2a32e7fe0d958eb3eaf"
+    },
+    {
+      "arquivo": "fontes/provas/tce_pr_2024_cargo5_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 7,
+      "sha256": "ce663eb4577c59e5b36a93d5a53c2f7cffcf0dfc50f674fd8620c90f816d9a93"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_pr_2024_cargo5_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 9,
+      "sha256": "fc15c37704d8ae558a8afad51601cf5db80f71821ac61dbef8412e39d222c278"
+    },
+    {
+      "arquivo": "fontes/editais/tce_ac_2024_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 62,
+      "sha256": "419d78fe355e7ef0caa6d5dd61a21dbf6f2342f21c9a16189d372bb202935fe5"
+    },
+    {
+      "arquivo": "fontes/provas/tce_ac_2024_cargos1a13_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "87266e2deca8f205096b8238b9986d84e5b395e812a22a52497e116fb497c728"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_ac_2024_cargos1a13_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "ee495533c3d18007a1dd5e08fce96dfc88420f11a73dee58ee18c30c581c0f77"
+    },
+    {
+      "arquivo": "fontes/editais/tcdf_2023_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 58,
+      "sha256": "16b9b73b6e9c74964633cad6748311b149e8416163f465357acf77dd969121d5"
+    },
+    {
+      "arquivo": "fontes/provas/tcdf_2023_cargo3_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 5,
+      "sha256": "04f08675c0c102a82d698009ea23af09f09e3c34f6e6dd5f6ab5cb7b648a899e"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tcdf_2023_cargo3_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 6,
+      "sha256": "6e00b1c45a623578562b60a7f8cb9b9d7dbd7aa51063352fc87a0e7c0a4d5359"
+    },
+    {
+      "arquivo": "fontes/editais/tce_sc_2021_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 37,
+      "sha256": "8888232562a762a0e2c7502d5d11d3cf52c7721c06d91c9261f0eb625ed0bf1c"
+    },
+    {
+      "arquivo": "fontes/provas/tce_sc_2021_cargo3_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 5,
+      "sha256": "e04425b0e85726ce982dcbc30c0677d29fc2f6761a462b0afc32ebd45192d530"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_sc_2021_cargo3_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 4,
+      "sha256": "d437597ab76b74a290cd61d78159ddb5597f358d7f622307b031998a75d2669a"
+    },
+    {
+      "arquivo": "fontes/editais/tce_ro_2019_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 42,
+      "sha256": "ad9ac607bb80229688410284d8e8013c52ce3b817cf3b3ce182541cfff4782e0"
+    },
+    {
+      "arquivo": "fontes/provas/tce_ro_2019_cargo1_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "b1066f538f3e9115beefe212b25c2389cfbba2bfb4572be3fa2b361f342e12de"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_ro_2019_cargo1_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "a1bcc4291fdbaea4d087b648f51575b65a327ea42eb4dc070c2a898e89879949"
+    },
+    {
+      "arquivo": "fontes/editais/tce_mg_2018_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "40aacb9393d364d004f106c5c048458fa2f20bfd821c6fd1bfd8d3633a505485"
+    },
+    {
+      "arquivo": "fontes/provas/tce_mg_2018_cargo4_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 6,
+      "sha256": "c491faec6456e9c7a9d7e3e63d8b460bc4a837a980a558b6a22dcf3252888f54"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_mg_2018_questao1_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "5517bf8e2fb8b6f956fc3c67402fa077c4a24fdc333964ac8231568bfb554d25"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_mg_2018_cargo4_questao2_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 3,
+      "sha256": "7c37b3751f98991ba5b1a4645e7fecc17c91b97e41311c88bd174cbddeb6ca12"
+    },
+    {
+      "arquivo": "fontes/editais/cgm_joao_pessoa_2018_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "05bd318e28c62de3b1a81033440b00cd1cbcc913d796ff7622772bff65b629e9"
+    },
+    {
+      "arquivo": "fontes/provas/cgm_joao_pessoa_2018_cargo3_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "1014e77c06404b9fe10c07e0377185ef74a821073c6ec17fae4c36081514f37e"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/cgm_joao_pessoa_2018_cargo3_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "b6e615b1efbe5bdf5e46b96bb38d9f038f41d861a1a02bd8b60fcf87d510a17b"
+    },
+    {
+      "arquivo": "fontes/editais/tce_pr_2016_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 47,
+      "sha256": "ea836c98708a13007ca0f83aa83e704f1850179fe84c1e4bfaef3d5cb6c3c303"
+    },
+    {
+      "arquivo": "fontes/provas/tce_pr_2016_cargo8_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 7,
+      "sha256": "d000dcaf775c15e0074b805fda3be60de917caa76fb984ecde43ce7d9ec160fd"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_pr_2016_cargo8_q1_padrao_preliminar.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "7c0221da4e2e7ce62e10e552940ccab0a4cd7c19ed176828f6bf870d45b93c4f"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_pr_2016_cargo8_q2_padrao_preliminar.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "77a8b64c6599fc608eef55cba02bc4b06313e7b0541bf3ededa866889ca60d3a"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_pr_2016_cargo8_q3_padrao_preliminar.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "ca5d65c47031694736e99c320a86266c4c46e6e440e95da5233b6198f2494b07"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_pr_2016_cargo8_q4_padrao_preliminar.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "aa6df08c71bc932fa2f78425b64aa6ee800963f1b13cbd7f4c1b2751f1624bc7"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_pr_2016_cargo8_parecer_padrao_preliminar.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "7499b7da46eed28beecca30a0287c2d90928dbe54c4c9b77992d653f627dbde7"
+    },
+    {
+      "arquivo": "fontes/editais/tce_pa_2016_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 5,
+      "sha256": "cf15081137a5b71cc18a7b69f6cf5418446550c924a5148f7520a49c51a2a2f7"
+    },
+    {
+      "arquivo": "fontes/provas/tce_pa_2016_cargos1e18a38_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "cf736e04d255fcb76db001b379a57f4800e60d7d54d142b67b1121422ab396a2"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tce_pa_2016_cargos1e18a38_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "43f650c031a02a7c8c2ca7d6d497518130ccac53567250c3a9de17ed04045786"
+    },
+    {
+      "arquivo": "fontes/editais/tcu_2015_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 31,
+      "sha256": "750f20b614c256c87e636406e043677f57f2f8ec9ff6d341ccc94c6fc6f5598f"
+    },
+    {
+      "arquivo": "fontes/provas/tcu_2015_p3_comum_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 7,
+      "sha256": "6dbddebd94489198d248312c9adf1e39f09e6e4fe0dcf749301fe818288af65f"
+    },
+    {
+      "arquivo": "fontes/provas/tcu_2015_cargo2_p4_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 5,
+      "sha256": "847c9cbc5044c469ed925be3ee9014f5729d53805190ee7aeafdeeebcc55f793"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tcu_2015_p3_q1_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "b1b7dd772eee0a2e2785131b6503b83a15f5a37aa615bd83b102af0caa6e4a6d"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tcu_2015_p3_q2_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "5baa9e946aee0424373950cfdc60ca0a5e6e27e7bd2779e6753064b40f9b58bd"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tcu_2015_cargo2_p4_questao_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "0f3924c4abf56dac81a825c9cbfb15a380a0cb823457310ba898d0dc6ef8f689"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tcu_2015_cargo2_p4_peca_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "4dfdf53d4a49eae35b6bdee2d6215f18610db03eb93ff6fe43ce897eb4a70590"
+    },
+    {
+      "arquivo": "fontes/editais/tcu_2025_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 53,
+      "sha256": "96a62df769b4be7f5d74c393526dd0ebd6f9a0c8872df6c328af6d3c71fb6e9b"
+    },
+    {
+      "arquivo": "fontes/provas/tcu_2025_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 6,
+      "sha256": "e473567eafddb0016d41c39a138c3854fa7b64575132ec0cd03f6bc46292f3e4"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/tcu_2025_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 7,
+      "sha256": "b95339d030e0039a3938349452322219a6ba2981a802228d16bc4937b55b61d9"
+    },
+    {
+      "arquivo": "fontes/editais/sefaz_se_2025_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 48,
+      "sha256": "48fbdbb9b4e86098ef73f060a76ec4e466e5e37710023eb3651e2b6376a9e421"
+    },
+    {
+      "arquivo": "fontes/provas/sefaz_se_2025_especialidade2_q1_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "23298d488794f349cf533a829af3645388bf0f48cc2032c6c97aea63d26c0840"
+    },
+    {
+      "arquivo": "fontes/provas/sefaz_se_2025_especialidade2_q2_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "d82a5022cccf9c083d0de918009e0094379fcce36a64d8c7f89e2437e3ef0aba"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/sefaz_se_2025_especialidade2_q1_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "e92215bfc7abc14abb94df89e33b4064dbcd5f2762e8ec9296ec26374f6c786a"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/sefaz_se_2025_especialidade2_q2_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "c8218cf3b3efce3a1bb32d457de48e1ae57a3d87301935df78158ee3451020e1"
+    },
+    {
+      "arquivo": "fontes/editais/sefa_pr_2025_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 53,
+      "sha256": "1d8a7ed31fa7d7d57b095a8810e03925e5263dd5ce58d4894024589370620339"
+    },
+    {
+      "arquivo": "fontes/provas/sefa_pr_2025_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "f5fd282651b8537162b92ec13c340550f5c3277ff06247ec355b3f3d140d6e63"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/sefa_pr_2025_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "2681a27db45e874e28af7f29501855c75ee74e4f3fd7af4f148d9eb29e2f2c91"
+    },
+    {
+      "arquivo": "fontes/editais/sefaz_ce_2021_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 48,
+      "sha256": "d50c166f5ce2d13201780d27b1e36e313b500894ebe950cabcec0fa870834248"
+    },
+    {
+      "arquivo": "fontes/provas/sefaz_ce_2021_cargo4_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 5,
+      "sha256": "e81bcf78f15d762aa5354b981a9881385af1caaf057f638ee2cfe29a8975d8b6"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/sefaz_ce_2021_cargo4_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 5,
+      "sha256": "9fdf7fac6c321f46fe2b3a7886838dfcf902b9e6d74a2ece8146d27ad8fee6ab"
+    },
+    {
+      "arquivo": "fontes/editais/stj_2024_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 80,
+      "sha256": "d0968e4eb05452caa1811ff3ae2b96ef81e9039553ed4dbf7243dc8359a1245c"
+    },
+    {
+      "arquivo": "fontes/provas/stj_2024_cargo3_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "2171dad8e87cfd3898fc0f2f558dabb9a858bf731b86dbbf94a5215ced5780c3"
+    },
+    {
+      "arquivo": "fontes/provas/stj_2024_cargo18_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "68335018c2520dc2a2f9cc777470eaab2fed921da65153cf6d8618cfcc58530e"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/stj_2024_cargo3_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "b6957e68d794a5b1f06717b3c142a8ee6187710f3b9288c683bb0068aeff7029"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/stj_2024_cargo18_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 1,
+      "sha256": "e1970a8829e6ca7667a0e97a02d3bcc09597f8514ad6fd60ae1627e1c98ab304"
+    },
+    {
+      "arquivo": "fontes/editais/trt10_2024_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 86,
+      "sha256": "8ba3be22e312bde29bf2e682167e4183ee0ac5441581e456a6e335c6eff9433b"
+    },
+    {
+      "arquivo": "fontes/provas/trt10_2024_cargo11_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "5874fada695beca71ba85b35e615e518c1eae1e8234ccd7bd51a0a16510bfd89"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/trt10_2024_cargo11_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "abd7f5a073cda97b2b4a8a672dc7b05005398d03b12f65e49b0a848a16e3d121"
+    },
+    {
+      "arquivo": "fontes/editais/trf6_2024_edital.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 107,
+      "sha256": "4c905dba35567e4b6c79b1700ef053828251f1919b790273b440a1a5a8a2e265"
+    },
+    {
+      "arquivo": "fontes/provas/trf6_2024_cargos_superiores_comum_discursiva.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "9dee4000c6d684179df1bb05498f74c0897ce80ca24d0bf4f66de73fba2d1b64"
+    },
+    {
+      "arquivo": "fontes/padroes_resposta/trf6_2024_cargos_superiores_comum_padrao_definitivo.pdf",
+      "existe": true,
+      "pdf_valido": true,
+      "paginas": 2,
+      "sha256": "e99dca8eb208a9c674105a3a11c345cd2de17ddf572ed019b12638caed3c8897"
+    }
+  ],
+  "nomes_api_repetidos_entre_eventos": {
+    "C755AC0EC03CD62E8802C6DFF89130043E61CE191AD3673D2A017293C5CFBB6E.pdf": [
+      {
+        "evento": "TCU_25_AUFC",
+        "arquivo": "fontes/provas/tcu_2025_discursiva.pdf",
+        "sha256": "e473567eafddb0016d41c39a138c3854fa7b64575132ec0cd03f6bc46292f3e4"
+      },
+      {
+        "evento": "SEFA_PR_25",
+        "arquivo": "fontes/provas/sefa_pr_2025_discursiva.pdf",
+        "sha256": "f5fd282651b8537162b92ec13c340550f5c3277ff06247ec355b3f3d140d6e63"
+      }
+    ],
+    "9DE5A2A09DFA527B96AEDBB3838F7B448A59C7E4A2564F4A5778CA44B8613573.pdf": [
+      {
+        "evento": "TCU_25_AUFC",
+        "arquivo": "fontes/padroes_resposta/tcu_2025_padrao_definitivo.pdf",
+        "sha256": "b95339d030e0039a3938349452322219a6ba2981a802228d16bc4937b55b61d9"
+      },
+      {
+        "evento": "SEFA_PR_25",
+        "arquivo": "fontes/padroes_resposta/sefa_pr_2025_padrao_definitivo.pdf",
+        "sha256": "2681a27db45e874e28af7f29501855c75ee74e4f3fd7af4f148d9eb29e2f2c91"
+      }
+    ]
+  },
+  "fase1_campos_originais_preservados": true,
+  "questoes_objetivas_incluidas": false,
+  "urls_validadas_por_recuperacao_bem_sucedida": true
+}

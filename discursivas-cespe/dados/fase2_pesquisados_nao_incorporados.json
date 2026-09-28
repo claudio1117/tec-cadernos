@@ -1,0 +1,47 @@
+[
+  {
+    "evento": "CNJ_24",
+    "status": "elegível, não incorporado",
+    "motivo": "Substituído antes da classificação temática pelo TCU_25_AUFC, de prioridade 1 e maior comparabilidade; PDFs oficiais preservados em fontes/."
+  },
+  {
+    "evento": "SEFIN_FORTALEZA_CE_23",
+    "status": "elegível, não incorporado",
+    "motivo": "Teto de 20 novos concursos atingido com certames de maior prioridade; discursiva era geral e comum aos analistas."
+  },
+  {
+    "evento": "CGE_CE_18",
+    "status": "rejeitado",
+    "motivo": "Cargo de TI identificado, mas sem prova discursiva."
+  },
+  {
+    "evento": "CGE_RJ_23",
+    "status": "rejeitado",
+    "motivo": "Cargo genérico de Auditor do Estado; especialidade de TI não confirmada documentalmente."
+  },
+  {
+    "evento": "TCE_PE_17",
+    "status": "rejeitado",
+    "motivo": "Não foi localizado cargo superior de TI no certame."
+  },
+  {
+    "evento": "TCE_PB_17",
+    "status": "rejeitado",
+    "motivo": "Documentação não confirmou especialidade de TI; referência apenas genérica a demais áreas."
+  },
+  {
+    "evento": "SEFAZ_AL_19 / SEFAZ_AL_21 / SEFAZ_RR_21 / SEFAZ_SE_21 / SEFAZ_RN_25 / SEFAZ_RJ_25_AUDITOR",
+    "status": "rejeitado",
+    "motivo": "Cargos fiscais genéricos, sem especialidade de TI documentalmente confirmada."
+  },
+  {
+    "evento": "SEFAZ_RJ_25_ANALISTA",
+    "status": "rejeitado",
+    "motivo": "Especialidades administrativas, contábeis, econômicas e financeiras; não havia cargo de TI."
+  },
+  {
+    "evento": "SERPRO_23 / DATAPREV_23",
+    "status": "rejeitado",
+    "motivo": "Cargos de TI presentes, mas a API oficial não disponibilizou caderno discursivo; componente discursivo não confirmado."
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "status": "aprovado",
+  "erros": [],
+  "totais": {
+    "concursos": 23,
+    "componentes_discursivos": 56,
+    "questoes_e_estudos": 47,
+    "pecas_tecnicas": 9,
+    "itens_edital_analiticos": 109,
+    "classificacoes_corrigidas": 37,
+    "componentes_com_correcao": 18
+  },
+  "integridade": {
+    "novos_concursos": 0,
+    "novos_pdfs_de_concurso": 0,
+    "pdfs_em_fontes": 91,
+    "sha256_lista_pdfs": "cec83f5bcdf2c872d201e00f624eecb849f61dec16748fd3436ac76068a6fb44",
+    "sha256_conteudo_pdfs": "8942c7d8c6b2d4b88a0f5a8672c8cf7509f57264e09e71fdf9efb07fcacdd3f9",
+    "sha256_campos_primarios": "247f6826b6d43bef91a334b62117fc66df93d81b936fe3f31bc39fb71d1a33ed",
+    "duplicatas_concursos": [],
+    "duplicatas_componentes": [],
+    "questoes_objetivas": 0,
+    "chaves_estrangeiras_validas": true,
+    "textos_primarios_preservados": true
+  }
+}
