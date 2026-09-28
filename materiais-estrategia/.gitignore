@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Sessão autenticada e credenciais locais
+.chrome-estrategia-profile/
+.env
+.env.*
+
+# Artefatos obtidos da conta do usuário
+downloads/*
+!downloads/.gitkeep
+data/catalogs/*
+!data/catalogs/.gitkeep
+data/manifests/*
+!data/manifests/.gitkeep
+data/processados/*
+!data/processados/.gitkeep
+textos/*
+!textos/.gitkeep

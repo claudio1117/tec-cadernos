@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "curso": "Nome do curso",
+  "curso_id": null,
+  "coletado_em": null,
+  "materiais": [
+    {
+      "disciplina": "Nome da disciplina",
+      "aula": "Identificação da aula",
+      "titulo": "Título do material",
+      "arquivo": "downloads/nome-do-arquivo.pdf",
+      "nome_original": "nome-enviado-pelo-servidor.pdf",
+      "url_origem": "https://exemplo.invalid/material",
+      "baixado_em": "2026-01-01T12:00:00-03:00",
+      "tamanho_bytes": 123456,
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  ]
+}

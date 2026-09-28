@@ -1,0 +1,10 @@
+{
+  "start_url": "https://www.estrategiaconcursos.com.br/",
+  "debug_host": "127.0.0.1",
+  "debug_port": 9223,
+  "profile_dir": ".chrome-estrategia-profile",
+  "catalog_dir": "data/catalogs",
+  "manifest_dir": "data/manifests",
+  "download_dir": "downloads"
+}
+

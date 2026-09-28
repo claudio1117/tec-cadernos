@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "tipo": "manifesto-materiais-processados",
+  "gerado_em": "2026-01-02T12:00:00-03:00",
+  "manifesto_fonte": "data/manifests/curso.json",
+  "curso": "Nome do curso",
+  "package_id": "123",
+  "materiais": [
+    {
+      "material_id": "456-1a2b3c4d5e6f",
+      "curso": "Nome do curso",
+      "disciplina": "Nome da disciplina",
+      "disciplina_id": "10",
+      "aula": "Aula 00",
+      "aula_id": "456",
+      "titulo": "Livro eletrônico",
+      "caminho_pdf": "downloads/curso/disciplina/aula.pdf",
+      "nome_original": "aula.pdf",
+      "nome_original_confirmado": false,
+      "url_origem": "https://exemplo.invalid/aula/456",
+      "baixado_em": "2026-01-01T12:00:00-03:00",
+      "tamanho_bytes": 123456,
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "extracao": {
+        "status": "ok",
+        "pdf_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "texto": "textos/curso/disciplina/aula/livro-eletronico.txt",
+        "extraido_em": "2026-01-02T12:00:00-03:00",
+        "extrator": "pdftotext"
+      }
+    }
+  ]
+}
