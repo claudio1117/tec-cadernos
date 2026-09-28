@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+credentials*.json
+token*.json
+secrets*.json
+*.pem
+*.key
+
+# Perfis do Chrome
+.chrome-*/
+**/.chrome-*/
+
+# Cookies e sessões
+cookies.json
+session.json
+*.cookie
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Estado local das ferramentas de automação
+.agents/
+.codex/
+
+# PDFs e materiais obtidos de plataformas
+*.pdf
+materiais-estrategia/**/*.pdf
+materiais-estrategia/downloads/
+
+# Catálogos, manifestos e textos locais do Estratégia
+materiais-estrategia/data/catalogs/*
+!materiais-estrategia/data/catalogs/.gitkeep
+materiais-estrategia/data/manifests/*
+!materiais-estrategia/data/manifests/.gitkeep
+materiais-estrategia/data/processados/*
+!materiais-estrategia/data/processados/.gitkeep
+materiais-estrategia/textos/*
+!materiais-estrategia/textos/.gitkeep
