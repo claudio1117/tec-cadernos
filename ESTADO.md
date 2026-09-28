@@ -1,6 +1,6 @@
 # Estado atual do projeto
 
-Última atualização: 24/09/2026.
+Última atualização: 26/09/2026.
 
 ## Situação
 
@@ -8,11 +8,25 @@ Os 60 itens da primeira bateria foram concluídos e corrigidos objetivamente. O 
 
 Nos gerais, os resultados foram: G01-R1 4/5, G02-R1 3/5 e G03-R1 1/5. Os sete erros gerais e os 18 erros específicos estão diagnosticados em `planos/2026-09-22-resultados-parciais.md`. Em 24/09/2026, o aluno decidiu dispensar temporariamente os níveis de confiança e priorizar os assuntos pela concentração objetiva de erros. Nenhum tópico foi classificado como consolidado.
 
-A bateria D02 de recuperação foi criada com 60 questões não resolvidas: 15 gerais e 45 específicas. A distribuição, os microresumos, os filtros e as URLs válidas estão em `planos/2026-09-24-retestes-erros.md`.
+A D02 foi avaliada em 26/09/2026, incluindo os sete cadernos preliminares que o aluno também respondeu. Há 13 cadernos respondidos e dois substitutos sem respostas naquele caderno. As 70 tentativas representam 58 códigos distintos; não somar repetições como questões novas. São 40 códigos sempre acertados, 16 sempre errados e dois com respostas divergentes entre cadernos. Resultados, diagnósticos e datas de reteste estão em `planos/2026-09-26-resultados.md`.
 
-Detalhes, URLs, microresumos e diagnósticos específicos estão em `planos/2026-09-22-resultados-parciais.md`.
+A D03 está criada e auditada: oito cadernos, 60 códigos distintos, todos não resolvidos, com 15 questões gerais e 45 específicas. Não há coincidência com os 58 códigos respondidos extraídos da D02. Resolver somente a subpasta `01 - D03 - 26-09-2026`, dentro da pasta original do concurso (ID `7170166`). Ordem, URLs, filtros e microresumos estão em `planos/2026-09-26-d03.md`.
+
+Na D03, os gerais são Equivalências Lógicas (5), Administração Indireta (5) e Interpretação de Textos (5). Os específicos são COBIT 2019 (15), Modelagem Dimensional (10), Engenharia de Requisitos (5), Microsserviços (5) e IN SGD/ME nº 94/2022 (10, conteúdo novo). Todos usam Cebraspe e anos 2022–2026; COBIT, Dimensional e Microsserviços exigiram certo ou errado. Não houve expansão de período nem de banca. Nenhum tópico foi consolidado.
+
+O código #2789898 (ITAIPU/2024, questão 38) tem gabarito oficial C incompatível com a contagem de objetivos do COBIT. A prova e o gabarito definitivo foram conferidos; não está anulada. Não ensinar a contagem invertida nem tratá-la como erro conceitual confirmado nessa contagem. Ver a ressalva no resultado de 26/09.
 
 ## Trabalho concluído nesta sessão
+
+- Confirmado WSL2/Ubuntu 26.04, Python 3.14 e rede NAT, sem Chrome/Chromium Linux instalado. Chrome do Windows iniciado com depuração em perfil exclusivo e conta autenticada.
+- Cliente CDP adaptado para usar `scripts/tec_windows_bridge.ps1` no WSL com NAT; testado com extração, organização e criação reais. A conexão direta continua disponível para o Linux Mint. Instruções no `README.md`.
+- Extraídos resultados e erros dos cadernos válidos e preliminares da D02. Confiança continua dispensada conforme decisão anterior; as repetições foram identificadas por código e as respostas divergentes não foram presumidas como recuperação.
+- Organização aplicada e conferida em quatro subpastas: `01 - D03 - 26-09-2026` (8 cadernos), `90 - D01 - Historico` (8), `91 - D02 - Respondidos` (13) e `99 - Substitutos sem uso - Nao resolver` (2). Total de 31 cadernos; nenhum foi excluído ou teve respostas modificadas. As demais pastas da conta não foram reorganizadas.
+- Automação corrigida para ler saldos de zero e uma questão, aguardar atualização assíncrona do filtro, aceitar pasta configurável, registrar expansões e salvar URLs confirmadas por etapa. A retomada foi testada e pulou um caderno existente. Planos históricos com `executado` no nome são bloqueados para criação real.
+- D03 validada antes de gerar, criada, movida para a subpasta própria e auditada por gabarito: 60 posições, 60 códigos distintos e 60 não resolvidas. Registros em `planos/2026-09-26-criacao-d03.json`, `planos/2026-09-26-auditoria-d03.json` e `planos/2026-09-26-organizacao-final.json`.
+- Plano preservado como `planos/2026-09-26-plano-d03-executado.json`; não executar novamente. Retestes agendados no resultado de 26/09, com referência explícita às datas de correção.
+
+## Trabalho concluído em 24/09/2026
 
 - Em 24/09/2026, o aluno informou que concluiu os cadernos G01-R1, G02-R1 e G03-R1.
 - Após novo login feito pelo aluno, os resultados e gabaritos dos três cadernos foram extraídos da conta do Tec Concursos.
@@ -37,15 +51,16 @@ Detalhes, URLs, microresumos e diagnósticos específicos estão em `planos/2026
 
 ## Pendência atual
 
-- Resolver apenas os oito cadernos válidos da bateria D02, na ordem registrada em `planos/2026-09-24-retestes-erros.md`.
-- Não resolver os sete cadernos preliminares descartados listados nesse arquivo.
-- Após a conclusão, extrair os resultados e comparar a evolução por assunto com a primeira bateria, sem exigir níveis de confiança.
+- Resolver os oito cadernos da D03, seguindo `planos/2026-09-26-d03.md`. Revisões em segmentos de 5; IN 94/2022 em bloco novo de 10.
+- Não executar novamente D01/D02 nem resolver a subpasta `99 - Substitutos sem uso - Nao resolver`. O uso dos preliminares foi incorporado ao histórico.
+- Ao concluir a D03, extrair os resultados, diagnosticar os erros e agendar seu D+7 pela data real de conclusão/correção, sem exigir confiança por enquanto.
 
 ## Próximo passo
 
-1. O aluno lê os microresumos e resolve a bateria D02, mantendo os segmentos de 5 questões indicados no plano.
+1. O aluno lê os microresumos e resolve a bateria D03, mantendo os segmentos indicados no plano.
 2. O aluno avisa a conclusão.
-3. O tutor extrai, corrige e compara os resultados por assunto; a rodada seguinte volta a priorizar as maiores taxas de erro.
+3. O tutor lê este estado e `planos/2026-09-26-resultados.md`, extrai a D03 e prepara a próxima rodada priorizando erros e retestes vencidos.
+4. Preservar a validação de Projeto e Modelagem de Dados agendada para 29/09, os gerais para 01/10 e os assuntos da correção de 26/09 para 03/10. Integrar os retestes à meta diária; não tratá-los como carga adicional automática.
 
 ## Dependências externas
 

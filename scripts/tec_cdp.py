@@ -14,25 +14,85 @@ import json
 import os
 import socket
 import struct
+import subprocess
 import sys
 import time
 import urllib.request
-from urllib.parse import urlparse
+from pathlib import Path
+from urllib.parse import urlparse, urlsplit, urlunsplit
 
 
-DEBUG_URL = "http://127.0.0.1:9222"
+DEBUG_URL = os.environ.get("TEC_DEBUG_URL", "http://127.0.0.1:9222").rstrip("/")
+WINDOWS_POWERSHELL = Path("/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe")
+
+
+def windows_command(*arguments: str) -> list[str]:
+    bridge = Path(__file__).with_name("tec_windows_bridge.ps1")
+    windows_path = subprocess.check_output(["wslpath", "-w", str(bridge)], text=True).strip()
+    return [str(WINDOWS_POWERSHELL), "-NoProfile", "-ExecutionPolicy", "Bypass",
+            "-File", windows_path, *arguments]
+
+
+def windows_pages() -> list[dict]:
+    result = subprocess.run(windows_command("-ListPages", "-DebugUrl", DEBUG_URL),
+                            capture_output=True, encoding="utf-8", timeout=15)
+    if result.returncode:
+        raise RuntimeError("Chrome do Windows indisponível: " + result.stderr.strip())
+    pages = json.loads(result.stdout.lstrip("\ufeff"))
+    for page in pages:
+        page["_transport"] = "windows"
+    return pages
 
 
 def list_pages() -> list[dict]:
-    with urllib.request.urlopen(f"{DEBUG_URL}/json", timeout=5) as response:
-        return json.load(response)
+    transport = os.environ.get("TEC_CDP_TRANSPORT", "auto")
+    if transport not in {"auto", "direct", "windows"}:
+        raise ValueError("TEC_CDP_TRANSPORT deve ser auto, direct ou windows")
+    if transport == "windows":
+        return windows_pages()
+    try:
+        with urllib.request.urlopen(f"{DEBUG_URL}/json", timeout=5) as response:
+            return json.load(response)
+    except urllib.error.URLError as error:
+        if isinstance(error.reason, PermissionError):
+            raise  # A restrição do sandbox precisa de aprovação, não de outro transporte.
+        if transport == "auto" and os.environ.get("WSL_DISTRO_NAME") and WINDOWS_POWERSHELL.exists():
+            return windows_pages()
+        raise RuntimeError(f"Chrome indisponível em {DEBUG_URL}. Inicie o navegador com depuração.") from error
 
 
 def active_page() -> dict:
     pages = [page for page in list_pages() if page.get("type") == "page"]
     if not pages:
         raise RuntimeError("Nenhuma página comum encontrada no Chrome")
-    return pages[0]
+    return next((page for page in pages if page.get("url", "").startswith(
+        "https://www.tecconcursos.com.br/")), pages[0])
+
+
+class WindowsWebSocket:
+    """Conecta ao localhost do Windows por stdio, inclusive no WSL com NAT."""
+
+    def __init__(self, url: str):
+        self.process = subprocess.Popen(windows_command("-WebSocketUrl", url, "-DebugUrl", DEBUG_URL),
+            stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+            encoding="utf-8", bufsize=1)
+
+    def send_text(self, text: str) -> None:
+        self.process.stdin.write(text + "\n")
+        self.process.stdin.flush()
+
+    def receive_text(self) -> str:
+        line = self.process.stdout.readline()
+        if not line:
+            raise ConnectionError("A conexão com o Chrome do Windows foi encerrada")
+        return line.lstrip("\ufeff")
+
+    def close(self) -> None:
+        self.process.stdin.close()
+        try:
+            self.process.wait(timeout=3)
+        except subprocess.TimeoutExpired:
+            self.process.terminate()
 
 
 class WebSocket:
@@ -42,13 +102,13 @@ class WebSocket:
         self.sock.settimeout(60)
         key = base64.b64encode(os.urandom(16)).decode()
         request = (
-            f"GET {parsed.path} HTTP/1.1\r\n"
+            f"GET {parsed.path}{'?' + parsed.query if parsed.query else ''} HTTP/1.1\r\n"
             f"Host: {parsed.hostname}:{parsed.port}\r\n"
             "Upgrade: websocket\r\n"
             "Connection: Upgrade\r\n"
             f"Sec-WebSocket-Key: {key}\r\n"
             "Sec-WebSocket-Version: 13\r\n"
-            "Origin: http://127.0.0.1:9222\r\n\r\n"
+            f"Origin: {DEBUG_URL}\r\n\r\n"
         )
         self.sock.sendall(request.encode())
         response = self._read_headers()
@@ -63,8 +123,14 @@ class WebSocket:
     def _read_headers(self) -> str:
         data = bytearray()
         while b"\r\n\r\n" not in data:
-            data.extend(self.sock.recv(4096))
+            chunk = self.sock.recv(1)
+            if not chunk:
+                raise ConnectionError("WebSocket encerrado durante a conexão")
+            data.extend(chunk)
         return data.decode(errors="replace")
+
+    def close(self) -> None:
+        self.sock.close()
 
     def _read_exact(self, size: int) -> bytes:
         data = bytearray()
@@ -125,8 +191,16 @@ class WebSocket:
 
 class CDP:
     def __init__(self, page: dict):
-        self.ws = WebSocket(page["webSocketDebuggerUrl"])
+        if page.get("_transport") == "windows":
+            self.ws = WindowsWebSocket(page["webSocketDebuggerUrl"])
+        else:
+            parsed = urlsplit(page["webSocketDebuggerUrl"])
+            address = urlsplit(DEBUG_URL).netloc
+            self.ws = WebSocket(urlunsplit(parsed._replace(netloc=address)))
         self.sequence = 0
+
+    def close(self) -> None:
+        self.ws.close()
 
     def call(self, method: str, params: dict | None = None) -> dict:
         self.sequence += 1
@@ -145,6 +219,9 @@ class CDP:
             "Runtime.evaluate",
             {"expression": expression, "returnByValue": True, "awaitPromise": True},
         )
+        if result.get("exceptionDetails"):
+            details = result["exceptionDetails"]
+            raise RuntimeError(details.get("exception", {}).get("description") or details.get("text"))
         value = result.get("result", {})
         if value.get("subtype") == "promise" and value.get("objectId"):
             awaited = self.call(
@@ -226,6 +303,7 @@ def main() -> None:
     else:
         expression = bytes.fromhex(args.expression_hex).decode()
         output = cdp.evaluate_async(expression)
+    cdp.close()
     json.dump(output, sys.stdout, ensure_ascii=False, indent=2)
     print()
 

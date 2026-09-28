@@ -7,6 +7,7 @@ import argparse
 import json
 import re
 import time
+from pathlib import Path
 
 from tec_cdp import CDP, active_page, wait_until_loaded
 
@@ -93,21 +94,15 @@ def read_error(cdp: CDP, notebook_url: str, number: int, code: str) -> dict:
     }
 
 
-def extract_notebook(cdp: CDP, notebook_id: str) -> dict:
+def extract_notebook(cdp: CDP, notebook_id: str, summary_only: bool = False) -> dict:
     url = f"https://www.tecconcursos.com.br/questoes/cadernos/{notebook_id}"
     open_page(cdp, url)
-    page = cdp.evaluate(
-        "({title: document.title, body: document.body.innerText.slice(0, 2500)})"
-    )
-    summary = re.search(
-        r"Questão \d+ de (\d+) \((\d+) Resolvidas, (\d+) Acertos e (\d+) Erros\)",
-        page["body"],
-    )
+    page = cdp.evaluate("({title: document.title})")
     open_answer_key(cdp)
     rows = read_rows(cdp)
     errors = []
     for row in rows:
-        if "Errou" not in row["status"]:
+        if summary_only or "Errou" not in row["status"]:
             continue
         detail = read_error(cdp, url, row["number"], row["code"])
         errors.append({**row, **detail})
@@ -116,10 +111,10 @@ def extract_notebook(cdp: CDP, notebook_id: str) -> dict:
         "url": url,
         "title": page["title"],
         "summary": {
-            "total": int(summary.group(1)) if summary else len(rows),
-            "answered": int(summary.group(2)) if summary else None,
-            "correct": int(summary.group(3)) if summary else None,
-            "wrong": int(summary.group(4)) if summary else len(errors),
+            "total": len(rows),
+            "answered": sum(row["status"] in {"Acertou", "Errou"} for row in rows),
+            "correct": sum(row["status"] == "Acertou" for row in rows),
+            "wrong": sum(row["status"] == "Errou" for row in rows),
         },
         "rows": rows,
         "errors": errors,
@@ -129,14 +124,21 @@ def extract_notebook(cdp: CDP, notebook_id: str) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("notebook_ids", nargs="+")
+    parser.add_argument("--summary-only", action="store_true")
+    parser.add_argument("--output", type=Path, help="Salva a extração e preserva progresso por caderno")
     args = parser.parse_args()
     cdp = CDP(active_page())
     results = []
     for notebook_id in args.notebook_ids:
-        results.append(extract_notebook(cdp, notebook_id))
+        results.append(extract_notebook(cdp, notebook_id, args.summary_only))
+        if args.output:
+            args.output.write_text(json.dumps(results, ensure_ascii=False, indent=2) + "\n")
+            print(json.dumps({"id": notebook_id, **results[-1]["summary"]}), flush=True)
         time.sleep(0.2)
-    json.dump(results, fp=__import__("sys").stdout, ensure_ascii=False, indent=2)
+    if not args.output:
+        json.dump(results, fp=__import__("sys").stdout, ensure_ascii=False, indent=2)
     print()
+    cdp.close()
 
 
 if __name__ == "__main__":

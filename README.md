@@ -24,8 +24,10 @@ O histórico da conversa com o assistente não é necessário para retomar o tra
 - `planos/*-plano-executado.json`: entradas históricas usadas pela automação.
 - `planos/*-resultados.md`: cadernos criados, URLs e expansões de modalidade ou banca.
 - `scripts/tec_cdp.py`: cliente local para comunicação com o Chrome.
+- `scripts/tec_windows_bridge.ps1`: conexão local com o Chrome do Windows no WSL.
 - `scripts/tec_create_batch.py`: criação automatizada de cadernos no Tec Concursos.
 - `scripts/tec_extract_results.py`: extração do resumo e das questões erradas de cadernos concluídos.
+- `scripts/tec_organize.py`: organização de IDs explícitos em subpastas, com verificação de origem e destino.
 
 ## Requisitos da automação do Tec Concursos
 
@@ -39,6 +41,20 @@ Analista Estadual de Apoio ao Controle Externo (TCE MA)/2026 - Tecnologia da Inf
 ```
 
 Cookies, senha e perfil do navegador são dados locais e não devem ser enviados ao GitHub.
+
+### Iniciar o navegador no WSL
+
+O Python continua executando no Linux. Para usar o Chrome instalado no Windows, abra um perfil exclusivo pelo PowerShell do Windows:
+
+```powershell
+Start-Process -FilePath 'C:\Program Files\Google\Chrome\Application\chrome.exe' -ArgumentList '--remote-debugging-port=9222', '--remote-allow-origins=http://127.0.0.1:9222', "--user-data-dir=$env:LOCALAPPDATA\TecCadernosChrome", 'https://www.tecconcursos.com.br/questoes/cadernos/novo/'
+```
+
+Entre na sua conta nesse navegador e execute `python3 scripts/tec_cdp.py state` no WSL. No modo NAT, o cliente detecta que o localhost do Linux não alcança o navegador e usa `tec_windows_bridge.ps1` para conectar ao localhost do Windows. A comunicação passa por entrada e saída padrão do PowerShell, sem modificar firewall nem encaminhar portas. No Linux com navegador local, permanece a conexão direta.
+
+A ponte requer PowerShell do Windows acessível em `/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe` e o comando `wslpath`. Para diagnóstico, `TEC_CDP_TRANSPORT=windows` força a ponte; `TEC_CDP_TRANSPORT=direct` força conexão direta. `TEC_DEBUG_URL` permite alterar o endereço de depuração.
+
+A diferença entre NAT e rede espelhada está documentada pela [Microsoft](https://learn.microsoft.com/windows/wsl/networking). O perfil separado atende à exigência atual do [Chrome para depuração remota](https://developer.chrome.com/blog/remote-debugging-port).
 
 ### Iniciar o navegador no Linux
 
@@ -109,6 +125,10 @@ Também é possível retomar pela posição da tarefa:
 python3 scripts/tec_create_batch.py caminho/do/plano.json --start 3
 ```
 
+Use `--output planos/registro-criacao.json` para preservar os cadernos confirmados a cada etapa. Ao repetir o comando com o mesmo registro, a automação confere nome e quantidade e pula posições já confirmadas. Se uma geração falhar antes de registrar a URL, confira o último caderno na plataforma antes de tentar novamente. Planos cujo nome contém `executado` são bloqueados para criação real.
+
+Cada tarefa pode informar `folder` para escolher uma pasta diferente da pasta padrão. O gerador atual escolhe a pasta principal; para organizar em subpastas depois, prepare um JSON com `parent_id` e `groups`, cada grupo com `subfolder` e `notebook_ids`. Confira com `python3 scripts/tec_organize.py caminho/organizacao.json`; aplique com `--apply --output planos/registro-organizacao.json`. O script só move IDs encontrados dentro da pasta principal informada e verifica sua presença no destino. O registro preserva a localização anterior. Não exclui cadernos nem modifica respostas.
+
 Antes da execução real, confira o nome, o assunto, a quantidade, a modalidade e o saldo apresentados pelo `--dry-run`. Não execute novamente um arquivo marcado como `plano-executado`.
 
 A automação restringe inicialmente o período a `min_year`–`max_year` quando esses campos são informados. Ela tenta primeiro `CEBRASPE (CESPE)` com questões de múltipla escolha e, se o saldo for insuficiente, troca para Certo ou Errado. Se ainda faltar saldo e houver `fallback_min_year`, inclui anos anteriores um a um e registra `expandedBeforeYear`. Uma eventual ampliação para FGV, FCC ou Cesgranrio ainda deve ser feita ou planejada separadamente, pois o script atual não automatiza essa etapa.
@@ -121,11 +141,13 @@ Para extrair resultados de um ou mais cadernos concluídos:
 python3 scripts/tec_extract_results.py ID_DO_CADERNO [OUTRO_ID ...]
 ```
 
+Acrescente `--output planos/extracao.json` para salvar o progresso por caderno. `--summary-only` extrai os resultados e os códigos sem abrir o texto de cada erro. Compare códigos de questão antes de somar cadernos que possam conter repetições; respostas de um caderno não necessariamente aparecem no gabarito de outro caderno que contém a mesma questão.
+
 Depois de resolver cada bateria, informe e registre:
 
 - quantidade de acertos e total de questões;
 - questões erradas ou duvidosas;
-- confiança 1, 2 ou 3 em cada erro ou dúvida;
+- confiança 1, 2 ou 3 em cada erro ou dúvida, quando não houver dispensa temporária registrada no estado;
 - diagnóstico no formato `Regra correta | Conceito confundido | Mecanismo do distrator`;
 - data prevista do reteste.
 

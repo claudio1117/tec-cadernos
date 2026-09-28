@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import time
 from pathlib import Path
 
@@ -22,7 +23,7 @@ def configure_notebook(cdp: CDP, task: dict) -> dict:
     config = {
         **task,
         "bank": "CEBRASPE (CESPE)",
-        "folder": TARGET_FOLDER,
+        "folder": task.get("folder", TARGET_FOLDER),
     }
     config_json = json.dumps(config, ensure_ascii=False)
     expression = f"""
@@ -102,9 +103,10 @@ def configure_notebook(cdp: CDP, task: dict) -> dict:
       const availableCount = () => {{
         const canvas = [...document.querySelectorAll('.gerador-conteudo-canvas-grid')].find(visible);
         if (canvas) {{
-          const scope = angular.element(canvas).isolateScope();
+          const element = angular.element(canvas);
+          const scope = element.isolateScope() || element.scope();
           const value = scope && scope.vm && scope.vm.numeroQuestoesEncontradas;
-          if (Number.isFinite(Number(value))) return Number(value);
+          if (value !== null && value !== undefined && Number.isFinite(Number(value))) return Number(value);
         }}
         const lines = document.body.innerText.split(String.fromCharCode(10)).map(line => line.trim());
         const countLine = lines.find(line => /questões encontradas$/.test(line));
@@ -112,7 +114,24 @@ def configure_notebook(cdp: CDP, task: dict) -> dict:
           const amount = Number(countLine.replace(/[^0-9]/g, ''));
           if (Number.isFinite(amount)) return amount;
         }}
+        if (lines.some(line => /^uma questão encontrada$/i.test(line))) return 1;
+        if (lines.some(line => /^nenhuma questão encontrada$/i.test(line))) return 0;
         return null;
+      }};
+      const settledCount = async () => {{
+        // O Tec atualiza o saldo após debounce e requisições assíncronas.
+        await wait(1200);
+        const http = angular.element(document.querySelector('[ng-app]')).injector().get('$http');
+        let previous = null;
+        let stableSince = Date.now();
+        return waitFor(() => {{
+          const amount = availableCount();
+          const idle = !http.pendingRequests.some(request =>
+            request.url.includes('/api/questoes/contagem/filtros') || request.url.includes('/api/questoes/filtros'));
+          if (!idle || amount !== previous) stableSince = Date.now();
+          previous = amount;
+          return idle && amount !== null && Date.now() - stableSince >= 1000 ? {{amount}} : false;
+        }}, 'aguardar saldo atualizado', 20000).then(value => value.amount);
       }};
 
       await waitFor(() => window.angular && document.querySelector('li.menu-alternador-opcao'), 'carregar gerador');
@@ -134,6 +153,9 @@ def configure_notebook(cdp: CDP, task: dict) -> dict:
       }}
 
       await clickMenu('Opções');
+      const universe = document.querySelector('select[ng-model="vm.opcaoAtivaSelect"]');
+      if (!universe || universe.value !== 'OBJETIVA')
+        throw new Error('Universo deve ser Objetivas (todas)');
       await selectOption('Múltipla escolha');
       await selectOption('Remover as que resolvi');
       await selectOption('Remover anuladas');
@@ -141,7 +163,9 @@ def configure_notebook(cdp: CDP, task: dict) -> dict:
       await wait(700);
 
       let format = 'Múltipla escolha';
-      let available = availableCount();
+      let available = await settledCount();
+      const attempts = [{{format, available, years: [...selectedYears]}}];
+      if (available === null) throw new Error('Saldo não carregado');
       if (available < cfg.quantity) {{
         const multipleChoice = [...document.querySelectorAll('li.arvore-item')].find(element =>
           visible(element) && element.innerText.trim().endsWith('Múltipla escolha')
@@ -151,7 +175,8 @@ def configure_notebook(cdp: CDP, task: dict) -> dict:
         await selectOption('Certo ou Errado');
         format = 'Certo ou Errado';
         await wait(700);
-        available = availableCount();
+        available = await settledCount();
+        attempts.push({{format, available, years: [...selectedYears]}});
       }}
       let expandedBeforeYear = null;
       if (available < cfg.quantity && cfg.min_year && cfg.fallback_min_year) {{
@@ -160,13 +185,14 @@ def configure_notebook(cdp: CDP, task: dict) -> dict:
           await selectYear(year);
           selectedYears.push(year);
           await wait(500);
-          available = availableCount();
+          available = await settledCount();
+          attempts.push({{format, available, years: [...selectedYears]}});
           expandedBeforeYear = year;
           if (available >= cfg.quantity) break;
         }}
         await clickMenu('Opções');
         await wait(350);
-        available = availableCount();
+        available = await settledCount();
       }}
       if (available < cfg.quantity) {{
         throw new Error('Saldo insuficiente: ' + available + ' para ' + cfg.quantity);
@@ -175,6 +201,8 @@ def configure_notebook(cdp: CDP, task: dict) -> dict:
       const edit = [...document.querySelectorAll('a')]
         .find(element => visible(element) && element.innerText.trim().startsWith('Editar quantidade'));
       if (!edit) throw new Error('Configuração de quantidade indisponível');
+      await waitFor(() => angular.element(edit).scope().vm.numeroQuestoesEncontradas === available,
+        'sincronizar saldo com editor');
       edit.click();
       const totalInput = await waitFor(
         () => [...document.querySelectorAll('input[name=novoTotal]')].find(visible),
@@ -219,6 +247,10 @@ def configure_notebook(cdp: CDP, task: dict) -> dict:
       if (!generate || generate.disabled) throw new Error('Botão Gerar Caderno indisponível');
       return {{
         name: nameInput.value,
+        purpose: cfg.purpose || null,
+        bank: cfg.bank,
+        universe: 'Objetivas (todas)',
+        exclusions: ['Resolvidas', 'Anuladas', 'Desatualizadas'],
         folder: folder.selectedOptions[0].text,
         requested: cfg.quantity,
         totalModel: quantityScope.vm.totalQuestoesSelecionadas,
@@ -227,6 +259,7 @@ def configure_notebook(cdp: CDP, task: dict) -> dict:
         format,
         selectedYears,
         expandedBeforeYear,
+        attempts,
         topic: cfg.topic,
         generateReady: !generate.disabled
       }};
@@ -263,7 +296,7 @@ def generate_notebook(cdp: CDP, expected_quantity: int) -> dict:
               })()
             """)
             state = state if isinstance(state, dict) else json.loads(state)
-            if "/questoes/cadernos/" in state["url"] and state["position"]:
+            if re.search(r"/questoes/cadernos/\d+(?:[/?#]|$)", state["url"]) and state["position"]:
                 if state["position"] != f"1 de {expected_quantity}":
                     raise RuntimeError(f"Quantidade criada inesperada: {state['position']}")
                 return state
@@ -279,15 +312,29 @@ def main() -> None:
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--start", type=int, default=1)
     parser.add_argument("--limit", type=int)
+    parser.add_argument("--output", type=Path, help="Registra os cadernos confirmados e permite retomada")
     args = parser.parse_args()
+    if "executado" in args.plan.stem and not args.dry_run:
+        parser.error("Plano histórico executado: não pode ser gerado novamente")
+    if args.start < 1 or (args.limit is not None and args.limit < 1):
+        parser.error("--start e --limit devem ser positivos")
     tasks = json.loads(args.plan.read_text())
     tasks = tasks[args.start - 1 :]
     if args.limit is not None:
         tasks = tasks[: args.limit]
 
-    cdp = CDP(active_page())
     results = []
-    for index, task in enumerate(tasks, start=1):
+    if args.output and args.output.exists() and not args.dry_run:
+        results = json.loads(args.output.read_text())["results"]
+
+    cdp = CDP(active_page())
+    for index, task in enumerate(tasks, start=args.start):
+        previous = next((result for result in results if result["index"] == index), None)
+        if previous and not args.dry_run:
+            if previous["name"] != task["name"] or previous["requested"] != task["quantity"]:
+                raise RuntimeError("Plano alterado em posição já criada; confira o registro")
+            print(json.dumps({"index": index, "skipped": True, "url": previous["url"]}), flush=True)
+            continue
         cdp.call("Page.navigate", {"url": FILTER_URL})
         wait_until_loaded(cdp)
         preflight = configure_notebook(cdp, task)
@@ -297,9 +344,13 @@ def main() -> None:
         created = generate_notebook(cdp, task["quantity"])
         result = {"index": index, **preflight, **created}
         results.append(result)
+        if args.output:
+            args.output.write_text(json.dumps({"created": len(results), "results": results},
+                                             ensure_ascii=False, indent=2) + "\n")
         print(json.dumps(result, ensure_ascii=False), flush=True)
 
     print(json.dumps({"created": len(results), "results": results}, ensure_ascii=False))
+    cdp.close()
 
 
 if __name__ == "__main__":
